@@ -25,9 +25,27 @@ Reproduced and tightened the paper's headline count:
 
 Files: `scripts/01_recurve_analysis.py`, `data/processed/recurve_results.json`, `figures/recurve_comparison.{png,pdf}`.
 
-### 2. Shape-space distance (new — not in the paper)
+### 2. Aspect ratio (single-feature result, cleanest to interpret)
+
+British EBA axes are functional tools with aspect ratio constrained by hafting geometry (grip length + blade length). If the carvings are meant to depict axes, a skilled carver reproducing the form should reproduce the elongation. They do not.
+
+| Set | n | AR mean ± sd | AR range |
+|---|---|---|---|
+| British EBA axes | 124 | 2.71 ± 0.42 | 1.65 – 4.53 |
+| Stone 53 carvings | 41 | 1.76 ± 0.76 | 1.08 – 5.37 |
+
+- Mean difference: −0.95, 95% bootstrap CI [−1.17, −0.68]
+- **Cohen's d = −1.53** (very large effect)
+- Kolmogorov-Smirnov D = 0.73, p = 2×10⁻¹⁶
+- **68% (28/41) of Stone 53 carvings are less elongated than the least elongated 2.5% of real bronze axes.** Only 27% fall inside the axe 95% range at all.
+
+Files: `scripts/05_aspect_ratio_focused.py`, `data/processed/aspect_ratio_summary.json`.
+
+### 3. Shape-space distance (multivariate)
 
 Projected 41 Stone 53 carvings into the same 4-dimensional dimensionless shape space (circularity, aspect ratio, roundness, solidity) as 124 British EBA axes from the Bevan corpus. Used Mahalanobis distance from the axe centroid.
+
+**Caveat: the 4 features carry only ~2 effective dimensions.** Aspect ratio and roundness are correlated at r = −0.965 in the axe corpus (they're near-deterministically related for smooth convex shapes); circularity and solidity at r = 0.94. The multivariate test is more powerful but less interpretable than the single-feature aspect-ratio test above; both give the same qualitative answer.
 
 | Metric | British EBA axes | Stone 53 carvings |
 |---|---|---|
@@ -48,7 +66,7 @@ The model correctly places 90% of real axes inside the 95% ellipsoid — the pip
 
 Files: `scripts/03_shape_space_analysis.py`, `scripts/04_shape_space_figure.py`, `data/processed/carvings_axe_distance.csv`, `data/processed/shape_space_summary.json`, `figures/mahalanobis_histogram.{png,pdf}`, `figures/shape_space_scatter.{png,pdf}`.
 
-### 3. Important methodological caveat
+### 4. Important methodological caveat
 
 The Bevan corpus uses pixel-scale ImageJ measurements on 400×500 silhouettes; the carving spreadsheet appears to use fractionally-normalized measurements. The size-dependent features (area, perimeter, height, width) therefore **cannot** be directly compared — the analyses above use only the four scale-invariant features. This is a real methodological point and should be flagged prominently in any revision. A future step is to re-run ImageJ on the raw Stone 53 laser-scan silhouettes in the F595–F720 TIFFs (the "Stone 53 Carvings" Drive folder) with matched normalization.
 
@@ -84,11 +102,13 @@ stonehenge/
 
 ## Where the argument stands right now
 
-The paper's central claim can now be defended with two independent statistical results:
+The paper's central claim can now be defended with three converging statistical results, in decreasing order of interpretability:
 
-1. **Feature-level** — the recurve rate on the carvings is 5-6× higher than on real EBA axes (p = 10⁻⁷). The single most diagnostic axe-shape feature is systematically overrepresented on carvings in a direction that matches mushroom morphology.
+1. **Aspect ratio (cleanest)** — 68% of Stone 53 carvings are less elongated than the *least elongated* 2.5% of British EBA axes. Cohen's d = −1.53 (very large), KS p = 2×10⁻¹⁶. Axes are functional tools with hafting-constrained proportions; a skilled carver reproducing an axe would not systematically flatten it.
 
-2. **Shape-space level** — 85% of Stone 53 carvings fall outside the 95% axe-cluster ellipsoid, with p = 10⁻¹⁹. They are systematically rounder, less elongated, and less solid than actual axes.
+2. **Recurve feature** — the paper's original observation, now tested properly. Recurve rate on carvings is 5–6× higher than on real EBA axes (all Stonehenge carvings vs. axes: 37% vs 7%, Fisher exact p = 1.3×10⁻⁷, OR = 8.1). This is exactly the direction expected if the carvings depict *A. muscaria* caps rather than blades.
+
+3. **Multivariate shape space** — 85% of Stone 53 carvings fall outside the 95% axe-cluster ellipsoid (Mann-Whitney p = 10⁻¹⁹). Robust across every subset of the four dimensionless features tested.
 
 Neither of these results *proves* the mushroom hypothesis. What they do is **shift the burden of proof.** The axehead interpretation was never quantitatively tested — Atkinson eyeballed the two most distinctive carvings on Stone 53 in 1953 and named them axes. Since then, 113 more carvings have been discovered by laser scan and the identification has just been extended. This shape analysis is the first time anyone has actually tested whether the carvings, as a corpus, match the shape distribution of real EBA axes. They do not.
 
