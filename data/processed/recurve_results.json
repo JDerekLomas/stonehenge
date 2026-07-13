@@ -1,0 +1,101 @@
+[
+  {
+    "comparison": "Stone 53 carvings vs British EBA axes",
+    "carvings": {
+      "k": 13,
+      "n": 41,
+      "p": 0.3171,
+      "ci95": [
+        0.1956,
+        0.4698
+      ]
+    },
+    "axes": {
+      "k": 7,
+      "n": 105,
+      "p": 0.0667,
+      "ci95": [
+        0.0327,
+        0.1313
+      ]
+    },
+    "difference_pp": 25.04,
+    "cohens_h": 0.674,
+    "cohens_h_interp": "medium",
+    "odds_ratio": 6.5,
+    "fisher_p": 0.00022810380743514526,
+    "chi2": 13.593,
+    "chi2_p": 0.00022704578839149637,
+    "posterior_p_carvings_gt_axes": 0.99985,
+    "posterior_diff_95CI": [
+      0.1102,
+      0.4021
+    ]
+  },
+  {
+    "comparison": "Stone 4 carvings vs British EBA axes",
+    "carvings": {
+      "k": 24,
+      "n": 60,
+      "p": 0.4,
+      "ci95": [
+        0.2857,
+        0.5263
+      ]
+    },
+    "axes": {
+      "k": 7,
+      "n": 105,
+      "p": 0.0667,
+      "ci95": [
+        0.0327,
+        0.1313
+      ]
+    },
+    "difference_pp": 33.33,
+    "cohens_h": 0.847,
+    "cohens_h_interp": "large",
+    "odds_ratio": 9.333,
+    "fisher_p": 3.9546319101939e-07,
+    "chi2": 25.663,
+    "chi2_p": 4.065902434821326e-07,
+    "posterior_p_carvings_gt_axes": 1.0,
+    "posterior_diff_95CI": [
+      0.1989,
+      0.4619
+    ]
+  },
+  {
+    "comparison": "All Stonehenge carvings (S53 + S4) vs British EBA axes",
+    "carvings": {
+      "k": 37,
+      "n": 101,
+      "p": 0.3663,
+      "ci95": [
+        0.2789,
+        0.4636
+      ]
+    },
+    "axes": {
+      "k": 7,
+      "n": 105,
+      "p": 0.0667,
+      "ci95": [
+        0.0327,
+        0.1313
+      ]
+    },
+    "difference_pp": 29.97,
+    "cohens_h": 0.778,
+    "cohens_h_interp": "medium",
+    "odds_ratio": 8.094,
+    "fisher_p": 1.279943833394013e-07,
+    "chi2": 25.768,
+    "chi2_p": 3.8503848778867156e-07,
+    "posterior_p_carvings_gt_axes": 1.0,
+    "posterior_diff_95CI": [
+      0.1895,
+      0.4002
+    ]
+  }
+]
