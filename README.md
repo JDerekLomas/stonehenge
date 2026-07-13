@@ -100,15 +100,51 @@ stonehenge/
 └── paper/                          ← empty, for future revision
 ```
 
+### 5. Three-way shape comparison (added later in the same session)
+
+For the first time, tested the paper's central claim directly: are the carvings closer to mushrooms or to axes in the shape-feature space?
+
+**Reference sets:**
+- 124 British EBA axes (Bevan corpus, ImageJ features)
+- 55 *Amanita muscaria* silhouettes (iNaturalist research-grade, auto-segmented via color threshold + convex-hull fill; details in `scripts/06_fetch_muscaria.py`, `scripts/06b_resegment_muscaria.py`)
+- 41 Stone 53 carvings
+
+**Features:** Circularity, Aspect Ratio, Roundness. Solidity was excluded because the automated color-based segmentation of A. muscaria required convex-hull filling to handle white cap spots, artificially inflating mushroom Solidity to 0.945 vs. real ImageJ silhouettes. A future revision needs SAM-based segmentation to include Solidity honestly.
+
+**Descriptive statistics (means):**
+
+| Feature | Axes | Carvings | *A. muscaria* |
+|---|---|---|---|
+| Circularity | 0.49 | 0.47 | 0.54 |
+| Aspect Ratio | **2.71** | **1.76** | **1.81** |
+| Roundness | **0.38** | **0.64** | **0.60** |
+
+Carvings and mushrooms are indistinguishable on these three features. Axes are systematically different.
+
+**Mahalanobis nearest-class:** 40 of 41 (**97.6%**) Stone 53 carvings are closer to the mushroom centroid than the axe centroid. Median distance to axe centroid: 9.57; to mushroom centroid: 1.05.
+
+**Classifier validation and prediction:**
+
+| Classifier | 5-fold CV accuracy on axe-vs-mushroom | Stone 53 predicted mushroom | Mean P(mushroom) |
+|---|---|---|---|
+| LDA | 0.855 ± 0.047 | 30/41 (73.2%) | 0.709 |
+| Random Forest | 0.916 ± 0.039 | 31/41 (75.6%) | 0.763 |
+
+Both classifiers agree with the mushroom hypothesis. The three features contribute roughly equally to the RF classifier (importance ≈ 0.33 each).
+
+Files: `scripts/06_fetch_muscaria.py`, `scripts/06b_resegment_muscaria.py`, `scripts/07_extract_muscaria_features.py`, `scripts/08_three_way_comparison.py`, `scripts/09_three_way_figure.py`, `data/muscaria_corpus/`, `data/processed/three_way_predictions.csv`, `data/processed/three_way_summary.json`, `figures/three_way_violin.{png,pdf}`, `figures/three_way_scatter.{png,pdf}`.
+
 ## Where the argument stands right now
 
-The paper's central claim can now be defended with three converging statistical results, in decreasing order of interpretability:
+The paper's central claim can now be defended with four converging statistical results, in decreasing order of interpretability:
 
 1. **Aspect ratio (cleanest)** — 68% of Stone 53 carvings are less elongated than the *least elongated* 2.5% of British EBA axes. Cohen's d = −1.53 (very large), KS p = 2×10⁻¹⁶. Axes are functional tools with hafting-constrained proportions; a skilled carver reproducing an axe would not systematically flatten it.
 
 2. **Recurve feature** — the paper's original observation, now tested properly. Recurve rate on carvings is 5–6× higher than on real EBA axes (all Stonehenge carvings vs. axes: 37% vs 7%, Fisher exact p = 1.3×10⁻⁷, OR = 8.1). This is exactly the direction expected if the carvings depict *A. muscaria* caps rather than blades.
 
 3. **Multivariate shape space** — 85% of Stone 53 carvings fall outside the 95% axe-cluster ellipsoid (Mann-Whitney p = 10⁻¹⁹). Robust across every subset of the four dimensionless features tested.
+
+4. **Three-way comparison with real mushroom data** — 97.6% of carvings closer to *A. muscaria* centroid than axe centroid. Both LDA and Random Forest classifiers (trained on real axe + real mushroom silhouettes) classify ~75% of Stone 53 carvings as mushroom with mean confidence 0.71–0.76. The test itself is validated by the classifiers' 85–92% CV accuracy on the axe-vs-mushroom training data.
 
 Neither of these results *proves* the mushroom hypothesis. What they do is **shift the burden of proof.** The axehead interpretation was never quantitatively tested — Atkinson eyeballed the two most distinctive carvings on Stone 53 in 1953 and named them axes. Since then, 113 more carvings have been discovered by laser scan and the identification has just been extended. This shape analysis is the first time anyone has actually tested whether the carvings, as a corpus, match the shape distribution of real EBA axes. They do not.
 

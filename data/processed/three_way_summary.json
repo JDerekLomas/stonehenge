@@ -1,0 +1,16 @@
+{
+  "n_axes": 124,
+  "n_carvings": 41,
+  "n_muscaria": 55,
+  "carvings_closer_to_muscaria_mahal": 40,
+  "carvings_lda_predict_muscaria": 30,
+  "carvings_lda_high_confidence_muscaria": 24,
+  "carvings_rf_predict_muscaria": 31,
+  "lda_mean_p_muscaria": 0.7092162030628865,
+  "rf_mean_p_muscaria": 0.7626829268292682,
+  "feature_importance_rf": {
+    "Aspect Ratio": 0.3480169076973473,
+    "Circularity": 0.33587461284541487,
+    "Roundness": 0.3161084794572379
+  }
+}
