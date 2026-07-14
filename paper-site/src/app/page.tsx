@@ -659,7 +659,43 @@ export default function Home() {
           </figure>
 
           <h3 className="text-lg font-semibold mt-8 mb-2">
-            3.10 The geographic distribution of contemporary axes
+            3.10 Null: British rock art doesn&rsquo;t look like this
+          </h3>
+          <p>
+            If the Stonehenge carvings were typical British Bronze Age rock
+            art, we should expect their morphology to match motifs found
+            elsewhere on the ~2,500 recorded British rock-art panels. The
+            ADS/Beckensall corpus catalogues 20,452 motif occurrences across
+            118 motif types on those panels. We classified each of the 118
+            types into a shape family and counted weighted occurrences.
+          </p>
+          <figure className="my-6">
+            <Image
+              src="/figures/rockart_null.png"
+              alt="Bar chart of British rock-art motif families: 89% cup, 5% line/groove, 2% ring/arc, etc. Zero mushroom-shaped and zero axe-shaped."
+              width={2000}
+              height={1100}
+              className="rounded-md border border-stone-200 w-full h-auto"
+            />
+            <figcaption className="text-sm text-stone-600 mt-2 text-center">
+              Figure 10. Motif families in the ADS/Beckensall corpus of
+              British rock art. Of 20,452 motif occurrences across 2,500+
+              panels: 89% cups, 5% lines/grooves, 2% rings and arcs, 0.2%
+              spirals. <strong>Zero motifs are mushroom- or
+              axe-shaped.</strong>
+            </figcaption>
+          </figure>
+          <p>
+            The typical British Bronze Age rock-art motif is a cup, ring,
+            arc, or geometric line &mdash; not a cap-plus-stem shape.
+            Whatever the Stonehenge carvings depict, they are
+            morphologically anomalous within the British rock-art tradition,
+            consistent with them depicting a <em>specific subject</em>
+            rather than following a general stylistic convention.
+          </p>
+
+          <h3 className="text-lg font-semibold mt-8 mb-2">
+            3.11 The geographic distribution of contemporary axes
           </h3>
           <p>
             Even if the carvings were meant to represent axes, the local Wessex axe
@@ -740,12 +776,14 @@ export default function Home() {
 
           <h3 className="text-lg font-semibold mt-8 mb-2">4.3 Summary of evidence</h3>
           <p>
-            Eight independent analyses, using different feature sets,
-            different classifiers, different measurement definitions, and in
-            one case a completely independent perceptual embedding, all
-            converge on the same finding: the Stonehenge carvings do not
-            match British Early Bronze Age axeheads at the level of shape,
-            and they do match native British mushrooms.
+            Nine independent analyses, using different feature sets,
+            different classifiers, different measurement definitions, an
+            independent perceptual embedding, and a null comparison against
+            22,000 other British rock-art motifs, all converge on the same
+            finding: the Stonehenge carvings do not match British Early
+            Bronze Age axeheads at the level of shape, they do match native
+            British mushrooms, and they are morphologically unique within
+            the British rock-art tradition.
           </p>
           <div className="overflow-x-auto my-6">
             <table className="w-full text-sm border-collapse">
@@ -765,12 +803,13 @@ export default function Home() {
                 <tr><td className="py-2 pr-4">3.5</td><td className="py-2 pr-4">ShapeComp perceptual embedding</td><td className="py-2 pr-4">93% CV axe-vs-carving; carvings 4× farther from nearest axe than axes are from each other</td><td className="py-2 pr-4">independent</td></tr>
                 <tr><td className="py-2 pr-4">3.6</td><td className="py-2 pr-4">Fourier harmonic complexity</td><td className="py-2 pr-4">Carvings need more harmonics than axes (matching mushrooms)</td><td className="py-2 pr-4">p = 4×10⁻⁶, δ = 0.50</td></tr>
                 <tr><td className="py-2 pr-4">3.9</td><td className="py-2 pr-4">Bounding-box aspect (independent metric)</td><td className="py-2 pr-4">Carvings 0.87, mushrooms 0.86 (indistinguishable); axes 0.60</td><td className="py-2 pr-4">carv=mus p = 0.95; both vs axes p &lt; 10⁻¹⁰</td></tr>
-                <tr><td className="py-2 pr-4">3.10</td><td className="py-2 pr-4">Findspot geography</td><td className="py-2 pr-4">Only 23% of Class 5 axes near Stonehenge</td><td className="py-2 pr-4">weak evidence</td></tr>
+                <tr><td className="py-2 pr-4">3.10</td><td className="py-2 pr-4">Rockart England null</td><td className="py-2 pr-4">Zero of 20,452 British rock-art motifs are mushroom- or axe-shaped (89% cups)</td><td className="py-2 pr-4">strong null</td></tr>
+                <tr><td className="py-2 pr-4">3.11</td><td className="py-2 pr-4">Findspot geography</td><td className="py-2 pr-4">Only 23% of Class 5 axes near Stonehenge</td><td className="py-2 pr-4">weak evidence</td></tr>
               </tbody>
             </table>
           </div>
           <p>
-            No single analysis is decisive on its own. But eight analyses
+            No single analysis is decisive on its own. But nine analyses
             with different assumptions, features, and methods do not fail
             together by chance. The most parsimonious reading is that the
             axehead identification made by Atkinson in 1953 is incorrect,

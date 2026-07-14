@@ -1,0 +1,23 @@
+{
+  "total_motif_occurrences": 20452,
+  "n_motif_types": 118,
+  "family_counts": {
+    "cup": 18201,
+    "line/groove": 1061,
+    "other": 728,
+    "ring/arc": 400,
+    "spiral": 49,
+    "geometric": 13
+  },
+  "family_pct": {
+    "cup": 88.99,
+    "line/groove": 5.19,
+    "other": 3.56,
+    "ring/arc": 1.96,
+    "spiral": 0.24,
+    "geometric": 0.06
+  },
+  "mushroom_shaped_motifs": 0,
+  "weapon_tool_shaped_motifs": 0,
+  "interpretation": "The typical British Bronze Age rock-art motif is a cup, ring, arc, or geometric line \u2014 not a cap-plus-stem shape. The Stonehenge carvings, if they represent mushrooms, are morphologically anomalous within the British rock-art tradition, consistent with them depicting a specific subject rather than following a general stylistic convention."
+}
