@@ -137,12 +137,37 @@ export default function Home() {
             subsequent treatment of the site.
           </p>
           <p>
-            The identification has, however, never been tested quantitatively. Atkinson
-            eyeballed the two most distinctive carvings on Stone 53 in 1953; the
-            subsequent 113 carvings were assimilated to his identification. The purpose of
-            this paper is to ask, with modern computer vision techniques and a properly
-            curated reference corpus, whether the carvings as a population actually match
-            the shape distribution of real British Early Bronze Age (EBA) axeheads.
+            The identification has, however, never been tested quantitatively.
+            Atkinson eyeballed the two most distinctive carvings on Stone 53
+            in 1953; the subsequent 113 carvings were assimilated to his
+            identification. The definitive modern documentation, Abbott
+            &amp; Anderson-Whymark&rsquo;s{" "}
+            <a href="/data/abbott_anderson-whymark_2012.pdf"
+               target="_blank" rel="noopener noreferrer">
+              Stonehenge Laser Scan: Archaeological Analysis Report
+            </a>{" "}
+            (2012, English Heritage Research Report 32-2012), catalogues 115
+            carvings across Stones 3, 4, 5, and 53 and confirms the axehead
+            identification without ever testing it against real axeheads.
+            The purpose of this paper is to ask, with modern computer vision
+            techniques and a properly curated reference corpus, whether the
+            carvings as a population actually match the shape distribution
+            of real British Early Bronze Age (EBA) axeheads.
+          </p>
+          <p className="italic text-sm" style={{ color: "#57534e" }}>
+            The report itself flags a running theme of reidentification.
+            The &ldquo;quadrilateral&rdquo; carving on Stone 57
+            (F.361), reported by Newall in 1953 as a
+            &ldquo;Breton-style shield-escutcheon or box-goddess
+            symbol&rdquo; (Atkinson 1956), is shown by the laser scan
+            to be an area of pick-dressing, not a symbol at all. Stone 14
+            has a natural foot-shaped depression (F.710) already noted in
+            folklore as &ldquo;the devil&rsquo;s footprint.&rdquo; And only
+            five certain parallels exist for the whole British Early Bronze
+            Age &ldquo;axehead-on-rock&rdquo; tradition. Stonehenge&rsquo;s
+            115 carvings, if genuinely axeheads, double the size of that
+            entire corpus &mdash; a doubling that has never been challenged
+            on shape grounds.
           </p>
           <p>
             The answer, as we show below, is no. Whatever the carvings represent, they do
@@ -1336,8 +1361,18 @@ export default function Home() {
             </li>
             <li>
               <strong>English Heritage 2012 laser-scan report</strong>{" "}
-              (Abbott &amp; Whymark-Anderson) &mdash; 118 Stonehenge carvings
-              at 0.5 mm resolution.
+              (Abbott &amp; Anderson-Whymark) &mdash; 115 Stonehenge
+              carvings at 0.5 mm resolution across Stones 3, 4, 5, 53. Full
+              PDF report:{" "}
+              <a href="/data/abbott_anderson-whymark_2012.pdf"
+                 target="_blank" rel="noopener noreferrer">
+                abbott_anderson-whymark_2012.pdf
+              </a>{" "}
+              (5.4 MB, 71 pages). Original archived at ADS:{" "}
+              <a href="https://doi.org/10.5284/1033102"
+                 target="_blank" rel="noopener noreferrer">
+                doi:10.5284/1033102
+              </a>.
             </li>
             <li>
               <strong>Needham (1983)</strong> &mdash; canonical typology of
