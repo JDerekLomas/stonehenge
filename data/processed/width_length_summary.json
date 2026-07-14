@@ -1,0 +1,29 @@
+{
+  "axes_bladewidth_length_ratio": {
+    "n": 4013,
+    "median": 0.39669421487603307,
+    "iqr": [
+      0.33519553072625696,
+      0.4672897196261682
+    ]
+  },
+  "mushrooms_cap_total_ratio": {
+    "n": 12,
+    "median": 0.43028008174059384,
+    "iqr": [
+      0.3793706293706294,
+      0.5040322580645161
+    ]
+  },
+  "carvings_width_height_ratio": {
+    "n": 41,
+    "median": 0.8796992481203008,
+    "iqr": [
+      0.7777777777777779,
+      0.9743589743589743
+    ]
+  },
+  "mw_carvings_vs_axes_p": 3.753570170340744e-24,
+  "mw_carvings_vs_mushrooms_p": 1.8287021389962442e-06,
+  "mw_axes_vs_mushrooms_p": 0.20045317511994176
+}

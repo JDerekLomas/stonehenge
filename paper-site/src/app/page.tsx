@@ -626,9 +626,35 @@ export default function Home() {
               Figure 8. Physical size of 292 bronze axes (Bevan Corpus,
               length in cm), 41 Stone 53 carvings (height in cm), and 12
               native British psilocybin mushroom species (total cap+stem
-              length in cm). Size does not decisively separate the classes.
-              The strong evidence for the mushroom identification comes from
-              shape, not from size.
+              length in cm). Absolute size does not decisively separate the
+              classes.
+            </figcaption>
+          </figure>
+          <p>
+            The <em>shape</em> of the size, on the other hand &mdash; specifically the
+            bounding-box aspect ratio (width divided by height, measured
+            identically on the same silhouettes used throughout this paper)
+            &mdash; separates axes from carvings dramatically. Axes have a
+            median aspect of 0.60 (elongated); carvings have 0.87
+            (compact); mushrooms have 0.86.
+          </p>
+          <figure className="my-6">
+            <Image
+              src="/figures/width_height_bbox_comparable.png"
+              alt="Violin plot of bounding-box width/height ratio: axes 0.60, carvings 0.87, mushrooms 0.86; carvings and mushrooms are statistically indistinguishable while both differ from axes"
+              width={2000}
+              height={1100}
+              className="rounded-md border border-stone-200 w-full h-auto"
+            />
+            <figcaption className="text-sm text-stone-600 mt-2 text-center">
+              Figure 9. Bounding-box width/height aspect measured identically
+              on 41 axe silhouettes, 42 carving silhouettes, and 22 mushroom
+              silhouettes. Axes cluster tightly around 0.60. Carvings and
+              mushrooms are <strong>statistically indistinguishable</strong>{" "}
+              (Mann-Whitney p = 0.95); both differ from axes at
+              p &lt; 10<sup>&minus;10</sup>. Independent of any classifier,
+              carvings match the mushroom shape distribution and not the axe
+              distribution.
             </figcaption>
           </figure>
 
