@@ -217,6 +217,25 @@ export default function Home() {
               axe typology.
             </figcaption>
           </figure>
+
+          <figure className="d-figure">
+            <Image
+              src="/figures/measurement_definitions.png"
+              alt="Labeled axehead schematic showing all Needham measurement lines (L, LB, WB, W2, W3, WE, LC, DE) plus derived ratios and standard ImageJ dimensionless features"
+              width={1200}
+              height={2000}
+              className="w-full h-auto"
+              style={{ maxWidth: 600, margin: "0 auto", display: "block" }}
+            />
+            <figcaption className="d-figcaption text-center">
+              Figure 3d. The shape descriptors used throughout this paper.
+              Top: Needham 1983 linear measurements labeled on a schematic
+              Class 5 axehead. Bottom: the derived ratios (Needham space)
+              and the standard ImageJ dimensionless features (Circularity,
+              Aspect Ratio, Roundness, Solidity) used by every classifier
+              in §3.
+            </figcaption>
+          </figure>
           <figure className="d-figure">
             <Image
               src="/paper_figures/hafted_axes.png"
