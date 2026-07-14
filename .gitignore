@@ -1,7 +1,19 @@
 .venv/
 __pycache__/
 *.pyc
+.DS_Store
+
+# Next.js build artifacts
 paper-site/node_modules/
 paper-site/.next/
 paper-site/.vercel/
+
+# Large downloaded reference imagery — regenerable from source
 data/muscaria_corpus/images/
+data/downloads_extracted/
+data/extracted_images/main_paper/
+data/crawford_images/
+data/stonehenge_folder/
+
+# Personal notes
+scratch/

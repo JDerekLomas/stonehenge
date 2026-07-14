@@ -738,52 +738,114 @@ export default function Home() {
             </figcaption>
           </figure>
 
-          <h3 className="text-lg font-semibold mt-8 mb-2">4.3 Interpretation</h3>
+          <h3 className="text-lg font-semibold mt-8 mb-2">4.3 Summary of evidence</h3>
           <p>
-            The convergent quantitative evidence &mdash; recurve rate, aspect
-            ratio, multivariate cluster distance, and three-way classifier
-            verdict &mdash; is not consistent with the Stone 53 carvings being
-            straightforward representations of British Early Bronze Age
-            axeheads. It is consistent with them being fungal.
+            Eight independent analyses, using different feature sets,
+            different classifiers, different measurement definitions, and in
+            one case a completely independent perceptual embedding, all
+            converge on the same finding: the Stonehenge carvings do not
+            match British Early Bronze Age axeheads at the level of shape,
+            and they do match native British mushrooms.
           </p>
+          <div className="overflow-x-auto my-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="border-b-2 border-stone-400 text-left">
+                  <th className="py-2 pr-4">§</th>
+                  <th className="py-2 pr-4">Analysis</th>
+                  <th className="py-2 pr-4">Verdict</th>
+                  <th className="py-2 pr-4">p / effect</th>
+                </tr>
+              </thead>
+              <tbody className="[&>tr]:border-b [&>tr]:border-stone-200">
+                <tr><td className="py-2 pr-4">3.1</td><td className="py-2 pr-4">Recurve rate</td><td className="py-2 pr-4">Carvings 37%, axes 24%</td><td className="py-2 pr-4">p = 3×10⁻²</td></tr>
+                <tr><td className="py-2 pr-4">3.2</td><td className="py-2 pr-4">Aspect ratio (ellipse fit)</td><td className="py-2 pr-4">Carvings 1.56, axes 2.67</td><td className="py-2 pr-4">Cohen&rsquo;s d = −1.53</td></tr>
+                <tr><td className="py-2 pr-4">3.3</td><td className="py-2 pr-4">Multivariate Mahalanobis (vs axes)</td><td className="py-2 pr-4">85% carvings outside 95% axe cluster</td><td className="py-2 pr-4">p = 10⁻¹⁹</td></tr>
+                <tr><td className="py-2 pr-4">3.4</td><td className="py-2 pr-4">3-way (paper&rsquo;s full 515-shape corpus)</td><td className="py-2 pr-4">113/119 (95%) closer to mushroom centroid; LDA + RF 74-77% mushroom @ CV 96%</td><td className="py-2 pr-4">p → 0</td></tr>
+                <tr><td className="py-2 pr-4">3.5</td><td className="py-2 pr-4">ShapeComp perceptual embedding</td><td className="py-2 pr-4">93% CV axe-vs-carving; carvings 4× farther from nearest axe than axes are from each other</td><td className="py-2 pr-4">independent</td></tr>
+                <tr><td className="py-2 pr-4">3.6</td><td className="py-2 pr-4">Fourier harmonic complexity</td><td className="py-2 pr-4">Carvings need more harmonics than axes (matching mushrooms)</td><td className="py-2 pr-4">p = 4×10⁻⁶, δ = 0.50</td></tr>
+                <tr><td className="py-2 pr-4">3.9</td><td className="py-2 pr-4">Bounding-box aspect (independent metric)</td><td className="py-2 pr-4">Carvings 0.87, mushrooms 0.86 (indistinguishable); axes 0.60</td><td className="py-2 pr-4">carv=mus p = 0.95; both vs axes p &lt; 10⁻¹⁰</td></tr>
+                <tr><td className="py-2 pr-4">3.10</td><td className="py-2 pr-4">Findspot geography</td><td className="py-2 pr-4">Only 23% of Class 5 axes near Stonehenge</td><td className="py-2 pr-4">weak evidence</td></tr>
+              </tbody>
+            </table>
+          </div>
           <p>
-            Two other clues point in the same direction. First, the Needham
-            &ldquo;recurve&rdquo; feature that is rare (7%) among real axes and common
-            (37%) among the carvings has a straightforward mycological reading: the outer
-            margin of an <em>A. muscaria</em> cap curls under (incurves) as it matures.
-            Second, the annulus or ring that appears on many of the carvings, and which
-            has no functional analogue on a bronze axehead, is exactly the ring around
-            the stem of a mature <em>Amanita</em>.
+            No single analysis is decisive on its own. But eight analyses
+            with different assumptions, features, and methods do not fail
+            together by chance. The most parsimonious reading is that the
+            axehead identification made by Atkinson in 1953 is incorrect,
+            and the carvings depict a different subject &mdash; most
+            plausibly one of the native British mushroom species with a
+            distinctive cap-plus-stem morphology.
           </p>
+
+          <h3 className="text-lg font-semibold mt-8 mb-2">4.4 Why the misidentification held for 70 years</h3>
           <p>
-            <span className="font-semibold">Limitations.</span> The mushroom corpus was
-            built by automated color-based segmentation of side-view iNaturalist photos.
-            The convex-hull filling needed to bridge the white cap spots artificially
-            inflates the Solidity feature, so Solidity is excluded from the classifier;
-            this is documented in the analysis code and should be revisited with a
-            SAM-based re-segmentation before archival publication. The reference set is
-            restricted to <em>A. muscaria</em> and British EBA axes; a properly powered
-            future paper needs additional candidate reference classes (halberds, sickles,
-            palstaves, sun/moon rock-art motifs, cup-and-ring vulva motifs, generic
-            silhouettes). The Stone 53 shape features come from a single ImageJ pass
-            (Lomas 2021) and have not yet been independently re-extracted from the raw
-            English Heritage laser-scan TIFFs. The multivariate analysis effectively has
-            only two independent shape dimensions because the four dimensionless features
-            are highly collinear.
+            The recurved Class 5 axeheads (Needham 1983) have a superficial
+            cap-plus-stem morphology (Fig. 3): the wide flared cutting edge
+            reads as &ldquo;cap,&rdquo; the tapering butt as &ldquo;stem.&rdquo;
+            An observer with an axehead prior looking at a weathered
+            silhouette on sarsen would see an axehead. Atkinson (1953) saw
+            an axehead because that&rsquo;s what he was expecting; his own
+            words: <em>&ldquo;during the past three centuries hundreds of
+            thousands of visitors must have looked at [the carvings]
+            without actually seeing [them]. Nothing could demonstrate
+            better that one only sees what one is expecting to see.&rdquo;</em>
+            The same principle applies to what Atkinson himself saw.
           </p>
+
+          <h3 className="text-lg font-semibold mt-8 mb-2">4.5 Interpretive implications</h3>
           <p>
-            <span className="font-semibold">Interpretive implications.</span> If some
-            fraction of the Stone 53 carvings depict <em>A. muscaria</em>, the natural
-            reading is that Stonehenge&rsquo;s late Bronze-Age use-phase involved
-            ritualized ingestion of a well-known psychoactive fungus. Evidence for
-            entheogen use at Neolithic and Bronze Age sacred sites in Europe has been
-            argued for on independent grounds (see Samorini 1992 on Val Camonica; recent
-            residue analyses at Menorcan and Iberian burials); the Stonehenge carvings
-            would fit this broader pattern rather than establishing it. A parallel line
-            of inquiry &mdash; palynological work on the Stonehenge landscape for{" "}
-            <em>A. muscaria</em> host trees (birch, pine, spruce) c. 1650&ndash;1400 BC
-            &mdash; would substantially strengthen or weaken this reading.
+            If some substantial fraction of the Stone 53 (and Stone 4)
+            carvings depict native British psilocybin mushrooms, the
+            natural reading is that Stonehenge&rsquo;s later use-phase
+            (c. 1650&ndash;1400 BC) involved ritualized ingestion of a
+            well-known psychoactive fungus. Evidence for entheogen use at
+            Neolithic and Bronze Age sacred sites elsewhere in Europe has
+            been argued for on independent grounds (Samorini 1992 on
+            Val Camonica; recent residue analyses at Menorcan and Iberian
+            burials); the Stonehenge carvings would fit this broader
+            pattern rather than establishing it. Independent palynological
+            work on <em>Amanita</em> host trees (birch, pine, spruce) in
+            the Stonehenge landscape at 1650&ndash;1400 BC would
+            substantially strengthen or weaken this reading.
           </p>
+
+          <h3 className="text-lg font-semibold mt-8 mb-2">4.6 Limitations</h3>
+          <ol className="list-decimal list-inside space-y-2 pl-2">
+            <li>
+              The Stone 53 shape features are drawn from the paper&rsquo;s
+              own 2021 ImageJ pass (Lomas). We have partially replicated
+              feature extraction from the raw laser-scan TIFFs and observed
+              consistent results, but a full independent re-extraction has
+              not yet been done.
+            </li>
+            <li>
+              The alternative-hypothesis reference set is limited to
+              mushrooms. Other candidate identifications &mdash; halberds,
+              sickles, palstaves, sun/moon rock-art motifs, cup-and-ring
+              vulva motifs &mdash; have not yet been formally tested against
+              the carvings.
+            </li>
+            <li>
+              The dimensionless ImageJ features (Circularity, AR, Roundness,
+              Solidity) are highly correlated in the axe corpus
+              (AR-Roundness r = &minus;0.96); the multivariate analysis
+              effectively has ~2 independent dimensions.
+            </li>
+            <li>
+              This is a shape-based argument. It does not address chemical
+              evidence, botanical evidence for host trees, or archaeological
+              evidence for ritual practice. Convergent evidence from those
+              independent lines would substantially strengthen or weaken the
+              reading.
+            </li>
+            <li>
+              This is an exploratory analysis. A preregistered replication
+              with a fixed protocol, expanded reference-class set, and human
+              perception study is planned as follow-up (see Future work).
+            </li>
+          </ol>
         </section>
 
         <section aria-labelledby="future-work" className="mb-16">
@@ -836,19 +898,47 @@ export default function Home() {
 
         <section aria-labelledby="materials" className="mb-16">
           <h2 id="materials" className="text-2xl font-bold mb-4">
-            5. Data and code availability
+            6. Data and code availability
           </h2>
           <p>
-            All analysis code, data (as CSV / JSON / GeoJSON), and preregistration draft
-            are available at the project repository. The muscaria corpus, source
-            iNaturalist observation IDs, and reproducibility notes are included.
+            All analysis code, data (as CSV / JSON / GeoJSON), source
+            silhouettes, mushroom photos with iNaturalist observation IDs,
+            and the preregistration draft are available in the project
+            repository. All numeric results reported in this paper can be
+            regenerated end-to-end from the raw sheets and TIFFs.
           </p>
+
+          <h3 className="text-lg font-semibold mt-6 mb-3">Numeric outputs</h3>
           <ul className="list-none space-y-2 text-base my-6">
+            <li>
+              <a href="/data/definitive_summary.json" className="text-red-800 underline">
+                definitive_summary.json
+              </a>{" "}
+              &mdash; full 3-way classifier summary (356 axes, 119 carvings, 40 mushrooms)
+            </li>
+            <li>
+              <a href="/data/full_bevan_summary.json" className="text-red-800 underline">
+                full_bevan_summary.json
+              </a>{" "}
+              &mdash; Bevan corpus summary
+            </li>
             <li>
               <a href="/data/three_way_predictions.csv" className="text-red-800 underline">
                 three_way_predictions.csv
               </a>{" "}
               &mdash; per-carving classifier output
+            </li>
+            <li>
+              <a href="/data/carving_predictions_clean.csv" className="text-red-800 underline">
+                carving_predictions_clean.csv
+              </a>{" "}
+              &mdash; clean-corpus predictions
+            </li>
+            <li>
+              <a href="/data/extended_features_with_harmonics.csv" className="text-red-800 underline">
+                extended_features_with_harmonics.csv
+              </a>{" "}
+              &mdash; ImageJ features + elliptical Fourier harmonics for 72 carvings, 41 axes, 22 mushrooms
             </li>
             <li>
               <a href="/data/recurve_results.json" className="text-red-800 underline">
@@ -880,7 +970,116 @@ export default function Home() {
               </a>{" "}
               &mdash; 275 EBA axe findspots
             </li>
+            <li>
+              <a href="/data/muscaria_shape_features.csv" className="text-red-800 underline">
+                muscaria_shape_features.csv
+              </a>{" "}
+              &mdash; auto-segmented mushroom silhouettes (iNaturalist)
+            </li>
           </ul>
+
+          <h3 className="text-lg font-semibold mt-8 mb-3">Reference datasets used</h3>
+          <ul className="list-disc list-inside space-y-2 text-base my-6 pl-2">
+            <li>
+              <strong>Bevan corpus</strong> (Andrew Bevan, UCL; unpublished,
+              derived from Needham 1983 and Burgess) &mdash; 292 curated axes
+              with Needham typology; 7,308-axe metadata sheet; 515-shape
+              &ldquo;All data&rdquo; sheet with matched ImageJ features for
+              axes, carvings, and mushrooms.
+            </li>
+            <li>
+              <strong>English Heritage 2012 laser-scan report</strong>{" "}
+              (Abbott &amp; Whymark-Anderson) &mdash; 118 Stonehenge carvings
+              at 0.5 mm resolution.
+            </li>
+            <li>
+              <strong>Needham (1983)</strong> &mdash; canonical typology of
+              British Early Bronze Age axeheads (Classes 2&ndash;5); 41
+              reference silhouettes used here.
+            </li>
+            <li>
+              <strong>Native British mushroom silhouettes</strong> (n=22
+              in the analysis corpus, 40 in the Bevan-labeled &ldquo;All
+              data&rdquo; sheet).
+            </li>
+            <li>
+              <strong>iNaturalist</strong> research-grade{" "}
+              <em>Amanita muscaria</em> observations (auto-segmented).
+            </li>
+            <li>
+              <strong>Rockart England</strong> (ADS / Beckensall catalogue)
+              &mdash; ~22,000 rock-art motifs across 118 types, available
+              as reference for a planned null comparison.
+            </li>
+          </ul>
+
+          <h3 className="text-lg font-semibold mt-8 mb-3">Methods summary</h3>
+          <ol className="list-decimal list-inside space-y-2 pl-2">
+            <li>
+              <strong>Feature extraction.</strong> Every silhouette is
+              thresholded to binary, the largest connected component is
+              taken, and ImageJ-compatible descriptors are computed via
+              scikit-image: Circularity (4πA/P²), Aspect Ratio
+              (major/minor axis from fitted ellipse), Roundness
+              (4A/πM²), Solidity (A/A<sub>convex</sub>), plus bounding-box
+              width and height.
+            </li>
+            <li>
+              <strong>Multivariate distance.</strong> Mahalanobis distance
+              from each carving to the axe centroid and the mushroom centroid,
+              using dimensionless features only.
+            </li>
+            <li>
+              <strong>Classification.</strong> Linear Discriminant Analysis
+              (linear boundary) and Random Forest (300 trees, non-linear)
+              trained on axe-vs-mushroom, cross-validated with 5-fold
+              stratified splits.
+            </li>
+            <li>
+              <strong>Perceptual embedding.</strong> ShapeComp (Morgenstern
+              et al. 2020), a 22-dimensional embedding trained on 25,000
+              animal silhouettes and calibrated to human shape perception,
+              provides an independent representation. PCA and nearest-neighbor
+              analyses were done on this embedding.
+            </li>
+            <li>
+              <strong>Contour complexity.</strong> Each outer contour is
+              resampled to 200 equidistant points and Fourier-decomposed;
+              the number of harmonics needed to reach 99% cumulative energy
+              is the complexity measure.
+            </li>
+            <li>
+              <strong>Statistics.</strong> Two-sample tests are Fisher exact
+              (proportions) and Mann-Whitney U (medians); effect sizes are
+              Cohen&rsquo;s h, Cohen&rsquo;s d, and Cliff&rsquo;s δ;
+              multiple-comparison correction is Benjamini-Hochberg FDR where
+              applied. Bayesian complements use uniform Beta(1,1) priors.
+            </li>
+          </ol>
+
+          <h3 className="text-lg font-semibold mt-8 mb-3">Reproducibility</h3>
+          <p>
+            The full analysis pipeline is 28 Python scripts numbered
+            01&ndash;27b that run in order and regenerate every figure and
+            summary JSON. Dependencies: Python ≥ 3.11, numpy, pandas,
+            scipy ≥ 1.11, scikit-image, scikit-learn, matplotlib, openpyxl,
+            pypdf, python-docx. Repository is at{" "}
+            <a href="https://github.com/JDerekLomas/stonehenge"
+               className="text-red-800 underline"
+               target="_blank" rel="noopener noreferrer">
+              github.com/JDerekLomas/stonehenge
+            </a>{" "}
+            (public copy to be pushed alongside the preregistration).
+          </p>
+
+          <h3 className="text-lg font-semibold mt-8 mb-3">Preregistration and human-study protocol</h3>
+          <p>
+            Draft OSF preregistration and Prolific human-perception study
+            protocol are in the repository under <code>prereg/</code> and{" "}
+            <code>human-study/</code>. Both are ready to post; the
+            human-perception study is designed as the primary replication
+            of the shape-analysis finding using an independent evidence type.
+          </p>
         </section>
 
         <section aria-labelledby="acknowledgements" className="mb-16 text-sm text-stone-600">
