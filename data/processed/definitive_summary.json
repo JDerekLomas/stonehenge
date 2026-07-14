@@ -1,0 +1,30 @@
+{
+  "n_axes": 356,
+  "n_carvings": 119,
+  "n_mushrooms": 40,
+  "medians": {
+    "axe": {
+      "Circularity": 0.48860892,
+      "Aspect Ratio": 2.6712770499999996,
+      "Roundness": 0.37435292,
+      "Solidity": 0.799097535
+    },
+    "carving": {
+      "Circularity": 0.43926217,
+      "Aspect Ratio": 1.55905846,
+      "Roundness": 0.64141277,
+      "Solidity": 0.71038994
+    },
+    "mushroom": {
+      "Circularity": 0.426325055,
+      "Aspect Ratio": 1.611122595,
+      "Roundness": 0.621164565,
+      "Solidity": 0.698982295
+    }
+  },
+  "carvings_closer_to_mushroom_mahal": 113,
+  "carvings_predicted_mushroom_lda": 88,
+  "carvings_predicted_mushroom_rf": 92,
+  "mean_p_mushroom_lda": 0.7423364888761192,
+  "mean_p_mushroom_rf": 0.7431372549019608
+}

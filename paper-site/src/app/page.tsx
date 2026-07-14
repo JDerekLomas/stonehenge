@@ -15,16 +15,18 @@ export default function Home() {
             Are the carvings on Stonehenge bronze axeheads &mdash; or mushrooms?
           </h1>
           <p className="text-xl text-stone-700 leading-relaxed mb-6">
-            A quantitative shape analysis of 42 prehistoric carvings on
-            Stonehenge, compared against 41 canonical British bronze axeheads
-            (Needham 1983, Burgess) and 22 mushroom silhouettes, finds that
-            88% of the carvings are closer to the mushroom centroid than to
-            the axe centroid in shape space. Both Linear Discriminant Analysis
-            and Random Forest classifiers &mdash; cross-validated at 84&ndash;89%
-            accuracy on axes vs. mushrooms &mdash; classify 79% of the
-            carvings as mushroom, with mean posterior 0.74. The convergent
-            evidence motivates re-examination of the axehead identification
-            that has stood since 1953.
+            A quantitative shape analysis of 119 prehistoric carvings on
+            Stonehenge, compared against 356 British bronze axeheads (Bevan
+            corpus, drawn from Needham 1983 and Burgess) and 40 mushroom
+            silhouettes, finds that 113 of 119 (95%) carvings are closer to
+            the mushroom centroid than to the axe centroid in shape space.
+            Linear Discriminant Analysis and Random Forest classifiers,
+            cross-validated at 96% accuracy on axes vs. mushrooms, classify
+            77% of the carvings as mushroom with mean posterior 0.74. An
+            independent ShapeComp perceptual embedding separates axes from
+            carvings at 94% cross-validated accuracy. The convergent evidence
+            motivates re-examination of the axehead identification that has
+            stood since 1953.
           </p>
           <div className="text-sm text-stone-600 space-y-1">
             <p>
@@ -307,12 +309,28 @@ export default function Home() {
             3.4 Carvings match mushrooms, not axes
           </h3>
           <p>
-            With clean pre-segmented reference silhouettes on all three
-            corpora, we ask, per carving: which class centroid is nearer
-            in the (Circularity, Aspect Ratio, Roundness) space &mdash; axe or
-            mushroom? <span className="font-semibold">37 of 42 (88.1%)
-            carvings are closer to the mushroom centroid than the axe centroid.</span>
+            With the paper&rsquo;s full labeled corpus &mdash; 356 axes, 119
+            carvings, and 40 mushrooms, all with matched ImageJ features
+            &mdash; we ask per carving: which class centroid is nearer in the
+            (Circularity, Aspect Ratio, Roundness) space?{" "}
+            <span className="font-semibold">113 of 119 (95.0%) carvings are
+            closer to the mushroom centroid than to the axe centroid.</span>
           </p>
+          <figure className="my-8">
+            <Image
+              src="/figures/definitive_violin.png"
+              alt="Violin plots comparing Circularity, Aspect Ratio, and Roundness across the paper's full labeled corpus of 356 axes, 119 carvings, and 40 mushrooms"
+              width={2600}
+              height={950}
+              className="rounded-md border border-stone-200 w-full h-auto"
+            />
+            <figcaption className="text-sm text-stone-600 mt-2 text-center">
+              Figure 4. Distributions of the three dimensionless shape features
+              across the paper&rsquo;s definitive corpus. Carvings and
+              mushrooms are visually indistinguishable on Aspect Ratio and
+              Roundness; axes are systematically different.
+            </figcaption>
+          </figure>
           <figure className="my-8">
             <Image
               src="/figures/three_way_violin.png"
@@ -330,12 +348,51 @@ export default function Home() {
           </figure>
           <p>
             An axe-vs-mushroom Linear Discriminant Analysis, cross-validated at
-            89.1% &plusmn; 10.4% accuracy on the reference training data,
-            classifies 33 of 42 (78.6%) carvings as mushroom with mean
-            posterior probability 0.75. A Random Forest classifier at 84.2%
-            &plusmn; 10.1% CV accuracy classifies 33 of 42 (78.6%) as mushroom
-            with mean posterior 0.74. Both classifiers reach the same qualitative
+            95.7% &plusmn; 2.3% accuracy on the training data, classifies 88 of
+            119 (73.9%) carvings as mushroom with mean posterior probability
+            0.74. A Random Forest classifier at 96.0% &plusmn; 1.7% CV
+            accuracy classifies 92 of 119 (77.3%) as mushroom with mean
+            posterior 0.74. Both classifiers reach the same qualitative
             conclusion.
+          </p>
+
+          <h3 className="text-lg font-semibold mt-8 mb-2">
+            3.5 Independent confirmation via a perceptual embedding
+          </h3>
+          <p>
+            To rule out a hand-engineered-feature artifact, we also ran the
+            paper&rsquo;s original ShapeComp analysis (Morgenstern et al.
+            2020), which embeds each silhouette in a 22-dimensional space
+            trained on 25,000 animal silhouettes and calibrated to human
+            shape perception. A cross-validated axe-vs-carving classifier on
+            this embedding achieves 93.6% (LDA) and 93.4% (RF) accuracy
+            &mdash; independent evidence, from a completely different
+            methodology, that the two classes are perceptually distinct.
+          </p>
+          <figure className="my-6">
+            <Image
+              src="/figures/shapecomp_pca.png"
+              alt="PCA scatter of ShapeComp 22-dimensional perceptual embedding, showing axes and carvings forming distinct clusters"
+              width={2000}
+              height={1600}
+              className="rounded-md border border-stone-200 w-full h-auto"
+            />
+            <figcaption className="text-sm text-stone-600 mt-2 text-center">
+              Figure 5. First two principal components of the ShapeComp
+              perceptual embedding of 36 axes and 41 Stone 53 carvings.
+              Axes and carvings occupy disjoint regions along PC1 with almost
+              no overlap. This corroborates the ImageJ-based finding through
+              a completely independent representation.
+            </figcaption>
+          </figure>
+
+          <p>
+            The nearest-neighbour distance in the same 22D embedding is also
+            telling: axes are separated from their nearest neighbour axe by a
+            median of 0.46 units, but the nearest axe for each carving is on
+            average <em>four times farther</em> away (median 1.81 units). Even
+            the &ldquo;best&rdquo; axe match for any carving is far, in
+            perceptual terms, from that carving.
           </p>
           <figure className="my-8">
             <Image
@@ -353,7 +410,7 @@ export default function Home() {
           </figure>
 
           <h3 className="text-lg font-semibold mt-8 mb-2">
-            3.5 Which specific carvings look like which class?
+            3.6 Which specific carvings look like which class?
           </h3>
           <p>
             The Random Forest gives a per-carving posterior probability that
@@ -396,7 +453,7 @@ export default function Home() {
           </p>
 
           <h3 className="text-lg font-semibold mt-8 mb-2">
-            3.6 The full corpus, sorted by classifier confidence
+            3.7 The full corpus, sorted by classifier confidence
           </h3>
           <p>
             The visual argument is starker when we lay out all 41 Stone 53
@@ -435,7 +492,7 @@ export default function Home() {
           </p>
 
           <h3 className="text-lg font-semibold mt-8 mb-2">
-            3.7 The geographic distribution of contemporary axes
+            3.8 The geographic distribution of contemporary axes
           </h3>
           <p>
             Even if the carvings were meant to represent axes, the local Wessex axe

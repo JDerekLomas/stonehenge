@@ -1,0 +1,28 @@
+{
+  "n_axes": 515,
+  "n_carvings": 41,
+  "axe_ar_median": 2.45087541,
+  "axe_round_median": 0.40801748,
+  "carv_ar_median": 1.53,
+  "carv_round_median": 0.654,
+  "carvings_inside_95_pct": 78.04878048780488,
+  "axes_inside_95_pct": 93.00970873786409,
+  "mann_whitney_p": 3.5498493211941197e-07,
+  "recurve": {
+    "stone53_pct": 31.70731707317073,
+    "stone4_pct": 40.0,
+    "axes_full_corpus_pct": 24.413145539906104,
+    "stone53_n": [
+      13,
+      41
+    ],
+    "stone4_n": [
+      24,
+      60
+    ],
+    "axes_full_n": [
+      52,
+      213
+    ]
+  }
+}
