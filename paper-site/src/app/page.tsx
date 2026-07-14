@@ -168,8 +168,46 @@ export default function Home() {
             <span className="font-semibold">Axes.</span> 41 canonical bronze
             axe reference silhouettes drawn from Needham (1983) and Burgess.
             These are the reference forms conventionally cited as the visual
-            match for the Stonehenge carvings.
+            match for the Stonehenge carvings. Needham&rsquo;s original
+            typology defines anatomical features &mdash; flange height, body
+            width, cutting-edge splay, stop-bevel, marginal waisting &mdash;
+            that distinguish Classes 2 through 5 (Fig. 3).
           </p>
+          <figure className="my-8">
+            <Image
+              src="/paper_figures/needham_reference.png"
+              alt="Needham 1983 Class 5D reference figure showing axe subtypes 85 through 89 with anatomical annotations"
+              width={2000}
+              height={1600}
+              className="rounded-md border border-stone-200 w-full h-auto"
+            />
+            <figcaption className="text-sm text-stone-600 mt-2 text-center">
+              Figure 3. Needham (1983) reference figure for Class 5D
+              axeheads &mdash; the &ldquo;West Drayton type&rdquo; and its
+              variants (with mid-body swelling, marginal waisting). Reproduced
+              from the paper&rsquo;s own working figure. Anatomical features
+              are annotated: <em>medium to high flanges, medium-broad body,
+              stop-bevel, medium to broad cutting edge</em>. These are the
+              specific formal features that define British Early Bronze Age
+              axe typology.
+            </figcaption>
+          </figure>
+          <figure className="my-8">
+            <Image
+              src="/paper_figures/hafted_axes.png"
+              alt="Reconstruction of two hafted bronze axes with wooden handles"
+              width={1600}
+              height={1150}
+              className="rounded-md border border-stone-200 w-full h-auto"
+            />
+            <figcaption className="text-sm text-stone-600 mt-2 text-center">
+              Figure 3b. Reconstruction of hafted bronze axes. Real bronze
+              axeheads were used mounted on wooden handles; the &ldquo;axehead
+              alone&rdquo; that Atkinson (1953) described the carvings as
+              depicting would be an unusual choice of subject &mdash; the
+              functional whole is the hafted implement.
+            </figcaption>
+          </figure>
           <figure className="my-8">
             <Image
               src="/figures/atlas_clean_axes.png"
@@ -179,10 +217,10 @@ export default function Home() {
               className="rounded-md border border-stone-200 w-full h-auto"
             />
             <figcaption className="text-sm text-stone-600 mt-2 text-center">
-              Figure 3. The 41 axe reference silhouettes. Class 5 recurved
-              forms in particular have a superficial cap-plus-stem morphology
-              &mdash; the resemblance that plausibly motivated the original
-              1953 identification of the carvings as axeheads.
+              Figure 3c. The 41 axe reference silhouettes used in the
+              analysis. Class 5 recurved forms in particular have a
+              superficial cap-plus-stem morphology &mdash; the resemblance
+              that plausibly motivated the original 1953 identification.
             </figcaption>
           </figure>
 
@@ -410,6 +448,48 @@ export default function Home() {
             the &ldquo;best&rdquo; axe match for any carving is far, in
             perceptual terms, from that carving.
           </p>
+
+          <h3 className="text-lg font-semibold mt-8 mb-2">
+            3.6 Carvings require more Fourier harmonics than axes
+          </h3>
+          <p>
+            Elliptical Fourier descriptors (Kuhl &amp; Giardina 1982)
+            reconstruct a closed contour as a sum of sine and cosine harmonics.
+            The number of harmonics required to reach 99% reconstruction
+            fidelity is a scale-independent measure of shape complexity: a
+            smooth ellipse needs one harmonic; a jagged outline with fine
+            detail needs many. We computed this metric for all 41 axes, 72
+            Stonehenge carvings (Stone 53 plus 31 newly-processed Stone 4
+            TIFFs), and 22 mushroom silhouettes.
+          </p>
+          <figure className="my-6">
+            <Image
+              src="/figures/harmonics_complexity.png"
+              alt="Violin plot: elliptical Fourier harmonics required for 99% shape reconstruction, comparing axes (n=41), carvings (n=72), and mushrooms (n=22)"
+              width={2000}
+              height={1000}
+              className="rounded-md border border-stone-200 w-full h-auto"
+            />
+            <figcaption className="text-sm text-stone-600 mt-2 text-center">
+              Figure 6. Shape complexity by elliptical Fourier decomposition.
+              Carvings (median 42) require significantly more harmonics than
+              axes (median 40, mean 30 with heavy left tail of very simple
+              axe forms), and their distribution overlaps with mushrooms
+              (median 44). Mann-Whitney p = 4.0&times;10<sup>&minus;6</sup>,
+              Cliff&rsquo;s δ = 0.50 (large effect).
+            </figcaption>
+          </figure>
+          <p>
+            The argument is thermodynamic: carving sarsen stone with a
+            hammer-stone is enormously effortful. Every additional harmonic
+            of shape complexity corresponds to additional detail deliberately
+            preserved in the carving. If the carvings were simple depictions
+            of an axehead form, they should not require MORE harmonics than
+            the axes themselves. That they do &mdash; matching the mushroom
+            complexity &mdash; is inconsistent with a low-effort axe-imitation
+            hypothesis and consistent with a specific target morphology
+            (mushroom) being deliberately reproduced with care.
+          </p>
           <figure className="my-8">
             <Image
               src="/figures/three_way_scatter.png"
@@ -426,7 +506,7 @@ export default function Home() {
           </figure>
 
           <h3 className="text-lg font-semibold mt-8 mb-2">
-            3.6 Which specific carvings look like which class?
+            3.7 Which specific carvings look like which class?
           </h3>
           <p>
             The Random Forest gives a per-carving posterior probability that
@@ -469,7 +549,7 @@ export default function Home() {
           </p>
 
           <h3 className="text-lg font-semibold mt-8 mb-2">
-            3.7 The full corpus, sorted by classifier confidence
+            3.8 The full corpus, sorted by classifier confidence
           </h3>
           <p>
             The visual argument is starker when we lay out all 41 Stone 53
@@ -508,7 +588,7 @@ export default function Home() {
           </p>
 
           <h3 className="text-lg font-semibold mt-8 mb-2">
-            3.8 The geographic distribution of contemporary axes
+            3.9 The geographic distribution of contemporary axes
           </h3>
           <p>
             Even if the carvings were meant to represent axes, the local Wessex axe
@@ -633,6 +713,54 @@ export default function Home() {
             <em>A. muscaria</em> host trees (birch, pine, spruce) c. 1650&ndash;1400 BC
             &mdash; would substantially strengthen or weaken this reading.
           </p>
+        </section>
+
+        <section aria-labelledby="future-work" className="mb-16">
+          <h2 id="future-work" className="text-2xl font-bold mb-4">5. Future work</h2>
+          <ol className="list-decimal list-inside space-y-2 pl-2">
+            <li>
+              <strong>Experimental carving.</strong> Manually replicate a
+              mushroom-shape and an axehead-shape carving on sarsen sandstone
+              using a hammer-stone of appropriate hardness, and measure the
+              time and effort required for each. If mushroom-shape carvings
+              take more effort than axehead-shape carvings, the choice of
+              subject is even more informative.
+            </li>
+            <li>
+              <strong>Multi-species mushroom reference.</strong> Extend the
+              mushroom corpus beyond <em>A. muscaria</em> to cover the 15
+              native British psilocybin species catalogued in the paper&rsquo;s
+              own reference table, so the classifier can distinguish
+              &ldquo;which mushroom species&rdquo; rather than a binary
+              axe-vs-mushroom test.
+            </li>
+            <li>
+              <strong>Rockart England null.</strong> Compare against the 22,000
+              known motifs in the ADS Rockart of England corpus (Beckensall
+              catalogue) to show that the carvings do not resemble cup, ring,
+              or arc motifs characteristic of British Bronze Age rock art
+              either.
+            </li>
+            <li>
+              <strong>Preregistered human perception study.</strong> Show
+              random silhouettes (carvings, axes, mushrooms, distractors) to
+              naive and expert raters on Prolific with no site context;
+              measure which category label they assign. Human judgment is
+              impossible to accuse of algorithmic bias.
+            </li>
+            <li>
+              <strong>Palynological cross-check.</strong> Test whether{" "}
+              <em>Amanita</em> host trees (birch, pine, spruce) were present
+              in the Stonehenge landscape at 1650&ndash;1400 BC, from existing
+              pollen records at Durrington Walls and surrounding sites.
+            </li>
+            <li>
+              <strong>Independent ImageJ replication.</strong> Reprocess all
+              raw laser-scan TIFFs from the 2012 English Heritage report
+              through a fresh ImageJ pipeline to verify the original 2021
+              feature measurements at pixel level.
+            </li>
+          </ol>
         </section>
 
         <section aria-labelledby="materials" className="mb-16">
