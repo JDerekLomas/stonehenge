@@ -857,6 +857,60 @@ export default function Home() {
             consistent with them depicting a <em>specific subject</em>
             rather than following a general stylistic convention.
           </p>
+          <p>
+            More generally, <strong>British rock art is almost entirely
+            non-representational</strong>. Cup-and-ring motifs cover thousands
+            of panels across Britain and Ireland; figurative depictions of
+            any subject &mdash; weapons, animals, humans, plants &mdash; are
+            exceptionally rare. The recent identification of the Dunchraigaig
+            deer (Kilmartin, Scotland) was reported as
+            &ldquo;the earliest animal engravings in Scotland,&rdquo; a
+            headline that captures how unusual any representational rock
+            art is in the British Bronze Age tradition. Whatever the
+            Stonehenge and Ri Cruin carvings are, they belong to a tiny
+            representational subset of the British rock-art record.
+          </p>
+
+          <h3 className="text-lg font-semibold mt-8 mb-2">
+            3.10.5 The Kilmartin cairns: the whole British &ldquo;axehead&rdquo; comparison set
+          </h3>
+          <p>
+            Ri Cruin is not the only Kilmartin cairn cited as parallel
+            evidence for the Stonehenge axehead identification. The Kilmartin
+            Glen cluster (Argyll, Scotland) contains the only British
+            representational-weapon carvings other than Stonehenge, and
+            comprises three cairns whose cist slabs show putative
+            axehead carvings:
+          </p>
+          <ul className="list-disc list-inside space-y-1 pl-2">
+            <li>
+              <strong>Ri Cruin</strong> &mdash; 6 axehead-like carvings
+              analyzed here (§3.9.5). All six cluster with mushrooms rather
+              than axes in our shape space.
+            </li>
+            <li>
+              <strong>Nether Largie North</strong> &mdash; a cist slab
+              carved on its underside with cup-marks and ~10 axehead-like
+              motifs. Silhouettes not analyzed here (not available in the
+              corpus); should be added for a proper Kilmartin-wide test.
+            </li>
+            <li>
+              <strong>Nether Largie Mid</strong> &mdash; an end slab with
+              a single axehead-and-cup-mark carving, plus a &ldquo;possible
+              hafted object&rdquo; identified via digital recording.
+            </li>
+          </ul>
+          <p>
+            The <strong>Ri Cruin &ldquo;halberd pillar&rdquo;</strong> is
+            particularly telling. The same physical carving has been
+            identified as a boat, then a hafted halberd, and most recently
+            (Needham &amp; Cowie) as an &ldquo;early, rake-like carving
+            later converted into an upright halberd.&rdquo; A single carving
+            has held three different identifications over decades of
+            expert scrutiny &mdash; a reminder that identifications of
+            weathered Bronze Age carvings are provisional and revisable,
+            even at the reference sites.
+          </p>
 
           <h3 className="text-lg font-semibold mt-8 mb-2">
             3.11 The geographic distribution of contemporary axes
