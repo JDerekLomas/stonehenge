@@ -588,7 +588,52 @@ export default function Home() {
           </p>
 
           <h3 className="text-lg font-semibold mt-8 mb-2">
-            3.9 The geographic distribution of contemporary axes
+            3.9 Physical size: consistent with axes and with mushrooms
+          </h3>
+          <p>
+            Atkinson (1953) described the carvings as &ldquo;life-sized&rdquo;
+            axeheads. The claim is roughly supported: Stone 53 carvings have a
+            median height of 9.6 cm (range 5.3&ndash;30.1 cm), and the 292
+            Bevan-corpus bronze axes have a median length of 12.1 cm (range
+            5&ndash;22 cm). The two distributions overlap substantially in the
+            5&ndash;20 cm range. But two features cut against the axehead
+            reading:
+          </p>
+          <ol className="list-decimal list-inside space-y-1 pl-2">
+            <li>
+              The largest carvings (30 cm+) exceed the size of any typical
+              bronze axe (rare outliers reach ~22 cm) &mdash; but sit within
+              the range of large native British mushroom species (up to 47 cm
+              for <em>Gymnopilus junonius</em>, 40 cm for large{" "}
+              <em>Amanita muscaria</em>).
+            </li>
+            <li>
+              The size distributions of British native psilocybin mushrooms
+              overlap axes and carvings alike (5&ndash;47 cm cap+stem),
+              so &ldquo;size ambiguity&rdquo; is consistent with either
+              identification.
+            </li>
+          </ol>
+          <figure className="my-6">
+            <Image
+              src="/figures/size_comparison.png"
+              alt="Overlaid histograms of physical size: 292 bronze axes, 41 carvings, 12 mushroom species, all in centimeters"
+              width={2000}
+              height={1100}
+              className="rounded-md border border-stone-200 w-full h-auto"
+            />
+            <figcaption className="text-sm text-stone-600 mt-2 text-center">
+              Figure 8. Physical size of 292 bronze axes (Bevan Corpus,
+              length in cm), 41 Stone 53 carvings (height in cm), and 12
+              native British psilocybin mushroom species (total cap+stem
+              length in cm). Size does not decisively separate the classes.
+              The strong evidence for the mushroom identification comes from
+              shape, not from size.
+            </figcaption>
+          </figure>
+
+          <h3 className="text-lg font-semibold mt-8 mb-2">
+            3.10 The geographic distribution of contemporary axes
           </h3>
           <p>
             Even if the carvings were meant to represent axes, the local Wessex axe
