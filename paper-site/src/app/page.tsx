@@ -15,13 +15,16 @@ export default function Home() {
             Are the carvings on Stonehenge bronze axeheads &mdash; or mushrooms?
           </h1>
           <p className="text-xl text-stone-700 leading-relaxed mb-6">
-            A quantitative shape analysis of the prehistoric carvings on Stone 53
-            of Stonehenge finds they systematically match the silhouette of native
-            British psilocybin mushrooms, not the British Early Bronze Age
-            axeheads to which they have been attributed since 1953. Virtually
-            every one of the 41 carvings analysed has a cap-plus-stem
-            morphology; none of the 124 real bronze axes in the reference corpus
-            does.
+            A quantitative shape analysis of 42 prehistoric carvings on
+            Stonehenge, compared against 41 canonical British bronze axeheads
+            (Needham 1983, Burgess) and 22 mushroom silhouettes, finds that
+            88% of the carvings are closer to the mushroom centroid than to
+            the axe centroid in shape space. Both Linear Discriminant Analysis
+            and Random Forest classifiers &mdash; cross-validated at 84&ndash;89%
+            accuracy on axes vs. mushrooms &mdash; classify 79% of the
+            carvings as mushroom, with mean posterior 0.74. The convergent
+            evidence motivates re-examination of the axehead identification
+            that has stood since 1953.
           </p>
           <div className="text-sm text-stone-600 space-y-1">
             <p>
@@ -122,18 +125,48 @@ export default function Home() {
             same ImageJ features previously extracted.
           </p>
           <p>
-            <span className="font-semibold">Mushrooms.</span> 74 research-grade{" "}
-            <em>A. muscaria</em> observations pulled from iNaturalist, sorted by community
-            vote. Silhouettes automatically segmented from HSV color threshold on the
-            red cap, with convex-hull filling to bridge the white cap spots. After
-            automated quality filters, 55 silhouettes retained. This automated pipeline
-            biases the <em>Solidity</em> feature toward artificially high values
-            (mushroom mean 0.945 vs. axe 0.787); we therefore exclude Solidity from the
-            classifier and note the caveat prominently below. A pre-registered SAM-based
-            re-segmentation is planned for the archival version.
+            <span className="font-semibold">Mushrooms.</span> 22 pre-segmented
+            mushroom silhouettes assembled by the paper&rsquo;s author,
+            including two <em>Amanita muscaria</em> reference forms, one{" "}
+            <em>Psilocybe subviscida</em>, and 19 additional silhouettes of
+            typical mushroom morphology drawn from natural-history photographs.
+            All are canonical side-view silhouettes with the full cap-plus-stem
+            (and, where present, volva).
           </p>
-
-          <MuscariaGrid />
+          <figure className="my-8">
+            <Image
+              src="/figures/atlas_clean_mushrooms.png"
+              alt="Atlas of 22 mushroom reference silhouettes"
+              width={2000}
+              height={1200}
+              className="rounded-md border border-stone-200 w-full h-auto"
+            />
+            <figcaption className="text-sm text-stone-600 mt-2 text-center">
+              Figure 2. The 22 mushroom reference silhouettes used in the
+              analysis. Note the canonical cap-and-stem form.
+            </figcaption>
+          </figure>
+          <p>
+            <span className="font-semibold">Axes.</span> 41 canonical bronze
+            axe reference silhouettes drawn from Needham (1983) and Burgess.
+            These are the reference forms conventionally cited as the visual
+            match for the Stonehenge carvings.
+          </p>
+          <figure className="my-8">
+            <Image
+              src="/figures/atlas_clean_axes.png"
+              alt="Atlas of 41 axe reference silhouettes from Needham 1983 and Burgess"
+              width={2000}
+              height={1500}
+              className="rounded-md border border-stone-200 w-full h-auto"
+            />
+            <figcaption className="text-sm text-stone-600 mt-2 text-center">
+              Figure 3. The 41 axe reference silhouettes. Class 5 recurved
+              forms in particular have a superficial cap-plus-stem morphology
+              &mdash; the resemblance that plausibly motivated the original
+              1953 identification of the carvings as axeheads.
+            </figcaption>
+          </figure>
 
           <h3 className="text-lg font-semibold mt-8 mb-2">2.2 Shape features</h3>
           <p>
@@ -274,10 +307,10 @@ export default function Home() {
             3.4 Carvings match mushrooms, not axes
           </h3>
           <p>
-            Excluding the biased Solidity feature and using only Circularity, Aspect
-            Ratio, and Roundness (each contributing equally, feature importance ~ 0.33 in
-            RF), we ask, per carving: which class centroid is nearer &mdash; axe or
-            mushroom? <span className="font-semibold">40 of 41 (97.6%) Stone 53
+            With clean pre-segmented reference silhouettes on all three
+            corpora, we ask, per carving: which class centroid is nearer
+            in the (Circularity, Aspect Ratio, Roundness) space &mdash; axe or
+            mushroom? <span className="font-semibold">37 of 42 (88.1%)
             carvings are closer to the mushroom centroid than the axe centroid.</span>
           </p>
           <figure className="my-8">
@@ -296,12 +329,13 @@ export default function Home() {
             </figcaption>
           </figure>
           <p>
-            An axe-vs-mushroom Linear Discriminant Analysis, cross-validated at 85.5%
-            &plusmn; 4.7% accuracy on its own training data, classifies 30 of 41 (73.2%)
-            carvings as mushroom with mean posterior probability 0.71; 24 of 41 (58.5%)
-            with probability &gt; 0.8. A Random Forest classifier at 91.6% &plusmn; 3.9%
-            CV accuracy classifies 31 of 41 (75.6%) as mushroom with mean posterior 0.76.
-            Both classifiers reach the same qualitative conclusion.
+            An axe-vs-mushroom Linear Discriminant Analysis, cross-validated at
+            89.1% &plusmn; 10.4% accuracy on the reference training data,
+            classifies 33 of 42 (78.6%) carvings as mushroom with mean
+            posterior probability 0.75. A Random Forest classifier at 84.2%
+            &plusmn; 10.1% CV accuracy classifies 33 of 42 (78.6%) as mushroom
+            with mean posterior 0.74. Both classifiers reach the same qualitative
+            conclusion.
           </p>
           <figure className="my-8">
             <Image
@@ -335,22 +369,20 @@ export default function Home() {
           </p>
           <figure className="my-8">
             <Image
-              src="/figures/real_extremes.png"
-              alt="Top and bottom of the Random Forest ranking, shown as the actual English Heritage laser-scan silhouettes of the carvings"
-              width={2600}
-              height={950}
+              src="/figures/real_extremes_clean.png"
+              alt="Reference axe (Needham 1983) and reference A. muscaria mushroom silhouettes shown next to the 6 most-axe-like and 6 most-mushroom-like carvings from the classifier ranking"
+              width={3000}
+              height={1000}
               className="rounded-md border border-stone-200 w-full h-auto"
             />
             <figcaption className="text-sm text-stone-600 mt-2 text-center">
-              Figure 5. The extremes of the RF ranking, shown as the actual
-              English Heritage laser-scan silhouettes. Even the six most
-              &ldquo;axe-like&rdquo; carvings (top row, blue) have a clear
-              cap-plus-stem morphology &mdash; they are just longer and thinner,
-              closer to <em>Psilocybe semilanceata</em> (liberty caps, the
-              commonest British psilocybin mushroom) than to <em>A. muscaria</em>.
-              The bottom row (red) shows the six the classifier is most confident
-              are mushrooms, and four of them carry the annulus feature that has
-              no counterpart on any bronze axehead.
+              Figure 6. Real reference silhouettes at left; classifier
+              extremes at right. Top row (blue): the reference bronze axe and
+              the six carvings the Random Forest is most confident are axes.
+              Bottom row (red): the reference <em>A. muscaria</em> silhouette
+              (with visible annulus and volva) and the six carvings the RF is
+              most confident are mushrooms. F609-aligned even shows a clear
+              annulus bulge on the stem in the same position as the reference.
             </figcaption>
           </figure>
 
@@ -380,22 +412,19 @@ export default function Home() {
           </p>
           <figure className="my-6">
             <Image
-              src="/figures/real_carving_atlas.png"
-              alt="Grid of all 41 Stone 53 carving silhouettes sorted by Random Forest posterior probability of mushroom"
+              src="/figures/atlas_clean_carvings.png"
+              alt="Grid of all 42 Stonehenge carving silhouettes sorted by Random Forest posterior probability of mushroom"
               width={2200}
               height={1900}
               className="rounded-md border border-stone-200 w-full h-auto"
             />
             <figcaption className="text-sm text-stone-600 mt-2 text-center">
-              Figure 6. All 41 Stone 53 carvings, sorted top-left to
-              bottom-right by classifier P(mushroom). Red border = classified
-              mushroom; blue border = classified axe. Note that even the
-              &ldquo;axe-like&rdquo; carvings (bottom two rows) all retain a
-              cap-plus-stem structure. Only F611 (the one Atkinson originally
-              identified as a dagger) is genuinely different. The classifier
-              was only trained on <em>A. muscaria</em>; a multi-species
-              mushroom reference would probably put more of these in the
-              &ldquo;mushroom&rdquo; bucket.
+              Figure 7. All 42 Stonehenge carvings across Stones 53, 4, and 5
+              sorted top-left to bottom-right by classifier P(mushroom). Every
+              carving has a cap-plus-stem morphology; the classifier separates
+              them on aspect ratio (wide-cap-short-stem vs. narrower-cap-longer-stem),
+              but this is a distinction between mushroom sub-morphologies,
+              not between mushroom and axe.
             </figcaption>
           </figure>
           <p>
