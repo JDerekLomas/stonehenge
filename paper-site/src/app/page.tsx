@@ -913,6 +913,50 @@ export default function Home() {
           </p>
 
           <h3 className="text-lg font-semibold mt-8 mb-2">
+            3.10.6 Boscawen-Un: &ldquo;stone axes&rdquo; that turned out to be feet
+          </h3>
+          <p>
+            There is a striking parallel from another British stone circle.
+            The central stone at Boscawen-Un (Cornwall) has carvings that
+            were <strong>identified as &ldquo;representations of Neolithic
+            stone axes&rdquo; when recorded in 1986</strong>. In 2015, Tom
+            Goskar applied 3D photogrammetry to the same stone and showed
+            that the carvings depict <strong>a pair of human feet, soles
+            facing outward, with a row of toes visible on the right
+            foot.</strong> The Boscawen-Un feet closely parallel foot
+            motifs at Dolmen du Petit-Mont in Brittany (P&eacute;quart
+            &amp; Le Rouzic 1927).
+          </p>
+          <figure className="my-6">
+            <Image
+              src="/refs/boscawen_un_feet.jpg"
+              alt="Boscawen-Un stone circle central stone, processed with photogrammetric surface rendering, showing what were identified as stone axes in 1986 and later shown by Tom Goskar (2015) to be a pair of human feet with toes."
+              width={1000}
+              height={2000}
+              className="rounded-md border border-stone-200 w-full h-auto"
+              style={{ maxWidth: 500, margin: "0 auto", display: "block" }}
+            />
+            <figcaption className="text-sm text-stone-600 mt-2 text-center">
+              Figure 10b. Photogrammetric rendering of the central stone at
+              Boscawen-Un, Cornwall, by Tom Goskar (2015). The two adjacent
+              sole-outlines and small toes at their upper ends were
+              identified as stone axes for the first ~30 years after being
+              recorded (1986); 3D photogrammetry revealed the correct
+              identification as feet. Image &copy; Tom Goskar.
+            </figcaption>
+          </figure>
+          <p>
+            The Boscawen-Un case is a strong precedent for revising the
+            Stonehenge identification. Same monument type (British stone
+            circle); same original identification (axes); same
+            technology-enabled reinterpretation (3D scanning &rarr; different
+            subject). If British stone-circle &ldquo;axe carvings&rdquo;
+            have been misidentified before &mdash; documented within the
+            same archaeological generation &mdash; the Stonehenge case
+            deserves the same skeptical reappraisal.
+          </p>
+
+          <h3 className="text-lg font-semibold mt-8 mb-2">
             3.11 The geographic distribution of contemporary axes
           </h3>
           <p>
@@ -1022,6 +1066,7 @@ export default function Home() {
                 <tr><td className="py-2 pr-4">3.6</td><td className="py-2 pr-4">Fourier harmonic complexity</td><td className="py-2 pr-4">Carvings need more harmonics than axes (matching mushrooms)</td><td className="py-2 pr-4">p = 4×10⁻⁶, δ = 0.50</td></tr>
                 <tr><td className="py-2 pr-4">3.9</td><td className="py-2 pr-4">Bounding-box aspect (independent metric)</td><td className="py-2 pr-4">Carvings 0.87, mushrooms 0.86 (indistinguishable); axes 0.60</td><td className="py-2 pr-4">carv=mus p = 0.95; both vs axes p &lt; 10⁻¹⁰</td></tr>
                 <tr><td className="py-2 pr-4">3.9.5</td><td className="py-2 pr-4">Ri Cruin (positive control)</td><td className="py-2 pr-4">6/6 of the archaeological reference axehead-carving site also cluster with mushrooms</td><td className="py-2 pr-4">weakens the archaeological consensus</td></tr>
+                <tr><td className="py-2 pr-4">3.10.6</td><td className="py-2 pr-4">Boscawen-Un precedent</td><td className="py-2 pr-4">British stone-circle carvings identified as &ldquo;stone axes&rdquo; in 1986 shown by 3D photogrammetry (Goskar 2015) to be human feet with toes</td><td className="py-2 pr-4">precedent for reidentification</td></tr>
                 <tr><td className="py-2 pr-4">3.10</td><td className="py-2 pr-4">Rockart England null</td><td className="py-2 pr-4">Zero of 20,452 British rock-art motifs are mushroom- or axe-shaped (89% cups)</td><td className="py-2 pr-4">strong null</td></tr>
                 <tr><td className="py-2 pr-4">3.11</td><td className="py-2 pr-4">Findspot geography</td><td className="py-2 pr-4">Only 23% of Class 5 axes near Stonehenge</td><td className="py-2 pr-4">weak evidence</td></tr>
               </tbody>
