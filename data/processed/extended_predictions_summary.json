@@ -1,0 +1,22 @@
+{
+  "stone_53": {
+    "n": 41,
+    "median_p_mushroom_rf": 0.85,
+    "mean_p_mushroom_rf": 0.7551219512195122,
+    "n_predicted_mushroom": 32
+  },
+  "stone_4": {
+    "n": 31,
+    "median_p_mushroom_rf": 0.9033333333333333,
+    "mean_p_mushroom_rf": 0.7511827956989248,
+    "n_predicted_mushroom": 25
+  },
+  "combined": {
+    "n": 72,
+    "n_predicted_mushroom_lda": 55,
+    "n_predicted_mushroom_rf": 57,
+    "n_closer_to_mushroom_mahal": 63,
+    "mean_p_mushroom_lda": 0.7445193732132565,
+    "mean_p_mushroom_rf": 0.7534259259259259
+  }
+}

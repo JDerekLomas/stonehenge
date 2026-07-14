@@ -506,6 +506,97 @@ export default function Home() {
           </figure>
 
           <h3 className="text-lg font-semibold mt-8 mb-2">
+            3.6.5 Manual axe matches: even the researcher&rsquo;s own picks don&rsquo;t look right
+          </h3>
+          <p>
+            The Stone 53 Measurements sheet contains a hand-mapping in which
+            the researcher assigns each carving to its closest Needham
+            axehead by number. Rendering each carving next to its
+            manually-picked Needham match makes the visual mismatch
+            explicit: the carvings (red border) have wide caps over narrow
+            stems; the hand-picked axes (blue border) have narrower tops
+            and wider solid bodies.
+          </p>
+          <figure className="my-6">
+            <Image
+              src="/figures/manual_needham_pairs.png"
+              alt="8 pairs of carving-and-manually-picked-Needham-axe silhouettes side by side"
+              width={2300}
+              height={850}
+              className="rounded-md border border-stone-200 w-full h-auto"
+            />
+            <figcaption className="text-sm text-stone-600 mt-2 text-center">
+              Figure 5b. Eight carvings, each next to the specific Needham
+              axe the researcher manually picked as its closest match.
+              Even the hand-picked axe match does not visually correspond
+              to the carving.
+            </figcaption>
+          </figure>
+
+          <h3 className="text-lg font-semibold mt-8 mb-2">
+            3.6.6 Per-stone replication (Stone 4 confirms Stone 53)
+          </h3>
+          <p>
+            The 31 Stone 4 carvings we can process independently confirm
+            the pattern. Under the same axe-vs-mushroom classifier trained
+            on the same reference sets:
+          </p>
+          <ul className="list-disc list-inside pl-2 space-y-1">
+            <li>Stone 53 (n=41): 78% RF-predicted mushroom, 85% closer to mushroom centroid.</li>
+            <li>Stone 4 (n=31): 81% RF-predicted mushroom, 90% closer to mushroom centroid.</li>
+          </ul>
+          <figure className="my-6">
+            <Image
+              src="/figures/per_stone_predictions.png"
+              alt="Violin plots of Random Forest P(mushroom) for Stone 53 and Stone 4 carvings; both centered above 0.7"
+              width={1800}
+              height={1000}
+              className="rounded-md border border-stone-200 w-full h-auto"
+            />
+            <figcaption className="text-sm text-stone-600 mt-2 text-center">
+              Figure 6b. Per-stone Random Forest posterior P(mushroom) for
+              all 72 processed carvings. Stone 4 (right) agrees with Stone
+              53 (left) &mdash; the pattern is not idiosyncratic to a
+              single stone face.
+            </figcaption>
+          </figure>
+
+          <h3 className="text-lg font-semibold mt-8 mb-2">
+            3.6.7 Multi-species mushroom assignment
+          </h3>
+          <p>
+            Extending the reference set beyond <em>A. muscaria</em> to four
+            named native British mushroom species (plus the bronze-axe
+            centroid), and assigning each carving to its nearest class:
+          </p>
+          <figure className="my-6">
+            <Image
+              src="/figures/multispecies_assignments.png"
+              alt="Bar chart of 72 carvings assigned to 5 classes: A. muscaria, P. coronilla, P. subviscida, Stropharia aeruginosa, Bronze axe centroid. Only 9 of 72 assigned to axe."
+              width={1800}
+              height={1000}
+              className="rounded-md border border-stone-200 w-full h-auto"
+            />
+            <figcaption className="text-sm text-stone-600 mt-2 text-center">
+              Figure 6c. Nearest-class assignment for 72 carvings across 4
+              named mushroom species and the bronze-axe centroid. 63 of 72
+              (88%) carvings assign to a mushroom species; only 9 (12%)
+              assign to the axe centroid. Different carvings map onto
+              different species, consistent with the possibility that
+              multiple mushroom species were depicted.
+            </figcaption>
+          </figure>
+          <p>
+            The 15 candidate mushroom species from the paper&rsquo;s own
+            reference table &mdash; native to Britain, with a cap-plus-stem
+            morphology, and (for most) documented psychoactive activity
+            &mdash; are available as{" "}
+            <a href="/data/candidate_mushroom_species.csv" className="text-red-800 underline">
+              candidate_mushroom_species.csv
+            </a>.
+          </p>
+
+          <h3 className="text-lg font-semibold mt-8 mb-2">
             3.7 Which specific carvings look like which class?
           </h3>
           <p>
