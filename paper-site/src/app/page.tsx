@@ -750,6 +750,79 @@ export default function Home() {
           </figure>
 
           <h3 className="text-lg font-semibold mt-8 mb-2">
+            3.9.5 Ri Cruin: the archaeological reference site also fails the axe test
+          </h3>
+          <p>
+            Ri Cruin is a Bronze Age cairn in Kilmartin (Scotland) with 6
+            carvings identified as bronze axeheads by generations of
+            archaeologists. It is the canonical &ldquo;axeheads carved on
+            stone&rdquo; parallel &mdash; the archaeological reference that
+            partly motivated Atkinson&rsquo;s 1953 identification at
+            Stonehenge. It is also the intended positive control for our
+            classifier: <em>if the classifier is valid, Ri Cruin
+            carvings should cluster with real bronze axes.</em>
+          </p>
+          <p>
+            <strong>They don&rsquo;t.</strong> All six Ri Cruin carvings sit
+            in the same region of shape space as the Stonehenge carvings and
+            the mushrooms. Zero of six are closer to the axe centroid than to
+            the mushroom centroid in Mahalanobis distance. Five of six are
+            classified as mushroom by the LDA (mean P(mushroom) = 0.68).
+          </p>
+          <figure className="my-6">
+            <Image
+              src="/figures/ricruin_shape_space.png"
+              alt="Scatter plot of Aspect Ratio vs Roundness for 41 axes, 22 mushrooms, 42 Stonehenge carvings, and 6 Ri Cruin carvings shown as orange stars. The Ri Cruin carvings sit in the region where Stonehenge carvings and mushrooms overlap, not with axes."
+              width={2000}
+              height={1400}
+              className="rounded-md border border-stone-200 w-full h-auto"
+            />
+            <figcaption className="text-sm text-stone-600 mt-2 text-center">
+              Figure 9b. Ri Cruin carvings (orange stars) plotted alongside
+              41 axes, 22 mushrooms, and 42 Stonehenge carvings in Aspect
+              Ratio × Roundness space. All 6 Ri Cruin carvings sit in the
+              mushroom / Stonehenge-carving region; none is in the axe
+              region. RiCruin3 is the nearest to axes and still on the
+              boundary.
+            </figcaption>
+          </figure>
+          <p>
+            There are three ways to read this:
+          </p>
+          <ol className="list-decimal list-inside space-y-1 pl-2">
+            <li>
+              <strong>The classifier is wrong.</strong> Maybe all rock-carved
+              silhouettes of axes look compressed relative to real axes,
+              simply because a hammer-stone can&rsquo;t reproduce the
+              elongation of a functional tool. If so, both Stonehenge and Ri
+              Cruin genuinely depict axes but the classifier can&rsquo;t tell.
+            </li>
+            <li>
+              <strong>Ri Cruin depicts mushrooms too.</strong> The
+              archaeological consensus about Ri Cruin may itself be wrong.
+              This would be a much bigger claim than the Stonehenge-only
+              argument &mdash; a re-examination of an entire British
+              rock-art category.
+            </li>
+            <li>
+              <strong>There is a &ldquo;carved-axe stylistic tradition&rdquo;
+              distinct from functional axes.</strong> Both Ri Cruin and
+              Stonehenge belong to this tradition; the tradition is
+              consistently different from real bronze axes and consistently
+              more like mushrooms.
+            </li>
+          </ol>
+          <p>
+            Reading 1 is the safest, but it makes an awkward prediction: it
+            forces us to postulate a &ldquo;rock-carving shape compression&rdquo;
+            effect for axes that&rsquo;s conspicuously absent from cups,
+            rings, arcs, spirals, and every other British rock-art motif
+            (§3.10). Readings 2 and 3 are more parsimonious. Regardless of
+            which reading is correct, Ri Cruin is <em>not</em> valid
+            supporting evidence for the Stonehenge axehead identification.
+          </p>
+
+          <h3 className="text-lg font-semibold mt-8 mb-2">
             3.10 Null: British rock art doesn&rsquo;t look like this
           </h3>
           <p>
@@ -894,6 +967,7 @@ export default function Home() {
                 <tr><td className="py-2 pr-4">3.5</td><td className="py-2 pr-4">ShapeComp perceptual embedding</td><td className="py-2 pr-4">93% CV axe-vs-carving; carvings 4× farther from nearest axe than axes are from each other</td><td className="py-2 pr-4">independent</td></tr>
                 <tr><td className="py-2 pr-4">3.6</td><td className="py-2 pr-4">Fourier harmonic complexity</td><td className="py-2 pr-4">Carvings need more harmonics than axes (matching mushrooms)</td><td className="py-2 pr-4">p = 4×10⁻⁶, δ = 0.50</td></tr>
                 <tr><td className="py-2 pr-4">3.9</td><td className="py-2 pr-4">Bounding-box aspect (independent metric)</td><td className="py-2 pr-4">Carvings 0.87, mushrooms 0.86 (indistinguishable); axes 0.60</td><td className="py-2 pr-4">carv=mus p = 0.95; both vs axes p &lt; 10⁻¹⁰</td></tr>
+                <tr><td className="py-2 pr-4">3.9.5</td><td className="py-2 pr-4">Ri Cruin (positive control)</td><td className="py-2 pr-4">6/6 of the archaeological reference axehead-carving site also cluster with mushrooms</td><td className="py-2 pr-4">weakens the archaeological consensus</td></tr>
                 <tr><td className="py-2 pr-4">3.10</td><td className="py-2 pr-4">Rockart England null</td><td className="py-2 pr-4">Zero of 20,452 British rock-art motifs are mushroom- or axe-shaped (89% cups)</td><td className="py-2 pr-4">strong null</td></tr>
                 <tr><td className="py-2 pr-4">3.11</td><td className="py-2 pr-4">Findspot geography</td><td className="py-2 pr-4">Only 23% of Class 5 axes near Stonehenge</td><td className="py-2 pr-4">weak evidence</td></tr>
               </tbody>

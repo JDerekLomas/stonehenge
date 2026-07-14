@@ -1,0 +1,82 @@
+{
+  "n": 6,
+  "median_features": {
+    "Circularity": 0.4717134404774215,
+    "Aspect Ratio": 1.701320109965995,
+    "Roundness": 0.44726786284072007,
+    "Solidity": 0.7678432584907143
+  },
+  "n_closer_axe_centroid": 0,
+  "n_closer_mushroom_centroid": 6,
+  "n_lda_predict_axe": 1,
+  "n_lda_predict_mushroom": 5,
+  "mean_lda_p_mushroom": 0.6589180807522674,
+  "per_carving": [
+    {
+      "Circularity": 0.45882145284448295,
+      "Aspect Ratio": 1.750337215329662,
+      "Roundness": 0.43074635586588256,
+      "Solidity": 0.7564059486030739,
+      "id": "RiCruin1",
+      "d_axe": 3.2745514296979747,
+      "d_mushroom": 0.7983938943600349,
+      "lda_p_mushroom": 0.7150523656862751,
+      "closer_to": "mushroom"
+    },
+    {
+      "Circularity": 0.48460542811036006,
+      "Aspect Ratio": 1.652303004602328,
+      "Roundness": 0.46936666511645203,
+      "Solidity": 0.7792805683783548,
+      "id": "RiCruin2",
+      "d_axe": 3.5125433216260324,
+      "d_mushroom": 0.9346019903629885,
+      "lda_p_mushroom": 0.724888200026888,
+      "closer_to": "mushroom"
+    },
+    {
+      "Circularity": 0.41754073315870727,
+      "Aspect Ratio": 2.045010927056982,
+      "Roundness": 0.35219091218326415,
+      "Solidity": 0.714011466182597,
+      "id": "RiCruin3",
+      "d_axe": 2.642732751075368,
+      "d_mushroom": 0.7191664208550348,
+      "lda_p_mushroom": 0.5637186243466237,
+      "closer_to": "mushroom"
+    },
+    {
+      "Circularity": 0.5467441827722915,
+      "Aspect Ratio": 1.7653828328064807,
+      "Roundness": 0.4637846456866046,
+      "Solidity": 0.8273142235466628,
+      "id": "RiCruin4",
+      "d_axe": 1.8385763878173986,
+      "d_mushroom": 1.7734355351427429,
+      "lda_p_mushroom": 0.1612336013181993,
+      "closer_to": "mushroom"
+    },
+    {
+      "Circularity": 0.4995589427304547,
+      "Aspect Ratio": 1.5127376524543736,
+      "Roundness": 0.5214754083378915,
+      "Solidity": 0.7929483903934593,
+      "id": "RiCruin5",
+      "d_axe": 4.464521552382619,
+      "d_mushroom": 1.0021117533511517,
+      "lda_p_mushroom": 0.8564353796215535,
+      "closer_to": "mushroom"
+    },
+    {
+      "Circularity": 0.42031149642703425,
+      "Aspect Ratio": 1.5805108468151396,
+      "Roundness": 0.4307510799948355,
+      "Solidity": 0.7099041083012128,
+      "id": "RiCruin6",
+      "d_axe": 4.41183352610114,
+      "d_mushroom": 0.7839978663870782,
+      "lda_p_mushroom": 0.9321803135140649,
+      "closer_to": "mushroom"
+    }
+  ]
+}
