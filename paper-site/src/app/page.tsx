@@ -66,20 +66,36 @@ export default function Home() {
         <section className="mb-16">
           <figure className="my-6">
             <Image
+              src="/figures/named_species_plate.png"
+              alt="Named comparison plate: four psilocybin mushroom species, eight canonical Needham axeheads, and eight Stonehenge carvings, arranged in three rows"
+              width={2800}
+              height={1200}
+              className="rounded-md border border-stone-200 w-full h-auto"
+              priority
+            />
+            <figcaption className="text-sm text-stone-600 mt-3 text-center italic">
+              Frontispiece. Top row: four native British psilocybin
+              mushroom species. Middle row: eight canonical British Early
+              Bronze Age axehead forms (Needham 1983, Class 2A through the
+              late-Bronze form). Bottom row: eight Stonehenge carvings
+              from Stone 53. Read column-wise: the carvings share their
+              cap-plus-stem morphology with the mushrooms, not with the
+              bulky wide-shouldered forms of the axes.
+            </figcaption>
+          </figure>
+          <figure className="my-6">
+            <Image
               src="/paper_figures/image3.png"
               alt="Side-by-side comparison: mushroom-shaped carvings on Stones 53 and 4 of Stonehenge, next to canonical Southern British bronze axeheads from 2500 to 1600 BC"
               width={2000}
               height={800}
               className="rounded-md border border-stone-200 w-full h-auto"
-              priority
             />
             <figcaption className="text-sm text-stone-600 mt-3 text-center italic">
-              Frontispiece. Left: the carvings on Stones 53 and 4 of Stonehenge,
-              as identified by English Heritage&rsquo;s 2012 laser scan.
-              Right: the canonical southern British bronze axehead forms
-              from Needham (1983) that they have been said to depict since
-              1953. Every carving on the left has a cap-plus-stem morphology
-              that none of the axes on the right share.
+              The same visual argument, drawn from the paper&rsquo;s own
+              working figure: left, the full set of Stone 53 and Stone 4
+              carvings; right, the canonical Southern British axehead
+              typology 2500&ndash;1600 BC.
             </figcaption>
           </figure>
         </section>
