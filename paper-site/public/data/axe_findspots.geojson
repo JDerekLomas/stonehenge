@@ -1,0 +1,5510 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 376,
+        "object": "Flat Axe",
+        "class": "Class 2",
+        "site": "Paul, Penolva (Stitches Field)",
+        "county": "Cornwall",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 289.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.551279607,
+          50.08849656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 377,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Penquite",
+        "county": "Cornwall",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 217.8,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.644431,
+          50.366732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 385,
+        "object": "Flat Axe",
+        "class": "Class 2",
+        "site": "Bridestowe, Burley Camp",
+        "county": "Devon",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 171.2,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.130336064,
+          50.66812604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 396,
+        "object": "Flat Axe",
+        "class": "Class 2",
+        "site": "Halberton, Rowridge Farm",
+        "county": "Devon",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 116.9,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.435261725,
+          50.89189956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 398,
+        "object": "Flat Axe",
+        "class": "Class 2",
+        "site": "Hayne, Old Cleeve",
+        "county": "Somerset",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 108.9,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.385301441,
+          51.12451675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 407,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Wellington (near Wellington Monument?)",
+        "county": "Somerset",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 101.5,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.232771595,
+          50.9504191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 410,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Cross Dyke and Blackbury Camp  (near), Southleigh",
+        "county": "Devon",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 106.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.152289197,
+          50.71787643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 412,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Staple Fitzpaine, Castle Neroche",
+        "county": "Somerset",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 88.6,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0331093,
+          50.93437128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 424,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Winterbourne Steepleton, Glebe Farm",
+        "county": "Dorset",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 72.4,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.532396684,
+          50.70392127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 426,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Weymouth, Ridgeway, Barrow G8, Grave Group B",
+        "county": "Dorset",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 72.4,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.48632,
+          50.678179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 427,
+        "object": "Flat Axe (diminutive)",
+        "class": "Class 2",
+        "site": "Weymouth, Jordan Hill",
+        "county": "Dorset",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 73.1,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4263267,
+          50.64095845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 430,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Lansdown",
+        "county": "Avon",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 47.6,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.39682245,
+          51.41484488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 435,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Bere Regis, Muddox Barrow (near)",
+        "county": "Dorset",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 52.9,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.210529266,
+          50.76924503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 450,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Hindlow",
+        "county": "Derbyshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 227.0,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8729,
+          53.2203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 454,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Parwich Moor",
+        "county": "Derbyshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 212.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7205,
+          53.0873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 459,
+        "object": "Low-flanged Axe",
+        "class": "Class 3",
+        "site": "Highlow",
+        "county": "Derbyshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 238.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.669718,
+          53.318272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 463,
+        "object": "Low-flanged Axe",
+        "class": "Class 3",
+        "site": "Beeley, Burnt Wood",
+        "county": "Derbyshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 225.2,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.598033611,
+          53.19895026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 471,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Oddington, Thornes Farm (near), Oaklands",
+        "county": "Gloucestershire",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 82.6,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.675808746,
+          51.915927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 473,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Cholsey",
+        "county": "Oxfordshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 64.2,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.158614,
+          51.578846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 482,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Kettering",
+        "county": "Northamptonshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 154.9,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.72292,
+          52.39312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 483,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Bray (400 yards above, River Thames)",
+        "county": "River Thames",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 86.5,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.699423206,
+          51.50968978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 484,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Knapton",
+        "county": "North Yorkshire",
+        "region": "North and Scotland",
+        "dist_km_from_stonehenge": 312.7,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.144956,
+          53.960308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 496,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "North Kyme, St Luke's Church (in a field at rear of)",
+        "county": "Lincolnshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 234.2,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.28078,
+          53.059205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 498,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Walton-on-the-Hill, Walton Heath",
+        "county": "Surrey",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 110.8,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.243897,
+          51.2826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 501,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Battersea (opposite Prices Candle Works, River Thames)",
+        "county": "Greater London",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 118.7,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.181436,
+          51.466908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 502,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Kingston (River Thames)",
+        "county": "Greater London",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 108.6,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.30871,
+          51.4103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 504,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Lewes",
+        "county": "East Sussex",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 131.8,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.004333446,
+          50.8769249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 510,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Littleport",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 203.7,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.308814,
+          52.449402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 511,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Burwell Fen",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 191.6,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.291696,
+          52.297142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 512,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Burwell Fen",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 191.6,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.291696,
+          52.297142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 514,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Exning",
+        "county": "Suffolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 192.6,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3501,
+          52.2667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 518,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Fordham",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 198.0,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.396818028,
+          52.30827313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 521,
+        "object": "Flat Axe",
+        "class": "Class 2",
+        "site": "Etchingham (Burwash), Shoyswell Manor",
+        "county": "Sussex",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 155.8,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.385542519,
+          50.99552078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 524,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Heacham Brickfield",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 248.5,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.494164669,
+          52.89833511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 528,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Mildenhall",
+        "county": "Suffolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 206.4,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5089,
+          52.34461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 529,
+        "object": "Flat Axe",
+        "class": "Class 2",
+        "site": "Eriswell",
+        "county": "Suffolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 209.6,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.539038,
+          52.366848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 530,
+        "object": "Low-flanged Axe (diminutive)",
+        "class": "Class 4",
+        "site": "Gooderstone",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 229.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.604204108,
+          52.59163725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 535,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "East Bradenham, Leys Farm",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 246.9,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.873704485,
+          52.64834977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 536,
+        "object": "Flat Axe",
+        "class": "Class 2",
+        "site": "Hardingham, Old Hall Farm",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 250.7,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.004409903,
+          52.60414252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 539,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Cawston",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 271.8,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.178657363,
+          52.77545491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 540,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Cringleford, Colney Lane, Tudor Hill",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 263.8,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.237373238,
+          52.61238869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 541,
+        "object": "Flat Axe",
+        "class": "Class 2",
+        "site": "West Runton, Church Farm (opposite West Runton Church)",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 287.0,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.249913716,
+          52.93540212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 543,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Hevingham, Buxton Heath",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 272.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.226214911,
+          52.74777464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 546,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Pont Caradog / Brithdir",
+        "county": "Mid Glamorgan",
+        "region": "Wales",
+        "dist_km_from_stonehenge": 114.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.247870431,
+          51.69616187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 547,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Pont Caradog / Brithdir",
+        "county": "Mid Glamorgan",
+        "region": "Wales",
+        "dist_km_from_stonehenge": 114.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.247870431,
+          51.69616187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 676,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Willerby, Wold Farm Greenwell barrow 235",
+        "county": "Yorkshire",
+        "region": "North and Scotland",
+        "dist_km_from_stonehenge": 345.8,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.446534911,
+          54.17426066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 729,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Grunty Fen",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 192.4,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.194747361,
+          52.37514477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 730,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Weymouth, Preston Down",
+        "county": "Dorset",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 58.6,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.426838393,
+          51.54961256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 731,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Icklingham, Site of British Village",
+        "county": "Suffolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 210.2,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.60407,
+          52.32408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 734,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Weymouth (near)",
+        "county": "Dorset",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 77.0,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.460713815,
+          50.61429853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 736,
+        "object": "Low-flanged Axe (diminutive)",
+        "class": "Class 4",
+        "site": "Mildenhall, Holywell Row",
+        "county": "Suffolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 207.9,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.509364681,
+          52.36573391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 739,
+        "object": "Low-flanged Axe",
+        "class": "Class 3",
+        "site": "Newport Railway Station (near)",
+        "county": "Gwent",
+        "region": "Wales",
+        "dist_km_from_stonehenge": 93.4,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.999573661,
+          51.59063885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 740,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Newport Railway Station (near)",
+        "county": "Gwent",
+        "region": "Wales",
+        "dist_km_from_stonehenge": 93.4,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.999573661,
+          51.59063885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 741,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Pont Caradog / Brithdir",
+        "county": "Mid Glamorgan",
+        "region": "Wales",
+        "dist_km_from_stonehenge": 114.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.247870431,
+          51.69616187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 743,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Staunton (Stanton), Forest of Dean",
+        "county": "Gloucestershire",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 90.9,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.661363305,
+          51.80927303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 744,
+        "object": "Low-flanged Axe",
+        "class": "Class 3",
+        "site": "St Bertram??s Well, Ilam",
+        "county": "Staffordshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 209.2,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.800013902,
+          53.0605802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 745,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Long Wittenham Weir (near, River Thames), Appleford(?)",
+        "county": "Oxfordshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 66.4,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.213881039,
+          51.6376735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 751,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Poslingford Hall Farm",
+        "county": "Suffolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 196.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.590429567,
+          52.10634529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 752,
+        "object": "Low-flanged Axe",
+        "class": "Class 3",
+        "site": "Castle Rising",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 238.4,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.467850041,
+          52.79237885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 753,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Plymstock, Rocky Parks Field",
+        "county": "Devon",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 182.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.075154328,
+          50.36287258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 754,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Plymstock, Rocky Parks Field",
+        "county": "Devon",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 182.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.075154328,
+          50.36287258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 755,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Tower of London (near, River Thames)",
+        "county": "Greater London",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 126.9,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.076327,
+          51.507645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 756,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Osmington, White Horse Hill",
+        "county": "Dorset",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 70.7,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.404480668,
+          50.65780799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 757,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Yaxley Fen",
+        "county": "Huntingdonshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 184.2,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.225971956,
+          52.50808524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 758,
+        "object": "Flat Axe",
+        "class": "Class 2",
+        "site": "Hounslow, St Margarets, Chapel Fields",
+        "county": "Greater London",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 109.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.320099,
+          51.461932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 759,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Bisham (River Thames)",
+        "county": "Berks / Bucks",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 84.1,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.782397335,
+          51.56205872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 761,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "West Drayton Railway Station",
+        "county": "Greater London",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 101.0,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.471403,
+          51.509053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 763,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Barton Stacey",
+        "county": "Hampshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 25.7,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.457685,
+          51.184972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 764,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Arreton Down (formerly Martlesham)",
+        "county": "Isle of Wight",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 69.4,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.229268456,
+          50.68055967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 766,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Plymstock, Rocky Parks Field",
+        "county": "Devon",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 182.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.075154328,
+          50.36287258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 771,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Arreton Down",
+        "county": "Isle of Wight",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 69.4,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.229268456,
+          50.68055967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 772,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Arreton Down",
+        "county": "Isle of Wight",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 69.4,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.229268456,
+          50.68055967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 773,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Horncastle (near)",
+        "county": "Lincolnshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 254.2,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.10736758,
+          53.20752273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 774,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Chiswick Eyot Bank (River Thames)",
+        "county": "Greater London",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 113.9,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.265671536,
+          51.49261322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 780,
+        "object": "Low-flanged Axe",
+        "class": "Class 3",
+        "site": "Colwick (River Trent)",
+        "county": "Nottinghamshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 203.6,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.081142,
+          52.9516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 787,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Wilsford, barrow G5 (Bush Barrow)",
+        "county": "Wiltshire",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 1.1,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.834797435,
+          51.17046951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 788,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "West Stafford, Mount Pleasant (N terminal of henge ditch)",
+        "county": "Dorset",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 66.5,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.412257711,
+          50.70822569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 816,
+        "object": "Flat Axe",
+        "class": "Class 2",
+        "site": "Bucklesham Road, Purdis Farm",
+        "county": "Suffolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 230.8,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.22043,
+          52.032347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 823,
+        "object": "Flat Axe/Chisel",
+        "class": "Class 4",
+        "site": "Firle",
+        "county": "Sussex",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 138.9,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.086587,
+          50.843857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 828,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Ashford, Ashford Golf Links",
+        "county": "Kent",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 187.7,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.866310748,
+          51.16459812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 829,
+        "object": "Flat Axe",
+        "class": "Class 2",
+        "site": "Nannerch/Cilcain, Moel Arthur",
+        "county": "Clwyd",
+        "region": "Wales",
+        "dist_km_from_stonehenge": 244.0,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.280814535,
+          53.18389018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 836,
+        "object": "Flanged Axe (diminutive)",
+        "class": "Class 5",
+        "site": "Bridgham",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 231.5,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.866711,
+          52.428196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 838,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Soham, Clipsall Field",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 197.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.360899,
+          52.322485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 839,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Stow-cum-Quy",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 183.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.231091007,
+          52.22160095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 840,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Burwell Fen",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 191.6,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.291696,
+          52.297142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 841,
+        "object": "Flat Axe",
+        "class": "Class 2",
+        "site": "Bottisham Lode",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 185.4,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.243845,
+          52.244725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 842,
+        "object": "Low-flanged Axe",
+        "class": "Class 3",
+        "site": "Methwold Hythe",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 220.0,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.519232,
+          52.526035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 844,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Mortlake (River Thames)",
+        "county": "Greater London",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 112.6,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.273719,
+          51.470251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 845,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Kew Bridge (River Thames)?",
+        "county": "Greater London",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 112.2,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.287503,
+          51.486639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 846,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Hammersmith",
+        "county": "Greater London",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 116.6,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.22364,
+          51.49204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 850,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Llanblethian, Breach Farm",
+        "county": "Glamorgan",
+        "region": "Wales",
+        "dist_km_from_stonehenge": 119.2,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.484405363,
+          51.45363786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 852,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Llanddyfnan, Ty??n-y-pwll",
+        "county": "Anglesey",
+        "region": "Wales",
+        "dist_km_from_stonehenge": 285.7,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.237117676,
+          53.28200913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 854,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Cardiff Castle (probably)",
+        "county": "Glamorgan",
+        "region": "Wales",
+        "dist_km_from_stonehenge": 100.0,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.18011171,
+          51.4828584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 857,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Norwich, Mile Cross, 6 Rye Close",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 268.5,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.277910722,
+          52.65066481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 859,
+        "object": "Flanged Axe/Chisel",
+        "class": "Class 5",
+        "site": "Salhouse",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 278.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.409112453,
+          52.68810622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 860,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "North Muskham (River Trent)",
+        "county": "Nottinghamshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 226.4,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.813614836,
+          53.11776257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 861,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Clifton (River Trent?)",
+        "county": "Nottinghamshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 197.8,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.190973498,
+          52.91416832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 862,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Bettws-y-crwyn, Castell Bryn Amlwg",
+        "county": "Shropshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 171.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.226495179,
+          52.45343606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 864,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Clunbury, Upper House",
+        "county": "Shropshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 157.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.92261603,
+          52.41843822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 876,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Llanddyfnan, Ynys Talwrn",
+        "county": "Anglesey",
+        "region": "Wales",
+        "dist_km_from_stonehenge": 285.7,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.266425245,
+          53.2688684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 878,
+        "object": "Flat Axe/Chisel",
+        "class": "Class 4",
+        "site": "Padgbury Lane, Congleton",
+        "county": "Cheshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 222.0,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.240443,
+          53.159114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 887,
+        "object": "Flanged Axe/Chisel",
+        "class": "Class 5",
+        "site": "Deran, Greengate, Swanton Morley",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 257.0,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.983052,
+          52.710304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 897,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Amesbury, Stonehenge Down (SE Monument)",
+        "county": "Wiltshire",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 0.5,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.820420153,
+          51.17664833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 900,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Scunthorpe, 68 Morecambe Avenue",
+        "county": "Humberside",
+        "region": "North and Scotland",
+        "dist_km_from_stonehenge": 276.5,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.653236204,
+          53.56035571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 901,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Bottesford, Yaddlethorpe, 136 Moorwell Road",
+        "county": "Humberside",
+        "region": "North and Scotland",
+        "dist_km_from_stonehenge": 275.2,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.67147777,
+          53.55157066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 902,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Parwich, Shuttlestone Plantation",
+        "county": "Derbyshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 216.8,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.755,
+          53.1281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 903,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Millfield, Harthill Stanton",
+        "county": "Derbyshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 221.9,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.672332,
+          53.17266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 904,
+        "object": "Low-flanged Axe",
+        "class": "Class 3",
+        "site": "Newton Grange, Moot Low",
+        "county": "Derbyshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 211.8,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.769977626,
+          53.08295374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 905,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Bitterley/Caynham, Titterstone Clee (N side, near Dhustone Quarry)",
+        "county": "Shropshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 144.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.601584729,
+          52.3827492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 908,
+        "object": "Flat Axe",
+        "class": "Class 2",
+        "site": "Ironbridge (River Severn)",
+        "county": "Shropshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 167.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.485488286,
+          52.62722702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 918,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Harlyn Bay, St Merryn",
+        "county": "Cornwall",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 234.0,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.004734,
+          50.542254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 927,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Oddington, Thornes Farm (near), Oaklands",
+        "county": "Gloucestershire",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 82.6,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.675808746,
+          51.915927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 928,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Castle Acre?",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 242.5,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.685628596,
+          52.71571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 933,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Attenborough",
+        "county": "Nottinghamshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 196.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.221657367,
+          52.90313632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 935,
+        "object": "Flat Axe",
+        "class": "Class 2",
+        "site": "Attenborough",
+        "county": "Nottinghamshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 196.4,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.22087378,
+          52.90537857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 939,
+        "object": "Flanged Axe (diminutive)",
+        "class": "Class 5",
+        "site": "Barrington",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 166.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.036396197,
+          52.12621157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 940,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Barrow",
+        "county": "Suffolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 204.4,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.584162935,
+          52.2503658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 941,
+        "object": "Flanged Axe (diminutive)",
+        "class": "Class 5",
+        "site": "Thetford, Barrow Hill",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 221.8,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.717502669,
+          52.40609209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 946,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Shrewsbury, Battlefield",
+        "county": "Shropshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 185.4,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.720017658,
+          52.75292472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 949,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Cavenham and Icklingham (between)",
+        "county": "Suffolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 208.6,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.587824658,
+          52.31323349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 951,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Bircham Heath, Bircham",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 211.7,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.00056,
+          51.911381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 952,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Blashford, Ellingham, Amey's Pit",
+        "county": "Hampshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 35.4,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.783266923,
+          50.86185777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 953,
+        "object": "Flat Axe (diminutive)",
+        "class": "Class 2",
+        "site": "Middleton and Smerrill, Borther Low Barrow",
+        "county": "Derbyshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 218.7,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.706708304,
+          53.14447949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 954,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Bottisham",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 184.7,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.2603453,
+          52.22104413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 957,
+        "object": "Flat Axe (diminutive)",
+        "class": "Class 3",
+        "site": "Bowstridge (near)",
+        "county": "Buckinghamshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 100.5,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.561997367,
+          51.62026094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 963,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Brighstone, Brook Cliff",
+        "county": "Isle of Wight",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 64.3,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.45679346,
+          50.64991696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 965,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Buckingham Bottom, Shoreham-by-Sea",
+        "county": "Sussex",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 115.4,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.266502908,
+          50.84109324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 966,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Dover, Buckland, Union Road Brickfield (now Coombe Valley Road)",
+        "county": "Kent",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 217.4,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.291037906,
+          51.13227188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 968,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Dover, Buckland, Union Road Brickfield (now Coombe Valley Road)",
+        "county": "Kent",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 217.4,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.291037906,
+          51.13227188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 971,
+        "object": "Flanged Axe/Chisel",
+        "class": "Class 5",
+        "site": "Mildenhall, Burnt Fen",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 207.9,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.375695397,
+          52.46156519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 973,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Burwell Fen",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 192.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.30795357,
+          52.29205943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 975,
+        "object": "Flat Axe",
+        "class": "Class 2",
+        "site": "Cambridge (near)",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 176.5,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.127834597,
+          52.20552442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 976,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Cambridge (near)",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 176.5,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.127834597,
+          52.20552442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 980,
+        "object": "Low-flanged Axe",
+        "class": "Class 3",
+        "site": "Castle Rising",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 238.4,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.467850041,
+          52.79237885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 982,
+        "object": "Low-flanged Axe (diminutive)",
+        "class": "Class 4",
+        "site": "Caythorpe, Ironstone Quarry",
+        "county": "Lincolnshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 222.7,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.582645625,
+          53.03028336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 989,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Eastbourne, Combe Hill",
+        "county": "Sussex",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 150.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.231651706,
+          50.79831621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 990,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Eastbourne, Combe Hill",
+        "county": "Sussex",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 150.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.231651706,
+          50.79831621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 991,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Eastbourne, Combe Hill",
+        "county": "Sussex",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 150.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.231651706,
+          50.79831621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 992,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Eastbourne, Combe Hill",
+        "county": "Sussex",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 150.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.231651706,
+          50.79831621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 993,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Coombe Vale, Teignmouth",
+        "county": "Devon",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 137.0,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.503784641,
+          50.54861744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 995,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Corve Dale (Much Wenlock), Diddlebury",
+        "county": "Shropshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 153.7,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.715021927,
+          52.44729641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 997,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Cropthorne (Ballast Hole Gravel Pit?)",
+        "county": "Hereford and Worcs",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 103.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.008713291,
+          52.09883825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1004,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Newtimber, Saddlescombe, East Hill (?S of Drove Road)",
+        "county": "Sussex",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 119.2,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.190436994,
+          50.87793533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1005,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "East Portlemouth",
+        "county": "Devon",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 171.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.747009411,
+          50.23335559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1006,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Tilmanstone, Eastlingdown Farm",
+        "county": "Kent",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 217.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.288459087,
+          51.17642074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1007,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Whittington, Ebnal",
+        "county": "Shropshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 208.5,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.01915658,
+          52.90490629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1008,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Edwalton Hill, West Bridgford",
+        "county": "Nottinghamshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 198.2,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.118976369,
+          52.90781317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1009,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Eel Pie Island (River Thames)",
+        "county": "Greater London",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 108.5,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.324304464,
+          51.44535647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1010,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Elham, Bladbeam Farm (near)",
+        "county": "Kent",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 205.2,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.117846435,
+          51.18114112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1012,
+        "object": "Flat Axe/Chisel",
+        "class": "Class 4",
+        "site": "Feltwell",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 215.0,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.480141121,
+          52.48639688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1014,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Ightham, Crown Point, Fishponds Valley",
+        "county": "Kent",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 145.8,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.261356997,
+          51.2767452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1016,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Fordham (near)",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 198.0,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.396818028,
+          52.30827313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1017,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Fordham (near)",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 198.0,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.396818028,
+          52.30827313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1021,
+        "object": "Flat Axe",
+        "class": "Class 2",
+        "site": "Fordham (near)",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 198.0,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.396818028,
+          52.30827313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1022,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Foulsham",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 264.4,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.016449449,
+          52.78868601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1023,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Gately",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 258.7,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.912188809,
+          52.78229987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1024,
+        "object": "Flanged Axe (diminutive)",
+        "class": "Class 5",
+        "site": "Gerrans",
+        "county": "Cornwall",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 248.2,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.977808356,
+          50.1813281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1028,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Great West Fen, Hilgay",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 214.8,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.372562006,
+          52.55379517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1029,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Grunty Fen",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 192.4,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.194747361,
+          52.37514477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1031,
+        "object": "Low-flanged Axe",
+        "class": "Class 3",
+        "site": "Harthill Moor, Bradwell",
+        "county": "Derbyshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 220.6,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.66419902,
+          53.16050252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1038,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Highdown, Durnford",
+        "county": "Wiltshire",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 5.0,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.810575799,
+          51.1352696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1040,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Hockwold-cum-Wilton, Hockwold Fen",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 217.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.552659713,
+          52.46686925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1045,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Horsford Manor",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 270.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.247311231,
+          52.70164671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1049,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Jevington",
+        "county": "Sussex",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 149.5,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.21907428,
+          50.79194569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1050,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Kentisbeare, Wood Barton",
+        "county": "Devon",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 111.6,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.344491234,
+          50.87095245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1051,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Kew (River Thames)",
+        "county": "Greater London",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 111.7,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.294801664,
+          51.48404802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1052,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Newent, Kilcot Wood",
+        "county": "Gloucestershire",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 92.7,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.444866481,
+          51.91818337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1053,
+        "object": "Flat Axe",
+        "class": "Class 2",
+        "site": "Knettishall Heath",
+        "county": "Suffolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 229.7,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.883873005,
+          52.38686024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1055,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Lakenheath Fen (about 1 mile towards Lakenheath station from Undley)",
+        "county": "Suffolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 211.0,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.491301131,
+          52.42321705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1056,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Lambeth (River Thames)",
+        "county": "Greater London",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 123.4,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.12170839,
+          51.49039576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1058,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Laureate Close, Margate",
+        "county": "Kent",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 226.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.411848354,
+          51.38382286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1060,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Lavington Downs, New Copse Farm",
+        "county": "Wiltshire",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 12.6,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.961978695,
+          51.25321083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1063,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Lewes Downs",
+        "county": "Sussex",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 132.7,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.009871027,
+          50.87668113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1065,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Hockwold-cum-Wilton, Leylands Farm",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 215.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.508543188,
+          52.46781346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1066,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Liss",
+        "county": "Hampshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 66.7,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.89593716,
+          51.04163804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1068,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Jevington, Little Filching",
+        "county": "Sussex",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 149.4,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.224654872,
+          50.80488053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1069,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Pentney, Little Ketlam",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 235.0,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.569410084,
+          52.69086098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1070,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Littleport",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 204.4,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.316400588,
+          52.45374977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1071,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Bottisham Lode",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 185.8,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.247079286,
+          52.2482737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1072,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Brighton, Saltdean, Longridge Avenue",
+        "county": "Sussex",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 132.2,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.033731431,
+          50.80322712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1073,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Longstock Park (Hazeldown/Longstock Farm)",
+        "county": "Hampshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 24.5,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.479601158,
+          51.14460692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1074,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Polstead, Loss Field",
+        "county": "Suffolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 209.9,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.903202004,
+          52.00867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1077,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Maidenhead and Windsor (River Thames)",
+        "county": "River Thames",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 87.0,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.683259344,
+          51.49804468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1079,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "March",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 201.8,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.085791136,
+          52.55694849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1080,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Marston-on-Dove",
+        "county": "Derbyshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 187.6,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.652391895,
+          52.86247695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1081,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Medmenham Abbey (River Thames)",
+        "county": "Berks / Bucks",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 79.6,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.840545428,
+          51.54466396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1082,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Maidstone, Medway Brass Works",
+        "county": "Kent",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 163.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.514517761,
+          51.27162467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1083,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Methwold",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 219.2,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.497398809,
+          52.53099431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1084,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Methwold (Churchyard)",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 221.4,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.551604261,
+          52.523678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1088,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Milverton",
+        "county": "Somerset",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 101.2,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.25714438,
+          51.03320677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1089,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Milverton",
+        "county": "Somerset",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 101.2,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.25714438,
+          51.03320677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1090,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Milverton",
+        "county": "Somerset",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 101.2,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.25714438,
+          51.03320677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1091,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Totland, Moon's Hill",
+        "county": "Isle of Wight",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 60.0,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.535580445,
+          50.67134555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1092,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Totland, Moon's Hill",
+        "county": "Isle of Wight",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 60.0,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.535580445,
+          50.67134555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1093,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Totland, Moon's Hill",
+        "county": "Isle of Wight",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 60.0,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.535580445,
+          50.67134555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1094,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Totland, Moon's Hill",
+        "county": "Isle of Wight",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 60.0,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.535580445,
+          50.67134555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1095,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Totland, Moon's Hill",
+        "county": "Isle of Wight",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 60.0,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.535580445,
+          50.67134555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1096,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Totland, Moon's Hill",
+        "county": "Isle of Wight",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 60.0,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.535580445,
+          50.67134555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1097,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Totland, Moon's Hill",
+        "county": "Isle of Wight",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 60.0,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.535580445,
+          50.67134555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1098,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Mortlake (River Thames)",
+        "county": "Greater London",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 113.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.266353334,
+          51.47463848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1101,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Ashwicken Hall, Leziate (near)",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 236.6,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.519096145,
+          52.74099217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1103,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Brighton (near)",
+        "county": "Sussex",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 123.5,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.148169677,
+          50.8343288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1105,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Cholsey",
+        "county": "Oxfordshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 64.2,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.158614,
+          51.578846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1106,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Ely (near)",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 198.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.269518655,
+          52.40070789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1108,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Fritchley (near?), Crick",
+        "county": "Derbyshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 212.5,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.471536163,
+          53.0775538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1110,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Figheldean, Larkhill Recreation Ground",
+        "county": "Wiltshire",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 3.6,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.816208411,
+          51.21058639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1111,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Markham Moor (or Matlock)",
+        "county": "Derbyshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 238.4,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9201,
+          53.2501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1112,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Mildenhall (near)",
+        "county": "Suffolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 205.9,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.501417496,
+          52.34207281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1113,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Newbury (near)",
+        "county": "Berkshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 43.3,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.318518259,
+          51.40454623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1114,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Southery, Northfield House (near)",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 213.7,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.37895819,
+          52.53568302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1117,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Awre, Newyears/Viney Hill",
+        "county": "Gloucestershire",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 79.7,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.503419806,
+          51.7583567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1118,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Nocton Heath",
+        "county": "Lincolnshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 238.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.490961519,
+          53.15973368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1122,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "North End, East Grinstead",
+        "county": "Sussex",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 125.2,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.032456067,
+          51.13685985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1127,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Ockham Common (pinewoods S of Wisley Lake/Bolder More)",
+        "county": "Surrey",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 96.4,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.458292668,
+          51.31230955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1128,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Osgodby",
+        "county": "Lincolnshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 267.9,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.347536531,
+          53.41206151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1129,
+        "object": "Flat Axe (diminutive)",
+        "class": "Class 4",
+        "site": "West Overton, barrow G1",
+        "county": "Wiltshire",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 25.8,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.830218575,
+          51.41049446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1130,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Sawston Papermills",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 172.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.14825882,
+          52.12827269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1133,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Plumpton Plain",
+        "county": "Sussex",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 127.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.065362051,
+          50.89638913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1134,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Plymstock, Rocky Parks Field",
+        "county": "Devon",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 182.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.075154328,
+          50.36287258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1135,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Plymstock, Rocky Parks Field",
+        "county": "Devon",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 182.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.075154328,
+          50.36287258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1136,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Plymstock, Rocky Parks Field",
+        "county": "Devon",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 182.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.075154328,
+          50.36287258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1137,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Plymstock, Rocky Parks Field",
+        "county": "Devon",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 182.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.075154328,
+          50.36287258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1138,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Plymstock, Rocky Parks Field",
+        "county": "Devon",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 182.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.075154328,
+          50.36287258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1139,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Plymstock, Rocky Parks Field",
+        "county": "Devon",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 182.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.075154328,
+          50.36287258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1140,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Plymstock, Rocky Parks Field",
+        "county": "Devon",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 182.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.075154328,
+          50.36287258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1141,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Plymstock, Rocky Parks Field",
+        "county": "Devon",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 182.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.075154328,
+          50.36287258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1142,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Plymstock, Rocky Parks Field",
+        "county": "Devon",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 182.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.075154328,
+          50.36287258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1143,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Plymstock, Rocky Parks Field",
+        "county": "Devon",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 182.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.075154328,
+          50.36287258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1144,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Plymstock, Rocky Parks Field",
+        "county": "Devon",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 182.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.075154328,
+          50.36287258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1145,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Plymstock, Rocky Parks Field",
+        "county": "Devon",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 182.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.075154328,
+          50.36287258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1146,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Plymstock, Rocky Parks Field",
+        "county": "Devon",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 182.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.075154328,
+          50.36287258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1148,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Poor's Fen Farm",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 192.8,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.308420752,
+          52.30104237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1149,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Poslingford Hall Farm",
+        "county": "Suffolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 196.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.590429567,
+          52.10634529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1150,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Poslingford Hall Farm",
+        "county": "Suffolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 196.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.590429567,
+          52.10634529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1151,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Poslingford Hall Farm",
+        "county": "Suffolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 196.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.590429567,
+          52.10634529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1152,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Poslingford Hall Farm",
+        "county": "Suffolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 196.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.590429567,
+          52.10634529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1153,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Poslingford Hall Farm",
+        "county": "Suffolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 196.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.590429567,
+          52.10634529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1154,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Poslingford Hall Farm",
+        "county": "Suffolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 196.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.590429567,
+          52.10634529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1155,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Poslingford Hall Farm",
+        "county": "Suffolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 196.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.590429567,
+          52.10634529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1159,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Reading (near, River Thames)",
+        "county": "Berkshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 66.2,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.979625,
+          51.451542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1160,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Reepham",
+        "county": "Lincolnshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 249.8,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.434988358,
+          53.25722485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1167,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Digby, Round Hills Farm",
+        "county": "Lincolnshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 234.4,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.362819306,
+          53.08589642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1168,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Digby, Round Hills Farm",
+        "county": "Lincolnshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 234.4,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.362819306,
+          53.08589642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1169,
+        "object": "Low-flanged Axe",
+        "class": "Class 3",
+        "site": "Norwich, Mile Cross, 6 Rye Close",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 268.5,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.277910722,
+          52.65066481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1170,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Salhouse",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 278.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.409112453,
+          52.68810622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1171,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Salisbury",
+        "county": "Wiltshire",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 12.9,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.794452513,
+          51.06465447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1172,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Salisbury Plain",
+        "county": "Wiltshire",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 2.9,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.809,
+          51.155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1173,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Fordingbridge, Sandleheath",
+        "county": "Hampshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 27.0,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.830383403,
+          50.93616791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1176,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Shippea Hill, Peacock's Farm",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 206.6,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.388941625,
+          52.43432227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1177,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Sibton Abbey",
+        "county": "Suffolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 256.8,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.455760746,
+          52.27527042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1178,
+        "object": "Flat Axe",
+        "class": "Class 2",
+        "site": "Slade Quarry, Hawling",
+        "county": "Gloucestershire",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 79.5,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.906953886,
+          51.8920159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1181,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "South Kyme, Sheath Wood (east of), Park Farm",
+        "county": "Lincolnshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 234.2,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.28079256,
+          53.05907276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1191,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Stump Bottom, South Heighton",
+        "county": "Sussex",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 139.6,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.077694539,
+          50.80354389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1192,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Stuntney, Middle Fen",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 199.5,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.313106117,
+          52.39087084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1196,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Allcannings, Tan Hill",
+        "county": "Wiltshire",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 22.6,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.871353398,
+          51.37993023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1198,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Tattershall, Tattershall Carr Wood",
+        "county": "Lincolnshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 242.9,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.179396128,
+          53.11559663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1200,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Stockton, The Bake (N of Wylye Down Farm)",
+        "county": "Wiltshire",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 14.9,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.016379544,
+          51.11743729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1202,
+        "object": "Flat Axe",
+        "class": "Class 2",
+        "site": "Little Wenlock, The Wrekin",
+        "county": "Shropshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 172.9,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.526444254,
+          52.67303485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1203,
+        "object": "Flat Axe",
+        "class": "Class 3",
+        "site": "Methwold, Thorham Road",
+        "county": "Norfolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 221.4,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.541578997,
+          52.53005346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1204,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "North Owersby, Thornton Carrs",
+        "county": "Lincolnshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 268.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.460533721,
+          53.44319189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1205,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "North Owersby, Thornton Carrs",
+        "county": "Lincolnshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 268.3,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.460533721,
+          53.44319189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1207,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Bitterley/Caynham, Titterstone Clee (N side, near Dhustone Quarry)",
+        "county": "Shropshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 144.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.601584729,
+          52.3827492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1208,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Tregonjeeves Quarry, St Austell",
+        "county": "Cornwall",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 230.2,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.810001,
+          50.329438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1209,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Trenovissick, St Blazey",
+        "county": "Cornwall",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 224.2,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.727978,
+          50.344886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1210,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Trenovissick, St Blazey",
+        "county": "Cornwall",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 224.2,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.727978,
+          50.344886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1216,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Walcott, Walcott Commons",
+        "county": "Lincolnshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 235.6,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.335783207,
+          53.09001646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1217,
+        "object": "Flat Axe (diminutive)",
+        "class": "Class 2",
+        "site": "Wallingford",
+        "county": "Berkshire",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 67.5,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.127881724,
+          51.6011004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1223,
+        "object": "Flat Axe",
+        "class": "Class 4",
+        "site": "Westbere Marshes",
+        "county": "Kent",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 207.4,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.14743727,
+          51.30128311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1224,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Westbury-on-Trym, Coombe Dingle",
+        "county": "Gloucestershire",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 66.4,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.638994832,
+          51.4936652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1225,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Westbury-on-Trym, Coombe Dingle",
+        "county": "Gloucestershire",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 66.4,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.638994832,
+          51.4936652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1226,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Westbury-on-Trym, Coombe Dingle",
+        "county": "Gloucestershire",
+        "region": "Southwestern England",
+        "dist_km_from_stonehenge": 66.4,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.638994832,
+          51.4936652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1227,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Weybridge (River Thames)",
+        "county": "Surrey",
+        "region": "Central England",
+        "dist_km_from_stonehenge": 97.8,
+        "near_stonehenge": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.456792403,
+          51.37838404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1230,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Whittlesey Mere",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 193.1,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.120591124,
+          52.56040512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1231,
+        "object": "Low-flanged Axe",
+        "class": "Class 4",
+        "site": "Wicken Fen",
+        "county": "Cambridgeshire",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 191.9,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.2653787,
+          52.31986002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "artefact_id": 1233,
+        "object": "Flanged Axe",
+        "class": "Class 5",
+        "site": "Mildenhall, Wilde Street",
+        "county": "Suffolk",
+        "region": "Eastern England",
+        "dist_km_from_stonehenge": 208.5,
+        "near_stonehenge": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.502790449,
+          52.37936183
+        ]
+      }
+    }
+  ],
+  "stonehenge": {
+    "lat": 51.1789,
+    "lon": -1.8262
+  },
+  "near_radius_km": 100.0
+}

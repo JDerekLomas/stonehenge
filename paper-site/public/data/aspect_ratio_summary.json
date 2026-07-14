@@ -1,0 +1,20 @@
+{
+  "n_axes": 124,
+  "n_carvings": 41,
+  "axe_ar_mean": 2.705035663064516,
+  "axe_ar_sd": 0.4177246918479751,
+  "carving_ar_mean": 1.757390243902439,
+  "carving_ar_sd": 0.7583292572120919,
+  "mean_difference": -0.9476454191620769,
+  "bootstrap_95CI": [
+    -1.1680447534755116,
+    -0.6813363897527047
+  ],
+  "cohens_d": -1.531899018389883,
+  "t_pvalue": 1.0801277206732436e-09,
+  "mannwhitney_pvalue": 2.1583774463993397e-15,
+  "ks_pvalue": 2.002781768224359e-16,
+  "carvings_inside_axe_range": 11,
+  "carvings_below_axe_range": 28,
+  "carvings_below_pct": 68.29268292682927
+}

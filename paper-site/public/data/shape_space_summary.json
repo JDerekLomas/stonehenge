@@ -1,0 +1,29 @@
+{
+  "n_axes": 124,
+  "n_carvings": 41,
+  "features_used": [
+    "circularity",
+    "aspect_ratio",
+    "roundness",
+    "solidity"
+  ],
+  "axe_centroid": [
+    0.4900266734677419,
+    2.705035663064516,
+    0.37905420532258066,
+    0.7868385974193548
+  ],
+  "axe_mean_mahal": 1.722316139817201,
+  "carving_mean_mahal": 10.956959280154228,
+  "carvings_inside_95_pct": 14.634146341463415,
+  "carvings_inside_99_pct": 14.634146341463415,
+  "axes_inside_95_pct": 90.3225806451613,
+  "mann_whitney_U": 4921.0,
+  "mann_whitney_p": 1.4980743341958682e-19,
+  "univariate_qFDR": {
+    "circularity": 0.25729631053583446,
+    "aspect_ratio": 2.160255441346487e-09,
+    "roundness": 6.552730781535623e-11,
+    "solidity": 9.90842454397282e-07
+  }
+}

@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+paper-site/node_modules/
+paper-site/.next/
+paper-site/.vercel/
+data/muscaria_corpus/images/
