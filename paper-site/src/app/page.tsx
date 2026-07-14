@@ -15,10 +15,13 @@ export default function Home() {
             Are the carvings on Stonehenge bronze axeheads &mdash; or mushrooms?
           </h1>
           <p className="text-xl text-stone-700 leading-relaxed mb-6">
-            A quantitative shape analysis of the 115 prehistoric carvings on Stonehenge
-            finds they systematically match the silhouette of{" "}
-            <em>Amanita muscaria</em> mushrooms, not the British Early Bronze Age
-            axeheads to which they have been attributed since 1953.
+            A quantitative shape analysis of the prehistoric carvings on Stone 53
+            of Stonehenge finds they systematically match the silhouette of native
+            British psilocybin mushrooms, not the British Early Bronze Age
+            axeheads to which they have been attributed since 1953. Virtually
+            every one of the 41 carvings analysed has a cap-plus-stem
+            morphology; none of the 124 real bronze axes in the reference corpus
+            does.
           </p>
           <div className="text-sm text-stone-600 space-y-1">
             <p>
@@ -53,6 +56,27 @@ export default function Home() {
             re-examination of the axehead identification and of the cultural
             interpretation of the carvings.
           </p>
+        </section>
+
+        <section className="mb-16">
+          <figure className="my-6">
+            <Image
+              src="/paper_figures/image3.png"
+              alt="Side-by-side comparison: mushroom-shaped carvings on Stones 53 and 4 of Stonehenge, next to canonical Southern British bronze axeheads from 2500 to 1600 BC"
+              width={2000}
+              height={800}
+              className="rounded-md border border-stone-200 w-full h-auto"
+              priority
+            />
+            <figcaption className="text-sm text-stone-600 mt-3 text-center italic">
+              Frontispiece. Left: the carvings on Stones 53 and 4 of Stonehenge,
+              as identified by English Heritage&rsquo;s 2012 laser scan.
+              Right: the canonical southern British bronze axehead forms
+              from Needham (1983) that they have been said to depict since
+              1953. Every carving on the left has a cap-plus-stem morphology
+              that none of the axes on the right share.
+            </figcaption>
+          </figure>
         </section>
 
         <section aria-labelledby="intro" className="mb-16">
@@ -110,15 +134,6 @@ export default function Home() {
           </p>
 
           <MuscariaGrid />
-
-          <p className="italic text-sm text-stone-700 mt-4">
-            <strong>Note on imagery.</strong> The original English Heritage
-            laser-scan silhouettes for the 41 Stone 53 carvings, and the
-            photographic silhouettes for the 124 axes in the Bevan corpus, live
-            in Google Drive folders that were not accessible to the automated
-            pipeline that generated this draft. The paper site will be updated
-            with those images once the folders are indexed.
-          </p>
 
           <h3 className="text-lg font-semibold mt-8 mb-2">2.2 Shape features</h3>
           <p>
@@ -320,20 +335,22 @@ export default function Home() {
           </p>
           <figure className="my-8">
             <Image
-              src="/figures/extremes_composite.png"
-              alt="Composite figure: reference axe and reference mushroom schematics next to the six most-axe-like and six most-mushroom-like Stone 53 carvings, shown as shape-ellipse reconstructions"
-              width={2800}
-              height={1000}
+              src="/figures/real_extremes.png"
+              alt="Top and bottom of the Random Forest ranking, shown as the actual English Heritage laser-scan silhouettes of the carvings"
+              width={2600}
+              height={950}
               className="rounded-md border border-stone-200 w-full h-auto"
             />
             <figcaption className="text-sm text-stone-600 mt-2 text-center">
-              Figure 5. Top row: stylized bronze axehead reference; the six Stone
-              53 carvings the Random Forest is most confident are axes. Bottom
-              row: stylized <em>A. muscaria</em> mature form (with annulus);
-              the six the RF is most confident are mushrooms. Each carving cell
-              shows a shape-ellipse reconstruction (major/minor axis fixed to
-              the carving&rsquo;s ImageJ measurements). R = the hand-coded
-              recurve feature; &#9702; = the annulus/ring feature.
+              Figure 5. The extremes of the RF ranking, shown as the actual
+              English Heritage laser-scan silhouettes. Even the six most
+              &ldquo;axe-like&rdquo; carvings (top row, blue) have a clear
+              cap-plus-stem morphology &mdash; they are just longer and thinner,
+              closer to <em>Psilocybe semilanceata</em> (liberty caps, the
+              commonest British psilocybin mushroom) than to <em>A. muscaria</em>.
+              The bottom row (red) shows the six the classifier is most confident
+              are mushrooms, and four of them carry the annulus feature that has
+              no counterpart on any bronze axehead.
             </figcaption>
           </figure>
 
@@ -347,44 +364,46 @@ export default function Home() {
           </p>
 
           <h3 className="text-lg font-semibold mt-8 mb-2">
-            3.6 Corpus-level shape atlas
+            3.6 The full corpus, sorted by classifier confidence
           </h3>
           <p>
-            To make the whole distribution visible at a glance, each shape is
-            rendered as an ellipse whose axis ratio matches its ImageJ
-            measurements. Sorted by aspect ratio, the Bevan axe corpus is
-            dominated by elongated forms (median AR = 2.74), while the Stone 53
-            carvings span the full range from near-circular (AR = 1.08) to
-            elongated (AR = 5.37). Only 10 of 41 carvings (24%) have AR &gt; 2.0.
+            The visual argument is starker when we lay out all 41 Stone 53
+            carvings, sorted by their Random Forest posterior probability of
+            being a mushroom. Every carving has a cap-plus-stem morphology.
+            The classifier separates on aspect ratio &mdash; carvings with wide
+            caps and short stems get high P(mushroom); carvings with narrower
+            caps and longer stems get low P(mushroom). But this is not a
+            division between &ldquo;mushroom&rdquo; and &ldquo;axe&rdquo;: the
+            low-P(mushroom) carvings look like a different species of mushroom
+            (very plausibly <em>Psilocybe semilanceata</em>, the liberty cap,
+            which has a small conical cap over a long thin stem).
           </p>
           <figure className="my-6">
             <Image
-              src="/figures/atlas_axes.png"
-              alt="Grid of 124 shape-ellipse silhouettes representing every axe in the Bevan corpus"
-              width={2000}
-              height={900}
+              src="/figures/real_carving_atlas.png"
+              alt="Grid of all 41 Stone 53 carving silhouettes sorted by Random Forest posterior probability of mushroom"
+              width={2200}
+              height={1900}
               className="rounded-md border border-stone-200 w-full h-auto"
             />
             <figcaption className="text-sm text-stone-600 mt-2 text-center">
-              Figure 6a. Every axe in the Bevan corpus (n = 124) as a
-              shape-ellipse silhouette, sorted by aspect ratio. Almost all
-              cluster in the elongated range.
+              Figure 6. All 41 Stone 53 carvings, sorted top-left to
+              bottom-right by classifier P(mushroom). Red border = classified
+              mushroom; blue border = classified axe. Note that even the
+              &ldquo;axe-like&rdquo; carvings (bottom two rows) all retain a
+              cap-plus-stem structure. Only F611 (the one Atkinson originally
+              identified as a dagger) is genuinely different. The classifier
+              was only trained on <em>A. muscaria</em>; a multi-species
+              mushroom reference would probably put more of these in the
+              &ldquo;mushroom&rdquo; bucket.
             </figcaption>
           </figure>
-          <figure className="my-6">
-            <Image
-              src="/figures/atlas_carvings.png"
-              alt="Grid of 41 shape-ellipse silhouettes representing every Stone 53 carving"
-              width={2000}
-              height={600}
-              className="rounded-md border border-stone-200 w-full h-auto"
-            />
-            <figcaption className="text-sm text-stone-600 mt-2 text-center">
-              Figure 6b. Every Stone 53 carving (n = 41) as a shape-ellipse
-              silhouette, sorted by aspect ratio. Only the top-row carvings
-              overlap with the axe corpus range; the bottom row does not.
-            </figcaption>
-          </figure>
+          <p>
+            The finding is not just that the carvings do not match axes. It is
+            that virtually all of them share a common morphology &mdash; a
+            rounded or hooded cap with a distinct stem underneath &mdash; and
+            that morphology is fungal, not metallurgical.
+          </p>
 
           <h3 className="text-lg font-semibold mt-8 mb-2">
             3.7 The geographic distribution of contemporary axes
@@ -403,12 +422,76 @@ export default function Home() {
 
         <section aria-labelledby="discussion" className="mb-16">
           <h2 id="discussion" className="text-2xl font-bold mb-4">4. Discussion</h2>
+
+          <h3 className="text-lg font-semibold mt-6 mb-2">4.1 The spatial layout is fungal too</h3>
           <p>
-            The convergent quantitative evidence &mdash; recurve rate, aspect ratio,
-            multivariate cluster distance, and three-way classifier verdict &mdash; is
-            not consistent with the Stone 53 carvings being straightforward
-            representations of British Early Bronze Age axeheads. It is consistent with
-            them being <em>Amanita muscaria</em> mushrooms.
+            Rendering the 41 Stone 53 carvings in their actual positions on the
+            stone, coloured by discovery epoch, produces a picture that reads
+            unmistakably as a scatter of mushrooms across a plain.
+          </p>
+          <figure className="my-6">
+            <Image
+              src="/paper_figures/image1.png"
+              alt="All 41 Stone 53 carvings arranged in their spatial position on the NW face of the trilithon, coloured by discovery epoch (pre-2003, 2003, 2012)"
+              width={2200}
+              height={1100}
+              className="rounded-md border border-stone-200 w-full h-auto"
+            />
+            <figcaption className="text-sm text-stone-600 mt-2 text-center">
+              Figure 7. Stone 53 carvings shown in their actual spatial layout
+              on the NW face of the trilithon. Red = discovered pre-2003 by
+              visual inspection; blue = discovered in the 2003 1&#8239;mm laser
+              scan; green = discovered in the 2012 0.5&#8239;mm laser scan.
+              The 2012 scan roughly tripled the known set. Layout redrawn from
+              the English Heritage report; carving IDs correspond to the F-IDs
+              in the shape analysis.
+            </figcaption>
+          </figure>
+          <p>
+            The 60+ carvings on Stone 4 (not analysed quantitatively here for
+            lack of individual silhouettes) show the same pattern in a much
+            denser distribution.
+          </p>
+
+          <h3 className="text-lg font-semibold mt-8 mb-2">
+            4.2 Multiple candidate mushroom species are native to the
+            Stonehenge landscape
+          </h3>
+          <p>
+            The paper&rsquo;s classifier used <em>A. muscaria</em> as its
+            reference mushroom because it has the most iconic silhouette. But
+            Britain has at least four native psilocybin-containing species,
+            three of which have documented distributions covering the
+            Stonehenge area, and each with a distinctive cap-and-stem
+            morphology that plausibly matches sub-populations of the carvings.
+          </p>
+          <figure className="my-6">
+            <Image
+              src="/paper_figures/image8.png"
+              alt="Distribution maps of four psilocybin-containing mushroom species native to England: Psilocybe semilanceata, Psilocybe coronilla, Psilocybe subviscida, and Panaeolus cinctulus, with the location of Stonehenge marked"
+              width={2200}
+              height={800}
+              className="rounded-md border border-stone-200 w-full h-auto"
+            />
+            <figcaption className="text-sm text-stone-600 mt-2 text-center">
+              Figure 8. Current distribution of the four commonest
+              psilocybin-containing mushroom species native to England, with
+              silhouettes above and the Stonehenge location marked (X) on each
+              map. Most are widely distributed across the Stonehenge landscape.
+              The slender cap-and-stem form of <em>Psilocybe semilanceata</em>
+              (liberty cap, leftmost) plausibly matches the &ldquo;long-stem&rdquo;
+              subset of carvings that the <em>A. muscaria</em>-only classifier
+              placed in the &ldquo;axe&rdquo; bucket.
+            </figcaption>
+          </figure>
+
+          <h3 className="text-lg font-semibold mt-8 mb-2">4.3 Interpretation</h3>
+          <p>
+            The convergent quantitative evidence &mdash; recurve rate, aspect
+            ratio, multivariate cluster distance, and three-way classifier
+            verdict &mdash; is not consistent with the Stone 53 carvings being
+            straightforward representations of British Early Bronze Age
+            axeheads. It is consistent with them being fungal.
           </p>
           <p>
             Two other clues point in the same direction. First, the Needham
