@@ -19,22 +19,23 @@ export function MuscariaGrid() {
         {sample.map((f) => (
           <div
             key={f}
-            className="aspect-square bg-stone-900 rounded overflow-hidden border border-stone-300"
+            className="aspect-square bg-white rounded overflow-hidden border border-stone-300"
           >
             <Image
               src={`/masks/${f}`}
               alt={`A. muscaria silhouette from iNaturalist observation`}
-              width={200}
-              height={200}
-              className="w-full h-full object-contain invert"
+              width={240}
+              height={240}
+              className="w-full h-full object-contain"
             />
           </div>
         ))}
       </div>
       <p className="text-sm text-stone-600 mt-3 text-center">
-        Sample of the {" "}
-        <em>A. muscaria</em> silhouette corpus (12 of {files.length || 55} shown)
-        after automated color-threshold segmentation and convex-hull filling.
+        Sample of the <em>A. muscaria</em> silhouette corpus
+        ({sample.length} of 55 shown, sorted by silhouette area) after
+        automated color-threshold segmentation, convex-hull filling, and
+        bounding-box normalization.
       </p>
     </div>
   );

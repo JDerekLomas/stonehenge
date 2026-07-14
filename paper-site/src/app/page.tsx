@@ -111,6 +111,15 @@ export default function Home() {
 
           <MuscariaGrid />
 
+          <p className="italic text-sm text-stone-700 mt-4">
+            <strong>Note on imagery.</strong> The original English Heritage
+            laser-scan silhouettes for the 41 Stone 53 carvings, and the
+            photographic silhouettes for the 124 axes in the Bevan corpus, live
+            in Google Drive folders that were not accessible to the automated
+            pipeline that generated this draft. The paper site will be updated
+            with those images once the folders are indexed.
+          </p>
+
           <h3 className="text-lg font-semibold mt-8 mb-2">2.2 Shape features</h3>
           <p>
             The comparison uses the four canonical dimensionless features returned by
@@ -295,7 +304,90 @@ export default function Home() {
           </figure>
 
           <h3 className="text-lg font-semibold mt-8 mb-2">
-            3.5 The geographic distribution of contemporary axes
+            3.5 Which specific carvings look like which class?
+          </h3>
+          <p>
+            The Random Forest gives a per-carving posterior probability that
+            the shape is a mushroom. Sorting Stone 53 carvings by that posterior
+            produces two well-separated extremes: six carvings with
+            P(mus) &ge; 0.99 (rounder than any axe in the reference set) and six
+            with P(mus) &le; 0.25 (long and narrow, indistinguishable from
+            typical Class 5 flanged axes). Four of the six most-mushroom-like
+            carvings also carry the &ldquo;annulus&rdquo; (ring) feature in the
+            2021 hand-coding &mdash; a feature that has no functional
+            counterpart on a bronze axehead but is diagnostic of a mature{" "}
+            <em>Amanita</em> stem. None of the six most-axe-like carvings do.
+          </p>
+          <figure className="my-8">
+            <Image
+              src="/figures/extremes_composite.png"
+              alt="Composite figure: reference axe and reference mushroom schematics next to the six most-axe-like and six most-mushroom-like Stone 53 carvings, shown as shape-ellipse reconstructions"
+              width={2800}
+              height={1000}
+              className="rounded-md border border-stone-200 w-full h-auto"
+            />
+            <figcaption className="text-sm text-stone-600 mt-2 text-center">
+              Figure 5. Top row: stylized bronze axehead reference; the six Stone
+              53 carvings the Random Forest is most confident are axes. Bottom
+              row: stylized <em>A. muscaria</em> mature form (with annulus);
+              the six the RF is most confident are mushrooms. Each carving cell
+              shows a shape-ellipse reconstruction (major/minor axis fixed to
+              the carving&rsquo;s ImageJ measurements). R = the hand-coded
+              recurve feature; &#9702; = the annulus/ring feature.
+            </figcaption>
+          </figure>
+
+          <p>
+            Read the two rows: the six axe-like carvings are all elongated
+            ellipses of the sort we would expect if they were meant to depict
+            blades. The six mushroom-like carvings are near-circular and four
+            of them carry the ring feature. If the entire corpus were
+            genuinely all attempts to depict axes, the bottom row would be
+            hard to explain.
+          </p>
+
+          <h3 className="text-lg font-semibold mt-8 mb-2">
+            3.6 Corpus-level shape atlas
+          </h3>
+          <p>
+            To make the whole distribution visible at a glance, each shape is
+            rendered as an ellipse whose axis ratio matches its ImageJ
+            measurements. Sorted by aspect ratio, the Bevan axe corpus is
+            dominated by elongated forms (median AR = 2.74), while the Stone 53
+            carvings span the full range from near-circular (AR = 1.08) to
+            elongated (AR = 5.37). Only 10 of 41 carvings (24%) have AR &gt; 2.0.
+          </p>
+          <figure className="my-6">
+            <Image
+              src="/figures/atlas_axes.png"
+              alt="Grid of 124 shape-ellipse silhouettes representing every axe in the Bevan corpus"
+              width={2000}
+              height={900}
+              className="rounded-md border border-stone-200 w-full h-auto"
+            />
+            <figcaption className="text-sm text-stone-600 mt-2 text-center">
+              Figure 6a. Every axe in the Bevan corpus (n = 124) as a
+              shape-ellipse silhouette, sorted by aspect ratio. Almost all
+              cluster in the elongated range.
+            </figcaption>
+          </figure>
+          <figure className="my-6">
+            <Image
+              src="/figures/atlas_carvings.png"
+              alt="Grid of 41 shape-ellipse silhouettes representing every Stone 53 carving"
+              width={2000}
+              height={600}
+              className="rounded-md border border-stone-200 w-full h-auto"
+            />
+            <figcaption className="text-sm text-stone-600 mt-2 text-center">
+              Figure 6b. Every Stone 53 carving (n = 41) as a shape-ellipse
+              silhouette, sorted by aspect ratio. Only the top-row carvings
+              overlap with the axe corpus range; the bottom row does not.
+            </figcaption>
+          </figure>
+
+          <h3 className="text-lg font-semibold mt-8 mb-2">
+            3.7 The geographic distribution of contemporary axes
           </h3>
           <p>
             Even if the carvings were meant to represent axes, the local Wessex axe

@@ -1,0 +1,104 @@
+{
+  "median_axe_ar": 2.71,
+  "median_mushroom_ar": 1.6,
+  "top_mushroom": [
+    {
+      "carving_id": 630,
+      "aspect_ratio": 1.081,
+      "roundness": 0.925,
+      "recurve": false,
+      "ring": false,
+      "prob_mushroom": 1.0
+    },
+    {
+      "carving_id": 601,
+      "aspect_ratio": 1.366,
+      "roundness": 0.732,
+      "recurve": true,
+      "ring": true,
+      "prob_mushroom": 1.0
+    },
+    {
+      "carving_id": 596,
+      "aspect_ratio": 1.4,
+      "roundness": 0.714,
+      "recurve": true,
+      "ring": true,
+      "prob_mushroom": 1.0
+    },
+    {
+      "carving_id": 597,
+      "aspect_ratio": 1.085,
+      "roundness": 0.922,
+      "recurve": true,
+      "ring": false,
+      "prob_mushroom": 1.0
+    },
+    {
+      "carving_id": 621,
+      "aspect_ratio": 1.542,
+      "roundness": 0.649,
+      "recurve": false,
+      "ring": false,
+      "prob_mushroom": 0.993
+    },
+    {
+      "carving_id": 720,
+      "aspect_ratio": 1.139,
+      "roundness": 0.878,
+      "recurve": true,
+      "ring": false,
+      "prob_mushroom": 0.993
+    }
+  ],
+  "top_axe": [
+    {
+      "carving_id": 631,
+      "aspect_ratio": 2.429,
+      "roundness": 0.412,
+      "recurve": false,
+      "ring": false,
+      "prob_mushroom": 0.01
+    },
+    {
+      "carving_id": 606,
+      "aspect_ratio": 2.165,
+      "roundness": 0.462,
+      "recurve": false,
+      "ring": false,
+      "prob_mushroom": 0.013
+    },
+    {
+      "carving_id": 615,
+      "aspect_ratio": 2.346,
+      "roundness": 0.426,
+      "recurve": false,
+      "ring": false,
+      "prob_mushroom": 0.027
+    },
+    {
+      "carving_id": 610,
+      "aspect_ratio": 2.581,
+      "roundness": 0.387,
+      "recurve": false,
+      "ring": false,
+      "prob_mushroom": 0.077
+    },
+    {
+      "carving_id": 632,
+      "aspect_ratio": 2.064,
+      "roundness": 0.485,
+      "recurve": false,
+      "ring": false,
+      "prob_mushroom": 0.13
+    },
+    {
+      "carving_id": 600,
+      "aspect_ratio": 3.481,
+      "roundness": 0.287,
+      "recurve": false,
+      "ring": true,
+      "prob_mushroom": 0.247
+    }
+  ]
+}
