@@ -85,6 +85,67 @@ body {
   margin-bottom: 1.05rem;
 }
 
+/* Drop cap on the first paragraph of a story-opening section */
+.d-dropcap::first-letter {
+  font-family: var(--font-serif);
+  float: left;
+  font-size: 4.5rem;
+  line-height: 0.85;
+  padding-right: 0.5rem;
+  padding-top: 0.4rem;
+  font-weight: 600;
+  color: #0a0a0a;
+}
+
+/* Pull quote — the good scholarly one, not the marketing kind */
+.d-pullquote {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  line-height: 1.4;
+  color: #1c1917;
+  font-style: italic;
+  margin: 2rem 0;
+  padding-left: 1.5rem;
+  border-left: 3px solid var(--accent);
+  max-width: 55ch;
+}
+.d-pullquote .attr {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-style: normal;
+  margin-top: 0.6rem;
+  letter-spacing: 0.01em;
+}
+
+/* Chapter number/label */
+.d-chapter-label {
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 11px;
+  color: var(--accent);
+  font-weight: 600;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+/* Section titles that are narrative rather than clinical */
+.d-story-h2 {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 1.7rem;
+  letter-spacing: -0.015em;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  padding-top: 0;
+  border-top: none;
+  color: #0a0a0a;
+  line-height: 1.15;
+}
+
 .d-article a {
   color: var(--accent);
   text-decoration: none;
