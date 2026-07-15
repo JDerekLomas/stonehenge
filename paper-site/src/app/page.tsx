@@ -941,34 +941,67 @@ export default function Home() {
           </p>
 
           <h3 className="text-lg font-semibold mt-8 mb-2">
-            3.10.5 The Kilmartin cairns: the whole British &ldquo;axehead&rdquo; comparison set
+            3.10.5 The complete British &ldquo;EBA axehead-on-rock&rdquo; corpus is 5-6 sites
           </h3>
           <p>
-            Ri Cruin is not the only Kilmartin cairn cited as parallel
-            evidence for the Stonehenge axehead identification. The Kilmartin
-            Glen cluster (Argyll, Scotland) contains the only British
-            representational-weapon carvings other than Stonehenge, and
-            comprises three cairns whose cist slabs show putative
-            axehead carvings:
+            Abbott &amp; Anderson-Whymark (2012, p.37) state directly in
+            the discussion section of the Stonehenge Laser Scan Report:
+            <em> &ldquo;Parallels for carvings of Early Bronze Age axes and
+            daggers are few and far between, and only five certain parallels
+            can be cited.&rdquo;</em> Combined with Stonehenge itself, the
+            entire British corpus of putative Bronze Age axehead-on-rock
+            carvings is:
           </p>
-          <ul className="list-disc list-inside space-y-1 pl-2">
+          <ol className="list-decimal list-inside space-y-1 pl-2">
             <li>
-              <strong>Ri Cruin</strong> &mdash; 6 axehead-like carvings
-              analyzed here (§3.9.5). All six cluster with mushrooms rather
-              than axes in our shape space.
+              <strong>Stonehenge</strong> (Stones 3, 4, 5, 53) &mdash; 115
+              carvings; the paper being written.
             </li>
             <li>
-              <strong>Nether Largie North</strong> &mdash; a cist slab
-              carved on its underside with cup-marks and ~10 axehead-like
-              motifs. Silhouettes not analyzed here (not available in the
-              corpus); should be added for a proper Kilmartin-wide test.
+              <strong>Ri Cruin</strong> (Kilmartin, Argyll) &mdash; 6
+              axehead-like carvings analyzed here (§3.9.5). All six cluster
+              with mushrooms rather than axes in our shape space.
             </li>
             <li>
-              <strong>Nether Largie Mid</strong> &mdash; an end slab with
-              a single axehead-and-cup-mark carving, plus a &ldquo;possible
-              hafted object&rdquo; identified via digital recording.
+              <strong>Nether Largie North</strong> (Kilmartin) &mdash; cist
+              slab with cup-marks and ~10 axehead-like motifs.
             </li>
-          </ul>
+            <li>
+              <strong>Nether Largie Mid</strong> (Kilmartin) &mdash; single
+              axehead + &ldquo;possible hafted object.&rdquo;
+            </li>
+            <li>
+              <strong>Badbury Barrow</strong> (Wimborne Minster, Dorset)
+              &mdash; sandstone slab excavated in the early 19th century;
+              2 hilted daggers, 2 unhafted axeheads, and 5 cup marks
+              (Piggott 1939; Grinsell 1959; Lawson 2007).
+            </li>
+            <li>
+              <strong>Calderstones</strong> (Liverpool) &mdash; single
+              &ldquo;possible dagger or halberd&rdquo; carved in outline
+              only (Nash and Stanford 2009, 2010).
+            </li>
+          </ol>
+          <p>
+            That is the total. Six sites. Of the two we have processed
+            (Stonehenge and Ri Cruin), both fail the axe-shape test at
+            high confidence. If the same failure pattern held at the
+            other four, the entire British Bronze Age &ldquo;axehead
+            rock art&rdquo; category would evaporate.
+          </p>
+          <p>
+            Note also the report&rsquo;s dating claim: the Stonehenge
+            carvings <em>&ldquo;may have been all cut within a comparatively
+            short period of time, around c.1750&ndash;1500 cal BC&rdquo;</em>
+            (Abbott &amp; Anderson-Whymark 2012, p.37). If the carvings
+            were made in a single event, or a short campaign, the
+            behavioural question is not &ldquo;why did people carve
+            axeheads on Stonehenge over centuries&rdquo; but &ldquo;why did
+            a specific group carve 115 identical mushroom-shaped forms in
+            a comparatively short period around 1650 BC.&rdquo; That is a
+            distinctly different question, and one much easier to answer
+            in ritualized-ingestion terms than in axehead-veneration terms.
+          </p>
           <p>
             The <strong>Ri Cruin &ldquo;halberd pillar&rdquo;</strong> is
             particularly telling. The same physical carving has been
