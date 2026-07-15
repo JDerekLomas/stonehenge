@@ -10,30 +10,27 @@ export default function Home() {
       <header className="border-b border-stone-200 bg-white">
         <div className="max-w-5xl mx-auto px-6 pt-16 pb-12">
           <p className="d-byline uppercase tracking-widest text-xs mb-6">
-            Working paper &middot; Draft &middot; 2026
+            Draft &middot; 2026
           </p>
-          <h1 className="d-title text-4xl md:text-6xl mb-8" style={{ maxWidth: "22ch" }}>
-            The Stonehenge axeheads that never were
+          <h1 className="d-title text-4xl md:text-5xl mb-6" style={{ maxWidth: "24ch" }}>
+            Shape analysis of the Stonehenge carvings
           </h1>
-          <p className="text-xl leading-relaxed mb-8" style={{ maxWidth: "68ch", color: "#3f3f3f" }}>
-            Late on a July afternoon in 1953, an archaeologist waiting for
-            the right sun angle at Stonehenge saw the outline of a bronze
-            axehead in his camera&rsquo;s ground glass. That identification
-            became fact. Seventy years later, laser scanning revealed 115
-            such carvings across four stones &mdash; doubling the entire
-            British record of Bronze Age &ldquo;axeheads on rock.&rdquo;
-            No one, in seven decades, ever measured whether the shapes
-            actually match real bronze axeheads. This paper does. Twelve
-            independent statistical analyses agree: they do not.
-            <em style={{ color: "#0a0a0a" }}> Whatever the Stonehenge carvings
-            depict, it is not axeheads.</em>
+          <p className="text-lg leading-relaxed mb-6" style={{ maxWidth: "68ch", color: "#3f3f3f" }}>
+            The 115 prehistoric carvings on Stonehenge have been described
+            as bronze axeheads since Atkinson&rsquo;s 1953 identification.
+            The identification has not previously been tested against real
+            axeheads. Using shape descriptors, classifiers, and an
+            independent perceptual embedding, this paper finds that the
+            carvings do not match the shape distribution of British Early
+            Bronze Age axeheads. They do match native British mushroom
+            silhouettes.
           </p>
           <div className="d-byline space-y-1">
             <p>
               <span style={{ color: "#0a0a0a", fontWeight: 600 }}>J. Derek Lomas</span>
               {" "}&middot; TU Delft
             </p>
-            <p>Draft last updated {new Date().toISOString().slice(0, 10)} &middot;{" "}
+            <p>Last updated {new Date().toISOString().slice(0, 10)} &middot;{" "}
               <a href="https://github.com/JDerekLomas/stonehenge"
                  className="underline"
                  style={{ color: "#b91c1c", borderColor: "rgba(185,28,28,0.35)" }}
@@ -46,57 +43,25 @@ export default function Home() {
       </header>
 
       <main className="max-w-3xl mx-auto px-6 py-16 d-article">
-        <section aria-labelledby="prologue" className="mb-16">
-          <span className="d-chapter-label">Prologue</span>
-          <h2 id="prologue" className="d-story-h2">
-            &ldquo;One only sees what one is expecting to see&rdquo;
-          </h2>
-          <p className="d-dropcap">
-            It was five in the afternoon on 10 July 1953, and Richard Atkinson was
-            waiting for the sun. He had spent the day photographing the
-            worn 17th-century graffito <em>&ldquo;IOH:LVD:D&Sigma;
-            F&Sigma;RR&Sigma;&rdquo;</em> on Stone 53 &mdash; the north-west
-            face of one of Stonehenge&rsquo;s Great Trilithons &mdash; and
-            was waiting for the light to slant far enough that the shallow
-            marks would throw shadow. Looking not at the stone but at its
-            image in the ground glass of his reflex camera, he suddenly
-            saw the outline of a dagger, and beside it that of an axe.
+        <section aria-labelledby="intro" className="mb-14">
+          <h2 id="intro" className="text-2xl font-bold mb-4">1. Introduction</h2>
+          <p>
+            In July 1953, Richard Atkinson identified two carvings on Stone
+            53 of Stonehenge as a bronze axehead and a dagger. The
+            interpretation was extended over subsequent decades to a
+            growing set of similar carvings on Stones 3, 4, and 5. Abbott
+            &amp; Anderson-Whymark&rsquo;s 2012 laser scan brought the
+            total to 115.
           </p>
           <p>
-            By the following month, he had counted 14 axes on the same face.
-            R.S. Newall soon found 25 more on Stone 4. Crawford located
-            further daggers on Stone 23. The identification &mdash; that
-            these carvings were representations of blade-up bronze axeheads,
-            of a type manufactured in southern Britain around 1650&ndash;1400
-            BC &mdash; entered the literature and never left. In 2012,
-            English Heritage&rsquo;s laser scan of every stone brought the
-            count to 115, doubling the entire British record of Early Bronze
-            Age &ldquo;axeheads on rock.&rdquo; None of the new discoveries
-            were tested against the identification. They inherited it.
-          </p>
-          <p>
-            Three years after his discovery, Atkinson wrote a sentence about
-            the axeheads that is, in hindsight, almost impossible to read
-            without irony:
-          </p>
-          <blockquote className="d-pullquote">
-            The carvings present us with a remarkable object-lesson in the
-            fallibility of human observation… during the past three centuries
-            hundreds of thousands of visitors must have looked at [the carvings]
-            without actually seeing [them]. Nothing could demonstrate better
-            that one only sees what one is expecting to see.
-            <span className="attr">&mdash; R. J. C. Atkinson, <em>Stonehenge</em>, 1956</span>
-          </blockquote>
-          <p>
-            He meant the sentence as a warning about the visitors, not about
-            himself. But the warning is symmetrical. This paper asks a
-            question that has never been asked in the seventy years since
-            Atkinson looked into his camera&rsquo;s ground glass:
-            <em style={{ color: "#0a0a0a" }}> when you actually measure the
-            shapes of these carvings, do they look like bronze axeheads?</em>
-          </p>
-          <p>
-            The answer, by twelve independent statistical tests, is no.
+            The identification has not, in the seven decades since, been
+            tested quantitatively against a corpus of real bronze
+            axeheads. This paper does that. It compares shape descriptors
+            of the carvings to descriptors of 356 British Early Bronze
+            Age axeheads (Bevan corpus) and 40 mushroom silhouettes,
+            using standard classifiers and an independent perceptual
+            embedding. The carvings do not match the axes. They match
+            mushroom silhouettes.
           </p>
         </section>
 
@@ -153,89 +118,35 @@ export default function Home() {
           </figure>
         </section>
 
-        <section aria-labelledby="intro" className="mb-16">
-          <span className="d-chapter-label">Chapter 1</span>
-          <h2 id="intro" className="d-story-h2">
-            The identification that never got tested
-          </h2>
+        <section aria-labelledby="context" className="mb-14">
+          <h3 className="text-lg font-semibold mt-6 mb-3">1.1 Prior identifications and their strength</h3>
           <p>
-            An identification, in archaeology, is a fragile thing. Someone
-            with authority looks at a weathered surface and says: this
-            is a bronze axehead. If no one contradicts them, the sentence
-            hardens. New surveys inherit it. New carvings, when they
-            are found, are assumed to be of the same kind. Seventy years
-            later, the description in every guidebook, every textbook,
-            every UNESCO citation reads as fact.
+            Atkinson (1956) recorded 15 carvings across Stones 3, 4, and 53
+            and identified them as blade-up bronze axeheads dating to
+            c.1650&ndash;1400 BC. Subsequent workers (Newall,
+            Crawford, Cleal, Walker &amp; Montague 1995; Lawson 2007;
+            Abbott &amp; Anderson-Whymark 2012) confirmed the identification
+            and added new carvings as they were discovered. The 2012 laser
+            scan brought the total to 115. The word &ldquo;axehead&rdquo;
+            appears in the Abbott &amp; Anderson-Whymark report 108 times;
+            none of the 115 shapes was compared to a real axehead corpus.
           </p>
           <p>
-            The Stonehenge axehead identification passed through this
-            hardening process. Atkinson published in 1956. Newall
-            confirmed. Crawford wrote it up in <em>Antiquity</em>.
-            Cleal, Walker &amp; Montague (1995) put it in the definitive
-            excavation volume. Lawson (2007) put it in the Wessex Bronze
-            Age monograph. Abbott &amp; Anderson-Whymark&rsquo;s{" "}
-            <a href="/data/abbott_anderson-whymark_2012.pdf"
-               target="_blank" rel="noopener noreferrer">
-              2012 laser-scan report
-            </a>{" "}
-            for English Heritage &mdash; the definitive modern record &mdash;
-            catalogues 115 axehead carvings across Stones 3, 4, 5, and 53.
-            The word &ldquo;axehead&rdquo; appears in that report 108 times.
-            Not once is any of the 115 shapes compared to a database of real
-            bronze axeheads.
-          </p>
-          <p>
-            The report itself contains three clues that the shape-matching
-            has never been done. First, it notes that Newall&rsquo;s 1953
-            &ldquo;quadrilateral&rdquo; carving on Stone 57 &mdash; originally
-            described as a &ldquo;Breton-style shield-escutcheon or
-            box-goddess symbol&rdquo; &mdash; is <em>not a carving at all</em>;
-            it is pick-dressing. Second, it observes that Stone 14 carries
-            a natural foot-shaped depression, F.710, long identified in
-            folklore as &ldquo;the devil&rsquo;s footprint,&rdquo; showing
-            that specific pareidolic identifications have a history at the
-            monument. Third, and most striking:
-          </p>
-          <blockquote className="d-pullquote">
-            Parallels for carvings of Early Bronze Age axes and daggers are
-            few and far between, and only five certain parallels can be cited.
-            <span className="attr">
-              &mdash; Abbott &amp; Anderson-Whymark 2012, p. 37
-            </span>
-          </blockquote>
-          <p>
-            Five. Stonehenge&rsquo;s 115 carvings, if the identification
-            is right, more than double the entire British corpus of
-            Bronze Age &ldquo;axeheads on rock.&rdquo; A single site is
-            claimed to hold most of what exists.
-          </p>
-          <p>
-            This paper measures the shapes.
+            The identification is doubly consequential. First, if correct,
+            Stonehenge&rsquo;s 115 carvings would more than double the
+            entire British Bronze Age &ldquo;axehead-on-rock&rdquo; record:
+            Abbott &amp; Anderson-Whymark (2012, p.37) note that
+            &ldquo;only five certain parallels can be cited&rdquo; for the
+            category. Second, the same report documents at least two other
+            carvings that had to be re-identified: the &ldquo;quadrilateral
+            symbol&rdquo; on Stone 57, originally reported as a Breton
+            shield-escutcheon, turned out under laser scan to be
+            pick-dressing, not a carving at all.
           </p>
         </section>
 
-        <section aria-labelledby="methods" className="mb-16">
-          <span className="d-chapter-label">Chapter 2</span>
-          <h2 id="methods" className="d-story-h2">Three corpora and a question</h2>
-          <p>
-            The question we want to answer is simple: does a Stonehenge
-            carving, treated as a silhouette, look more like a real
-            bronze axehead or more like something else? To answer it we
-            need three things &mdash; the carvings, a reference set of
-            what real bronze axeheads look like, and at least one
-            candidate alternative to test against. The alternative is
-            <em> Amanita muscaria</em>: the red-and-white fly agaric
-            mushroom, chosen because it has an unmistakable silhouette
-            and because it is the most iconic of the psilocybin-bearing
-            mushrooms native to Britain.
-          </p>
-          <p>
-            The methodology below is spelled out at length because the
-            central claim &mdash; that a 70-year-old archaeological
-            identification is wrong &mdash; deserves a pipeline you can
-            audit line by line. Readers who trust the setup can skip
-            straight to <a href="#results">Chapter&nbsp;3</a>.
-          </p>
+        <section aria-labelledby="methods" className="mb-14">
+          <h2 id="methods" className="text-2xl font-bold mb-4">2. Data and methods</h2>
           <h3 className="text-lg font-semibold mt-6 mb-2">2.1 Reference corpora</h3>
           <p>
             <span className="font-semibold">Axes.</span> 124 British Early Bronze Age
@@ -392,18 +303,12 @@ export default function Home() {
           </p>
         </section>
 
-        <section aria-labelledby="results" className="mb-16">
-          <span className="d-chapter-label">Chapter 3</span>
-          <h2 id="results" className="d-story-h2">Twelve ways of asking the same question</h2>
+        <section aria-labelledby="results" className="mb-14">
+          <h2 id="results" className="text-2xl font-bold mb-4">3. Results</h2>
           <p>
-            No single statistical test can undo a seventy-year-old
-            identification. But twelve tests, each using a different
-            feature set, a different reference corpus, a different
-            classifier, or a completely independent methodology, and each
-            arriving at the same verdict &mdash; that is another matter.
-            What follows is those twelve tests, in the order we ran them.
-            The reader should watch for a pattern: no matter how the
-            question is asked, the answer comes back the same.
+            Twelve tests follow, each using a different feature set,
+            reference corpus, classifier, or methodology. Each arrives
+            at the same qualitative verdict.
           </p>
 
           <h3 className="text-lg font-semibold mt-6 mb-2">
@@ -1140,17 +1045,8 @@ export default function Home() {
           <FindspotMap />
         </section>
 
-        <section aria-labelledby="discussion" className="mb-16">
-          <span className="d-chapter-label">Chapter 4</span>
-          <h2 id="discussion" className="d-story-h2">
-            If they aren&rsquo;t axes, what are they?
-          </h2>
-          <p>
-            Twelve tests. Twelve verdicts against the axehead identification.
-            At some point a paper stops trying to persuade the reader that
-            the previous answer was wrong and starts asking what the
-            correct answer might be. This chapter attempts that pivot.
-          </p>
+        <section aria-labelledby="discussion" className="mb-14">
+          <h2 id="discussion" className="text-2xl font-bold mb-4">4. Discussion</h2>
 
           <h3 className="text-lg font-semibold mt-6 mb-2">4.1 The spatial layout is fungal too</h3>
           <p>
@@ -1329,84 +1225,7 @@ export default function Home() {
           </ol>
         </section>
 
-        <section aria-labelledby="coda" className="mb-16">
-          <span className="d-chapter-label">Coda</span>
-          <h2 id="coda" className="d-story-h2">
-            A different Stonehenge
-          </h2>
-          <p>
-            Imagine Salisbury Plain around 1650 BC. Stonehenge is already
-            a thousand years old; the sarsens have been standing for
-            eight centuries. The people who put them there are gone. A
-            new group &mdash; whether descendants, successors, or
-            visitors we do not know &mdash; gathers at the monument in a
-            comparatively short window of years, sits down at the base of
-            four specific stones, and carves. Not axeheads. Not tools.
-            Not weapons. They carve, over and over, in low relief, in a
-            pattern of positions distributed low enough on each stone
-            face to be reached from the ground: the silhouette of a
-            mushroom.
-          </p>
-          <p>
-            This is what a shape analysis says. What it cannot say &mdash;
-            not on shape grounds alone &mdash; is why. A mushroom, on
-            Stonehenge, is not just a shape. It is a
-            <em> claim about behaviour</em>: that the last-phase users of
-            the monument were carving a specific fungal form on a specific
-            sacred site, in what may have been a single ritual episode,
-            more than once and in more than one place. The natural reading
-            is that this was ritual iconography linked to the ingestion
-            of that fungus. Britain has at least fifteen native
-            psilocybin-bearing mushroom species; the shape distribution
-            of the carvings maps most cleanly onto <em>Amanita muscaria</em>
-            and, secondarily, onto the small liberty-cap forms of the
-            <em> Psilocybe</em> genus. Both are documented psychoactive
-            fungi with lifecycles observable across the Wessex chalk.
-          </p>
-          <p>
-            This is not a small claim. It reframes what the late-phase
-            Stonehenge was for &mdash; not just an astronomical alignment
-            or a burial ground, but a site with a specifically fungal
-            ritual practice attached to it. It sits alongside a small but
-            growing body of independent evidence for entheogen use at
-            Neolithic and Bronze Age European sacred sites (Samorini on
-            Val Camonica; recent residue analyses at Menorcan burials).
-            It fits. It is not necessary that it be true.
-          </p>
-          <p>
-            But the axehead identification does need to go. Not on the
-            strength of any single result in this paper, but on the
-            strength of the pattern: twelve independent statistical
-            tests, a reference site (Ri Cruin) that fails the same test,
-            a documented precedent (Boscawen-Un &mdash; British stone
-            circle, 1986 axeheads, 2015 photogrammetry, actually feet),
-            an entire British corpus of six sites that has never been
-            challenged on shape grounds, and the shape grounds now
-            challenging four of them.
-          </p>
-          <blockquote className="d-pullquote">
-            One only sees what one is expecting to see.
-            <span className="attr">
-              &mdash; Atkinson 1956, quoted here as he wrote it, and
-              turned back around
-            </span>
-          </blockquote>
-          <p>
-            This paper is a working draft. It is posted openly, with all
-            data and all analysis code, so that it can be corrected. If
-            it turns out to be wrong &mdash; if some feature of the axe
-            reference set is off, if a rock-carving stylistic-compression
-            effect really can account for the shape difference, if the
-            Ri Cruin correspondence is coincidence &mdash; the tools to
-            show that are here. The corpus, the classifiers, the raw
-            silhouettes, the preregistration draft. Everything is on
-            <a href="https://github.com/JDerekLomas/stonehenge"
-               target="_blank" rel="noopener noreferrer"> GitHub</a>.
-            Please look, and please, if you can, actually see.
-          </p>
-        </section>
-
-        <section aria-labelledby="future-work" className="mb-16">
+        <section aria-labelledby="future-work" className="mb-14">
           <h2 id="future-work" className="text-2xl font-bold mb-4">5. Future work</h2>
           <ol className="list-decimal list-inside space-y-2 pl-2">
             <li>
