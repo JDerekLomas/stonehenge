@@ -1,0 +1,86 @@
+{
+  "datasets": {
+    "master_axes.csv": {
+      "description": "Every British Early Bronze Age axehead with ImageJ shape features, Needham typology labels, physical measurements, and findspot coordinates where available.",
+      "n_rows": 340,
+      "columns_grouped": {
+        "id": [
+          "artefact_id",
+          "image"
+        ],
+        "shape_pixel_units": [
+          "area_px",
+          "perim_px",
+          "width_px",
+          "height_px"
+        ],
+        "shape_dimensionless": [
+          "circularity",
+          "aspect_ratio",
+          "roundness",
+          "solidity"
+        ],
+        "needham_measurements": [
+          "needham_L",
+          "needham_LB",
+          "needham_WB",
+          "needham_W2",
+          "needham_W3",
+          "needham_WE",
+          "needham_LC",
+          "needham_DE",
+          "needham_MO"
+        ],
+        "typology": [
+          "object",
+          "basic_type",
+          "suggested_type",
+          "published_types",
+          "needham_number"
+        ],
+        "findspot": [
+          "site_name",
+          "admin_region",
+          "country",
+          "longitude",
+          "latitude"
+        ],
+        "physical_measurements_mm": [
+          "length_mm",
+          "blade_width_mm",
+          "butt_width_mm",
+          "weight_g"
+        ],
+        "metadata": [
+          "material",
+          "discovery_year"
+        ],
+        "hand_coded_flags": [
+          "hc_recurve",
+          "hc_flair",
+          "hc_flat",
+          "hc_round",
+          "hc_pointed"
+        ]
+      }
+    },
+    "master_carvings.csv": {
+      "description": "Every Stonehenge (and Ri Cruin) carving analyzed, from all four data sources, with source and stone attribution.",
+      "n_rows": 222,
+      "sources": {
+        "Stone 53 (Lomas 2021 ImageJ)": 41,
+        "Stone 4 (extracted this study)": 56,
+        "Ri Cruin (extracted this study)": 6,
+        "Bevan All data (ImageJ)": 119
+      }
+    },
+    "master_mushrooms.csv": {
+      "description": "Mushroom silhouettes with shape features. Two sources: Bevan ImageJ measurements (40) and curated pre-segmented silhouettes (22).",
+      "n_rows": 62
+    },
+    "master_mushroom_species_reference.csv": {
+      "description": "Reference table of 15 native British psilocybin-bearing mushroom species with cap/stem sizes, habitat, ring presence, and psilocybin activity level.",
+      "n_rows": 16
+    }
+  }
+}

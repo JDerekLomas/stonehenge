@@ -1390,6 +1390,54 @@ export default function Home() {
             regenerated end-to-end from the raw sheets and TIFFs.
           </p>
 
+          <h3 className="text-lg font-semibold mt-6 mb-3">Integrated master datasets</h3>
+          <p>
+            Three unified CSVs. Every axe, every carving, and every mushroom
+            used anywhere in this paper joined into single tables with source
+            attribution. Everything downstream flows from these.
+          </p>
+          <ul className="list-none space-y-2 text-base my-6">
+            <li>
+              <a href="/data/master/master_axes.csv" className="text-red-800 underline">
+                master_axes.csv
+              </a>{" "}
+              &mdash; 340 axes, 40 columns: shape features (Circ, AR, Roundness, Solidity,
+              plus the Needham linear measurements L / LB / WB / W2 / W3 / WE / LC / DE / MO),
+              typology labels (Class 2&ndash;5, Needham#), physical measurements (length_mm,
+              blade_width_mm, butt_width_mm, weight_g), findspot lat/lon, and hand-coded
+              flags (Recurve, Flair, Flat, Round, pointed). Joined on <code>artefact_id</code>.
+            </li>
+            <li>
+              <a href="/data/master/master_carvings.csv" className="text-red-800 underline">
+                master_carvings.csv
+              </a>{" "}
+              &mdash; 222 carving records across 4 sources: 41 Stone 53 (Lomas 2021
+              ImageJ), 56 Stone 4 (extracted this study), 6 Ri Cruin comparison site, and
+              the 119 in the Bevan All-data corpus. Every record tagged by stone and
+              extraction source.
+            </li>
+            <li>
+              <a href="/data/master/master_mushrooms.csv" className="text-red-800 underline">
+                master_mushrooms.csv
+              </a>{" "}
+              &mdash; 62 mushroom silhouettes across 2 sources: 40 Bevan All-data ImageJ, 22
+              curated pre-segmented silhouettes.
+            </li>
+            <li>
+              <a href="/data/master/master_mushroom_species_reference.csv" className="text-red-800 underline">
+                master_mushroom_species_reference.csv
+              </a>{" "}
+              &mdash; 15 candidate native British psilocybin-bearing mushroom species with
+              cap and stem sizes (cm), habitat, ring presence, and psilocybin activity.
+            </li>
+            <li>
+              <a href="/data/master/manifest.json" className="text-red-800 underline">
+                manifest.json
+              </a>{" "}
+              &mdash; machine-readable dataset descriptor.
+            </li>
+          </ul>
+
           <h3 className="text-lg font-semibold mt-6 mb-3">Numeric outputs</h3>
           <ul className="list-none space-y-2 text-base my-6">
             <li>
