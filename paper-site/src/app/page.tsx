@@ -1313,41 +1313,149 @@ export default function Home() {
             substantially strengthen or weaken this reading.
           </p>
 
-          <h3 className="text-lg font-semibold mt-8 mb-2">4.6 Limitations</h3>
-          <ol className="list-decimal list-inside space-y-2 pl-2">
-            <li>
-              The Stone 53 shape features are drawn from the paper&rsquo;s
-              own 2021 ImageJ pass (Lomas). We have partially replicated
-              feature extraction from the raw laser-scan TIFFs and observed
-              consistent results, but a full independent re-extraction has
-              not yet been done.
-            </li>
-            <li>
-              The alternative-hypothesis reference set is limited to
-              mushrooms. Other candidate identifications &mdash; halberds,
-              sickles, palstaves, sun/moon rock-art motifs, cup-and-ring
-              vulva motifs &mdash; have not yet been formally tested against
-              the carvings.
-            </li>
-            <li>
-              The dimensionless ImageJ features (Circularity, AR, Roundness,
-              Solidity) are highly correlated in the axe corpus
-              (AR-Roundness r = &minus;0.96); the multivariate analysis
-              effectively has ~2 independent dimensions.
-            </li>
-            <li>
-              This is a shape-based argument. It does not address chemical
-              evidence, botanical evidence for host trees, or archaeological
-              evidence for ritual practice. Convergent evidence from those
-              independent lines would substantially strengthen or weaken the
-              reading.
-            </li>
-            <li>
-              This is an exploratory analysis. A preregistered replication
-              with a fixed protocol, expanded reference-class set, and human
-              perception study is planned as follow-up (see Future work).
-            </li>
-          </ol>
+          <h3 className="text-lg font-semibold mt-8 mb-2">4.6 Limitations and critiques</h3>
+          <p>
+            Ordered from most consequential to least.
+          </p>
+
+          <h4 className="font-semibold mt-6 mb-2">4.6.1 Only one alternative class was tested</h4>
+          <p>
+            The comparison is axes vs mushrooms. That establishes that the
+            carvings are not axes, and that on the tested features they
+            resemble mushrooms. It does not establish that they{" "}
+            <em>depict</em> mushrooms. Any object with a cap-plus-stem
+            morphology &mdash; halberds, sickles, palstaves, sun/moon
+            symbols, human figures, trees, umbrellas, chalices, abstract
+            motifs &mdash; would score similarly. Until we have run the
+            classifier against a diverse set of plausible alternatives, the
+            defensible conclusion is &ldquo;not axes,&rdquo; not
+            &ldquo;mushrooms.&rdquo; This is the single most important
+            open question and the natural next paper.
+          </p>
+
+          <h4 className="font-semibold mt-6 mb-2">4.6.2 The mushroom reference set was curated by the author</h4>
+          <p>
+            The 22 pre-segmented mushroom silhouettes were assembled by the
+            author for this analysis. If the selection favoured canonical
+            side-view forms with clear cap-and-stem morphology, the
+            classifier is fitting a template we implicitly chose to match.
+            The preregistered follow-up study (draft in{" "}
+            <code>prereg/preregistration.md</code>) specifies stratified
+            random sampling from iNaturalist by species and growth stage,
+            with automated segmentation and blind reviewer QC. That
+            protocol needs to run before the mushroom claim carries the
+            weight the paper currently gives it.
+          </p>
+
+          <h4 className="font-semibold mt-6 mb-2">4.6.3 Ri Cruin is a Rorschach</h4>
+          <p>
+            The Ri Cruin comparison site (§3.9.5) has 6 carvings identified
+            as axeheads by decades of archaeological consensus. Our
+            classifier says all 6 also cluster with mushrooms. Two readings:
+            (i) the reference site is misidentified too, extending the
+            paper&rsquo;s argument beyond Stonehenge; or (ii) the classifier
+            is wrong, since Ri Cruin&rsquo;s identification is supported by
+            burial context that ours is not. We cannot resolve this from
+            shape statistics alone. The tie-breaker is an independent
+            method &mdash; ideally photogrammetric replication like Goskar
+            2015 on Boscawen-Un (see §3.10.6), or a well-attested
+            bronze-age axe-carving site with unambiguous artefactual
+            association &mdash; not more shape analysis.
+          </p>
+
+          <h4 className="font-semibold mt-6 mb-2">4.6.4 The Bevan reference corpus is unpublished</h4>
+          <p>
+            All 356 axes in the definitive analysis come from Andrew
+            Bevan&rsquo;s unpublished measurements. If corpus curation
+            choices &mdash; which axes were included, which were excluded,
+            which typologies are over- or under-represented &mdash; are
+            different from what we assume, the axe class centroid may not
+            represent &ldquo;British Early Bronze Age axes&rdquo; as a
+            statistical population. Direct collaboration with Bevan and
+            proper publication of the corpus with metadata are needed
+            before this analysis can be treated as a definitive
+            statistical result.
+          </p>
+
+          <h4 className="font-semibold mt-6 mb-2">4.6.5 Cross-source calibration is assumed constant</h4>
+          <p>
+            To bring our Stone 4 and Ri Cruin extractions onto the Lomas
+            2021 ImageJ scale, we fit a per-feature linear calibration on
+            the 41 paired Stone 53 samples and applied it to all
+            our-pipeline rows (see &ldquo;Pipeline calibration&rdquo; in
+            the data dictionary). This assumes the offset between our
+            pipeline and ImageJ is constant across silhouettes. If our
+            extraction behaves differently on the vector-rendered Stone 4
+            layout than on the raw laser-scan Stone 53 TIFFs, the
+            calibration is invalid. Ideally, the paper&rsquo;s definitive
+            numbers should rest only on the Bevan All-data ImageJ
+            measurements (no cross-pipeline steps at all); our-pipeline
+            extractions are supplementary and remain slightly downstream.
+          </p>
+
+          <h4 className="font-semibold mt-6 mb-2">4.6.6 The feature space is effectively two-dimensional</h4>
+          <p>
+            Circularity, Aspect Ratio, Roundness, and Solidity are highly
+            correlated in the axe corpus (AR&ndash;Roundness r = &minus;0.96;
+            Circularity&ndash;Solidity r = 0.94). The multivariate analysis
+            has ~2 effective dimensions, not 4. Twelve tests using
+            near-collinear features are not twelve independent tests. The
+            EFD and Hu-moment analyses (§3.6) use higher-dimensional
+            feature spaces but see the pipeline-validation caveats in
+            §3.6.
+          </p>
+
+          <h4 className="font-semibold mt-6 mb-2">4.6.7 40-mushroom training set is small</h4>
+          <p>
+            The Bevan All-data mushroom class has 40 rows. The classifier
+            centroid could shift meaningfully if a handful of atypical
+            silhouettes were added. A larger, preregistered mushroom
+            corpus (§4.6.2) is the standard fix.
+          </p>
+
+          <h4 className="font-semibold mt-6 mb-2">4.6.8 Shape does not equal meaning</h4>
+          <p>
+            These carvings are mushroom-shaped in a statistical sense.
+            That does not mean the carvers intended to depict mushrooms.
+            Rock art often uses stylized forms that do not correspond 1:1
+            to any real referent. The interpretive claim (&ldquo;the
+            last-phase Stonehenge users were carving <em>Amanita
+            muscaria</em>&rdquo;) rests on shape, and shape alone is
+            weaker than chemical, botanical, or contextual evidence would
+            be.
+          </p>
+
+          <h4 className="font-semibold mt-6 mb-2">4.6.9 The dating is not independent</h4>
+          <p>
+            The c.1750&ndash;1500 BC date for the carvings comes from
+            comparing them stylistically to Class 5 flanged bronze
+            axeheads (Abbott &amp; Anderson-Whymark 2012, p.37, citing
+            Needham 1996, Lawson 2007). If the axehead identification is
+            wrong, the date is unmoored. The mushroom hypothesis does not
+            supply a replacement date; nothing in the fungal reading
+            requires a specific chronology.
+          </p>
+
+          <h4 className="font-semibold mt-6 mb-2">4.6.10 2D shape analysis is lower resolution than photogrammetry</h4>
+          <p>
+            The Boscawen-Un reidentification (§3.10.6) resolved a
+            30-year-old &ldquo;stone axe&rdquo; identification into
+            &ldquo;feet with toes&rdquo; using 3D photogrammetry. We are
+            using 2D silhouettes, which is a lower-resolution method than
+            what worked at Boscawen-Un. The strongest possible replication
+            of this paper&rsquo;s argument would be a photogrammetric
+            re-analysis of the Stonehenge carvings using Goskar-style
+            depth rendering; that is the pre-eminent unmade next step.
+          </p>
+
+          <h4 className="font-semibold mt-6 mb-2">4.6.11 This is exploratory, not preregistered</h4>
+          <p>
+            The analyses in this paper were selected after looking at the
+            data. Preregistration would substantially strengthen the
+            statistical claims; a draft protocol is in{" "}
+            <code>prereg/preregistration.md</code> for the follow-up
+            study.
+          </p>
         </section>
 
         <section aria-labelledby="future-work" className="mb-14">
