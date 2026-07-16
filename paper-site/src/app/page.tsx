@@ -1318,19 +1318,74 @@ export default function Home() {
             Ordered from most consequential to least.
           </p>
 
-          <h4 className="font-semibold mt-6 mb-2">4.6.1 Only one alternative class was tested</h4>
+          <h4 className="font-semibold mt-6 mb-2">4.6.1 Multi-class test: not-axes confirmed, mushroom shares space with trees</h4>
           <p>
-            The comparison is axes vs mushrooms. That establishes that the
-            carvings are not axes, and that on the tested features they
-            resemble mushrooms. It does not establish that they{" "}
-            <em>depict</em> mushrooms. Any object with a cap-plus-stem
-            morphology &mdash; halberds, sickles, palstaves, sun/moon
-            symbols, human figures, trees, umbrellas, chalices, abstract
-            motifs &mdash; would score similarly. Until we have run the
-            classifier against a diverse set of plausible alternatives, the
-            defensible conclusion is &ldquo;not axes,&rdquo; not
-            &ldquo;mushrooms.&rdquo; This is the single most important
-            open question and the natural next paper.
+            The main comparison in this paper is axes vs mushrooms, which
+            establishes only two things: that the carvings are not axes, and
+            that on the tested features they resemble mushrooms. It does
+            not establish that they <em>depict</em> mushrooms. Any object
+            with a cap-plus-stem morphology &mdash; halberds, sickles,
+            trees, human figures, abstract motifs &mdash; could in principle
+            score similarly.
+          </p>
+          <p>
+            We tested this critique directly by adding five alternative
+            classes: halberds, sickles, trees, human figures, and random
+            null-hypothesis shapes (20 prototype silhouettes each, generated
+            with morphological variation). Combined with the real-silhouette
+            axe and mushroom classes, this is a 7-way nearest-centroid
+            classification of all 222 carvings. Result:
+          </p>
+          <figure className="d-figure">
+            <Image
+              src="/figures/multiclass_assignments.png"
+              alt="Bar chart of 7-way nearest-centroid classification: 126 mushroom, 53 tree, 22 random, 13 human, 5 axe, 2 halberd, 1 sickle"
+              width={2000}
+              height={1100}
+              className="w-full h-auto"
+            />
+            <figcaption className="d-figcaption text-center">
+              Figure 12. 7-way nearest-centroid assignment of 222 Stonehenge
+              carvings to axes, mushrooms, and five prototype alternative
+              classes.
+            </figcaption>
+          </figure>
+          <p>
+            Two findings:
+          </p>
+          <ol className="list-decimal list-inside space-y-1 pl-2">
+            <li>
+              <strong>The axehead identification is decisively rejected.</strong>
+              Only 5 of 222 (2%) carvings are nearest the axe centroid, even
+              with five alternative classes competing for them. Halberd
+              (1%) and sickle (0.5%) are also rejected.
+            </li>
+            <li>
+              <strong>Mushroom is the largest single class, but tree is a
+              real competitor.</strong> 57% of carvings assign to mushroom,
+              24% to tree. Combined, 81% assign to natural cap-plus-stem
+              organic forms (mushroom or tree). Human figures pick up 6%.
+              The specifically-mushroom claim is weaker than the paper&rsquo;s
+              earlier binary numbers suggested; the specifically-not-axes
+              claim is stronger.
+            </li>
+          </ol>
+          <p>
+            The tree competitor is real and needs a proper resolution.
+            Trees have cap-plus-stem topology too, and the crown/trunk
+            ratio of a schematic tree is similar to a wide-cap short-stem
+            mushroom. Distinguishing them on shape alone requires features
+            we do not currently use (surface texture, stem cross-section,
+            annulus presence). The <em>annulus</em> feature that appears
+            on some carvings (§3.6.5) is decisive against tree and in
+            favour of mushroom, but only for the subset that shows it.
+          </p>
+          <p className="text-sm" style={{ color: "#57534e" }}>
+            Caveat: the halberd, sickle, tree, human, and random classes
+            are synthetic prototypes. Real museum silhouettes for
+            halberd and sickle would tighten the test. This is a
+            first-pass multi-class extension, not a definitive multi-class
+            analysis.
           </p>
 
           <h4 className="font-semibold mt-6 mb-2">4.6.2 The mushroom reference set was curated by the author</h4>
