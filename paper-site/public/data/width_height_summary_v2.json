@@ -1,0 +1,11 @@
+{
+  "n_axes": 356,
+  "n_carvings": 41,
+  "n_mushrooms": 22,
+  "axe_median": 0.5625,
+  "carving_median": 0.8796992481203008,
+  "mushroom_median": 0.86125,
+  "carvings_vs_axes_p": 1.59123177334137e-18,
+  "carvings_vs_mushrooms_p": 0.8683064387995348,
+  "axes_vs_mushrooms_p": 1.1179532004920204e-08
+}

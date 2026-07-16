@@ -1,0 +1,12 @@
+{
+  "n_axes": 356,
+  "n_carvings": 41,
+  "features": [
+    "Circularity",
+    "Aspect Ratio",
+    "Roundness"
+  ],
+  "axe_inside_95_pct": 96.06741573033707,
+  "carving_inside_95_pct": 19.51219512195122,
+  "mann_whitney_p": 5.8955259016959695e-22
+}

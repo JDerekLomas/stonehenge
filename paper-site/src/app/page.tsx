@@ -352,17 +352,17 @@ export default function Home() {
             Aspect ratio is the single most-diagnostic axe feature we test, and the one
             with the cleanest interpretation. Real bronze axes are functional tools with
             aspect ratio constrained by hafting geometry &mdash; you need enough length
-            for a handle grip and blade. The 124 Bevan-corpus axes have AR = 2.71 &plusmn;
-            0.42 (range 1.65&ndash;4.53). The 41 Stone 53 carvings have AR = 1.76 &plusmn;
-            0.76 (range 1.08&ndash;5.37).
+            for a handle grip and blade. The 356 Bevan-corpus axes have median AR = 2.67
+            (IQR 2.32&ndash;2.94). The 41 Stone 53 carvings have median AR = 1.53
+            (IQR 1.32&ndash;1.98).
           </p>
           <p>
             <span className="font-semibold">
-              68% (28 of 41) of Stone 53 carvings are less elongated than the least
-              elongated 2.5% of British EBA axes.
+              66% (27 of 41) of Stone 53 carvings are less elongated than the least
+              elongated 2.5% of British EBA axes (n = 356).
             </span>{" "}
-            Cohen&rsquo;s d = &minus;1.53 (very large), Kolmogorov&rsquo;s D = 0.73, p =
-            2&times;10<sup>&minus;16</sup>. A skilled carver reproducing an axe from
+            Cohen&rsquo;s d = &minus;1.35 (very large), Kolmogorov&rsquo;s D = 0.68, p =
+            2&times;10<sup>&minus;17</sup>. A skilled carver reproducing an axe from
             memory would not systematically flatten it.
           </p>
 
@@ -370,18 +370,16 @@ export default function Home() {
             3.3 Carvings sit outside the multivariate axe-cluster
           </h3>
           <p>
-            Under Mahalanobis distance in the four-dimensional (Circularity, AR,
-            Roundness, Solidity) space, 90.3% of axes fall within their own 95% cluster
-            ellipsoid &mdash; validating the model. Only 14.6% of Stone 53 carvings do.
-            Mann-Whitney U comparing the two distance distributions gives p = 1.5&times;
-            10<sup>&minus;19</sup>. The result is robust across every subset of the four
-            features (12&ndash;30% of carvings inside the axe ellipsoid across all
-            2&ndash;4-feature Mahalanobis tests), so it is not driven by any single
-            feature.
+            Under Mahalanobis distance in the three-dimensional (Circularity, AR,
+            Roundness) space, using the full Bevan reference of 356 axes,
+            96% of axes fall within their own 95% cluster ellipsoid
+            &mdash; validating the model. Only 20% of Stone 53 carvings do.
+            Mann-Whitney U comparing the two distance distributions gives
+            p = 5.9&times;10<sup>&minus;22</sup>.
           </p>
           <figure className="d-figure">
             <Image
-              src="/figures/mahalanobis_histogram.png"
+              src="/figures/mahalanobis_histogram_v2.png"
               alt="Histogram: Mahalanobis distance from British EBA axe centroid for axes and carvings"
               width={1600}
               height={900}
@@ -704,12 +702,39 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 7. All 42 Stonehenge carvings across Stones 53, 4, and 5
+              Figure 7. 42 Stonehenge carvings across Stones 53, 4, and 5
               sorted top-left to bottom-right by classifier P(mushroom). Every
               carving has a cap-plus-stem morphology; the classifier separates
               them on aspect ratio (wide-cap-short-stem vs. narrower-cap-longer-stem),
               but this is a distinction between mushroom sub-morphologies,
               not between mushroom and axe.
+            </figcaption>
+          </figure>
+          <p>
+            The Stone 4 carvings (n = 56, extracted from the composite
+            layout figure in the 2012 laser scan report) confirm the same
+            pattern. AR median 1.46 (matching Stone 53 at 1.53 and mushrooms
+            at 1.61); bounding-box W/H median 0.86 (identical to
+            mushrooms). Every visible silhouette is a cap-plus-stem form.
+            The atlas below shows all 97 extractable carvings from Stones
+            53 and 4 sorted by aspect ratio; only F611, Atkinson&rsquo;s
+            original 1953 dagger, is qualitatively different.
+          </p>
+          <figure className="d-figure">
+            <Image
+              src="/figures/all_stonehenge_atlas.png"
+              alt="Grid of 97 real Stonehenge carving silhouettes from Stones 53 (red border) and Stone 4 (orange border) sorted by aspect ratio"
+              width={2400}
+              height={2200}
+              className="w-full h-auto"
+            />
+            <figcaption className="d-figcaption text-center">
+              Figure 7b. All 97 extractable Stonehenge carvings across
+              Stones 53 (red border, n = 41) and Stone 4 (orange border,
+              n = 56), sorted by aspect ratio. Individual F-numbers shown
+              for Stone 53 carvings; Stone 4 silhouettes labeled
+              positionally. The two stones are visually indistinguishable
+              on shape.
             </figcaption>
           </figure>
           <p>
@@ -772,7 +797,7 @@ export default function Home() {
           </p>
           <figure className="d-figure">
             <Image
-              src="/figures/width_height_bbox_comparable.png"
+              src="/figures/width_height_bbox_v2.png"
               alt="Violin plot of bounding-box width/height ratio: axes 0.60, carvings 0.87, mushrooms 0.86; carvings and mushrooms are statistically indistinguishable while both differ from axes"
               width={2000}
               height={1100}
