@@ -72,7 +72,14 @@
         "Stone 4 (extracted this study)": 56,
         "Ri Cruin (extracted this study)": 6,
         "Bevan All data (ImageJ)": 119
-      }
+      },
+      "backfilled_columns": [
+        "lda_p_mushroom",
+        "rf_p_mushroom",
+        "mahal_dist_to_axe_centroid",
+        "mahal_dist_to_mushroom_centroid",
+        "nearest_centroid"
+      ]
     },
     "master_mushrooms.csv": {
       "description": "Mushroom silhouettes with shape features. Two sources: Bevan ImageJ measurements (40) and curated pre-segmented silhouettes (22).",
@@ -82,5 +89,6 @@
       "description": "Reference table of 15 native British psilocybin-bearing mushroom species with cap/stem sizes, habitat, ring presence, and psilocybin activity level.",
       "n_rows": 16
     }
-  }
+  },
+  "dictionary": "data_dictionary.md"
 }

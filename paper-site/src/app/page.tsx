@@ -1431,12 +1431,34 @@ export default function Home() {
               cap and stem sizes (cm), habitat, ring presence, and psilocybin activity.
             </li>
             <li>
+              <a href="/data/master/data_dictionary.md" className="text-red-800 underline">
+                data_dictionary.md
+              </a>{" "}
+              &mdash; every column of every master dataset defined, with type
+              and source of origin.
+            </li>
+            <li>
               <a href="/data/master/manifest.json" className="text-red-800 underline">
                 manifest.json
               </a>{" "}
               &mdash; machine-readable dataset descriptor.
             </li>
           </ul>
+          <p className="text-sm" style={{ color: "#57534e" }}>
+            <strong>On the backfilled classifier columns in{" "}
+            <code>master_carvings.csv</code>:</strong> the LDA, RF, and
+            Mahalanobis predictions were produced by a single classifier
+            trained on the Bevan &ldquo;All data&rdquo; axes + mushrooms
+            (95.7% CV accuracy). Applied to a carving row, the prediction
+            depends on the row&rsquo;s shape features &mdash; which were
+            measured with different pipelines depending on the source
+            (Lomas 2021 ImageJ, our extraction, or Bevan). Where the
+            pipelines differ systematically (Roundness in particular,
+            see validation §3.6), LDA predictions in particular may
+            shift by 10&ndash;30 percentage points across sources for
+            the same shape. Mahalanobis is more robust; RF is
+            intermediate.
+          </p>
 
           <h3 className="text-lg font-semibold mt-6 mb-3">Numeric outputs</h3>
           <ul className="list-none space-y-2 text-base my-6">
