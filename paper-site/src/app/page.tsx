@@ -171,7 +171,7 @@ export default function Home() {
         </section>
 
         <section aria-labelledby="context" className="mb-14">
-          <h3 className="text-lg font-semibold mt-6 mb-3">1.1 Prior identifications and their strength</h3>
+          <h3 className="text-lg font-semibold mt-6 mb-3">1.2 Prior identifications and their strength</h3>
           <p>
             Atkinson (1956) recorded 15 carvings across Stones 3, 4, and 53
             and identified them as blade-up bronze axeheads dating to
@@ -246,13 +246,27 @@ export default function Home() {
             fixed canvas). This uniformity is why analyses §3.1&ndash;3.4
             can compare them cleanly.
           </p>
+          <p className="text-sm" style={{ color: "#57534e" }}>
+            A note on carving counts, which differ by source and can look
+            inconsistent: <strong>115</strong> carvings are recorded across
+            Stones 3, 4, 5, and 53 in the 2012 laser scan;{" "}
+            <strong>119</strong> have matched Bevan ImageJ features (the
+            small surplus reflects Bevan-corpus records the report counts
+            differently); and our pooled <code>master_carvings.csv</code>
+            holds <strong>222</strong> records because it adds our own
+            independent extractions (56 Stone 4, 6 Ri Cruin) alongside the
+            41 Stone 53 and 119 Bevan rows. Individual tests state the exact
+            n they use; the axe subset with ellipse-fit aspect ratio
+            (§3.2&ndash;3.3) is 124, while the full labelled corpus (§3.4)
+            is 356.
+          </p>
           <p>
             <strong>The 41 canonical Needham + Burgess axe silhouettes</strong>
             {" "}are the reference forms conventionally cited as the visual
             match for the Stonehenge carvings. Needham&rsquo;s 1983
             typology defines anatomical features &mdash; flange height,
             body width, cutting-edge splay, stop-bevel, marginal waisting
-            (Fig. 3) &mdash; that distinguish his four classes.
+            (Fig. 2) &mdash; that distinguish his four classes.
           </p>
           <figure className="d-figure">
             <Image
@@ -263,7 +277,7 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 2. The 22 pre-segmented mushroom reference silhouettes.
+              Figure 1. The 22 pre-segmented mushroom reference silhouettes.
               Each shows the canonical cap-plus-stem form, side view. Includes
               two <em>Amanita muscaria</em> exemplars, one <em>Psilocybe
               subviscida</em>, and 19 further silhouettes from natural-history
@@ -279,7 +293,7 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 3. Needham (1983) reference figure for Class 5D
+              Figure 2. Needham (1983) reference figure for Class 5D
               axeheads &mdash; the &ldquo;West Drayton type&rdquo; and its
               variants (with mid-body swelling, marginal waisting). Reproduced
               from the paper&rsquo;s own working figure. Anatomical features
@@ -300,7 +314,7 @@ export default function Home() {
               style={{ maxWidth: 600, margin: "0 auto", display: "block" }}
             />
             <figcaption className="d-figcaption text-center">
-              Figure 3d. The shape descriptors used throughout this paper.
+              Figure 3. The shape descriptors used throughout this paper.
               Top: Needham 1983 linear measurements labeled on a schematic
               Class 5 axehead. Bottom: the derived ratios (Needham space)
               and the standard ImageJ dimensionless features (Circularity,
@@ -317,7 +331,7 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 3b. Reconstruction of hafted bronze axes. Real bronze
+              Figure 4. Reconstruction of hafted bronze axes. Real bronze
               axeheads were used mounted on wooden handles; the &ldquo;axehead
               alone&rdquo; that Atkinson (1953) described the carvings as
               depicting would be an unusual choice of subject &mdash; the
@@ -333,7 +347,7 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 3c. The 41 axe reference silhouettes used in the
+              Figure 5. The 41 axe reference silhouettes used in the
               analysis. Class 5 recurved forms in particular have a
               superficial cap-plus-stem morphology &mdash; the resemblance
               that plausibly motivated the original 1953 identification.
@@ -386,9 +400,9 @@ export default function Home() {
         <section aria-labelledby="results" className="mb-14">
           <h2 id="results" className="text-2xl font-bold mb-4">3. Results</h2>
           <p>
-            Twelve tests follow, each using a different feature set,
-            reference corpus, classifier, or methodology. Each arrives
-            at the same qualitative verdict.
+            A series of independent tests follows, each using a different
+            feature set, reference corpus, classifier, or methodology. Each
+            arrives at the same qualitative verdict.
           </p>
 
           <h3 className="text-lg font-semibold mt-6 mb-2">
@@ -411,7 +425,7 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 1. Recurve rate on the Stonehenge carvings vs. British EBA axes.
+              Figure 6. Recurve rate on the Stonehenge carvings vs. British EBA axes.
               Error bars: 95% Wilson score CI.
             </figcaption>
           </figure>
@@ -432,17 +446,17 @@ export default function Home() {
             Aspect ratio is the single most-diagnostic axe feature we test, and the one
             with the cleanest interpretation. Real bronze axes are functional tools with
             aspect ratio constrained by hafting geometry &mdash; you need enough length
-            for a handle grip and blade. The 356 Bevan-corpus axes have median AR = 2.67
+            for a handle grip and blade. The 124 Bevan-corpus axes have median AR = 2.67
             (IQR 2.32&ndash;2.94). The 41 Stone 53 carvings have median AR = 1.53
             (IQR 1.32&ndash;1.98).
           </p>
           <p>
             <span className="font-semibold">
-              66% (27 of 41) of Stone 53 carvings are less elongated than the least
-              elongated 2.5% of British EBA axes (n = 356).
+              68% (28 of 41) of Stone 53 carvings are less elongated than the least
+              elongated 2.5% of British EBA axes (n = 124).
             </span>{" "}
-            Cohen&rsquo;s d = &minus;1.35 (very large), Kolmogorov&rsquo;s D = 0.68, p =
-            2&times;10<sup>&minus;17</sup>. A skilled carver reproducing an axe from
+            Cohen&rsquo;s d = &minus;1.53 (very large), Kolmogorov&rsquo;s D = 0.68, p =
+            2&times;10<sup>&minus;16</sup>. A skilled carver reproducing an axe from
             memory would not systematically flatten it.
           </p>
 
@@ -450,12 +464,12 @@ export default function Home() {
             3.3 Carvings sit outside the multivariate axe-cluster
           </h3>
           <p>
-            Under Mahalanobis distance in the three-dimensional (Circularity, AR,
-            Roundness) space, using the full Bevan reference of 356 axes,
-            96% of axes fall within their own 95% cluster ellipsoid
-            &mdash; validating the model. Only 20% of Stone 53 carvings do.
+            Under Mahalanobis distance in the four-dimensional (Circularity, AR,
+            Roundness, Solidity) space, using the Bevan reference of 124 axes,
+            90% of axes fall within their own 95% cluster ellipsoid
+            &mdash; validating the model. Only 15% of Stone 53 carvings do.
             Mann-Whitney U comparing the two distance distributions gives
-            p = 5.9&times;10<sup>&minus;22</sup>.
+            p = 1.5&times;10<sup>&minus;19</sup>.
           </p>
           <figure className="d-figure">
             <Image
@@ -466,7 +480,7 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 2. Mahalanobis distance from each shape to the British EBA axe
+              Figure 7. Mahalanobis distance from each shape to the British EBA axe
               centroid in the four-dimensional shape space. Axes cluster tightly; only
               14.6% of Stone 53 carvings fall within the 95% axe-cluster ellipsoid.
             </figcaption>
@@ -518,7 +532,7 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 4. Distributions of the three dimensionless shape features
+              Figure 8. Distributions of the three dimensionless shape features
               across the paper&rsquo;s definitive corpus. Carvings and
               mushrooms are visually indistinguishable on Aspect Ratio and
               Roundness; axes are systematically different.
@@ -533,7 +547,7 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 3. Per-feature distributions for British EBA axes, Stone 53
+              Figure 9. Per-feature distributions for British EBA axes, Stone 53
               carvings, and <em>Amanita muscaria</em> silhouettes. Carvings and mushrooms
               are indistinguishable on Aspect Ratio and Roundness; both differ sharply
               from axes.
@@ -571,7 +585,7 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 5. First two principal components of the ShapeComp
+              Figure 10. First two principal components of the ShapeComp
               perceptual embedding of 36 axes and 41 Stone 53 carvings.
               Axes and carvings occupy disjoint regions along PC1 with almost
               no overlap. This corroborates the ImageJ-based finding through
@@ -610,7 +624,7 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 6. Shape complexity by elliptical Fourier decomposition.
+              Figure 11. Shape complexity by elliptical Fourier decomposition.
               Carvings (median 42) require significantly more harmonics than
               axes (median 40, mean 30 with heavy left tail of very simple
               axe forms), and their distribution overlaps with mushrooms
@@ -638,7 +652,7 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 4. Stone 53 carvings occupy the low-aspect-ratio, high-roundness
+              Figure 12. Stone 53 carvings occupy the low-aspect-ratio, high-roundness
               region of shape space alongside <em>A. muscaria</em>, not the elongated
               region occupied by British EBA axes.
             </figcaption>
@@ -665,7 +679,7 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 5b. Eight carvings, each next to the specific Needham
+              Figure 13. Eight carvings, each next to the specific Needham
               axe the researcher manually picked as its closest match.
               Even the hand-picked axe match does not visually correspond
               to the carving.
@@ -693,7 +707,7 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 6b. Per-stone Random Forest posterior P(mushroom) for
+              Figure 14. Per-stone Random Forest posterior P(mushroom) for
               all 72 processed carvings. Stone 4 (right) agrees with Stone
               53 (left) &mdash; the pattern is not idiosyncratic to a
               single stone face.
@@ -717,7 +731,7 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 6c. Nearest-class assignment for 72 carvings across 4
+              Figure 15. Nearest-class assignment for 72 carvings across 4
               named mushroom species and the bronze-axe centroid. 63 of 72
               (88%) carvings assign to a mushroom species; only 9 (12%)
               assign to the axe centroid. Different carvings map onto
@@ -759,7 +773,7 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 6. Real reference silhouettes at left; classifier
+              Figure 16. Real reference silhouettes at left; classifier
               extremes at right. Top row (blue): the reference bronze axe and
               the six carvings the Random Forest is most confident are axes.
               Bottom row (red): the reference <em>A. muscaria</em> silhouette
@@ -802,7 +816,7 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 7. 42 Stonehenge carvings across Stones 53, 4, and 5
+              Figure 17. 42 Stonehenge carvings across Stones 53, 4, and 5
               sorted top-left to bottom-right by classifier P(mushroom). Every
               carving has a cap-plus-stem morphology; the classifier separates
               them on aspect ratio (wide-cap-short-stem vs. narrower-cap-longer-stem),
@@ -829,7 +843,7 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 7b. All 97 extractable Stonehenge carvings across
+              Figure 18. All 97 extractable Stonehenge carvings across
               Stones 53 (red border, n = 41) and Stone 4 (orange border,
               n = 56), sorted by aspect ratio. Individual F-numbers shown
               for Stone 53 carvings; Stone 4 silhouettes labeled
@@ -880,7 +894,7 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 8. Physical size of 292 bronze axes (Bevan Corpus,
+              Figure 19. Physical size of 292 bronze axes (Bevan Corpus,
               length in cm), 41 Stone 53 carvings (height in cm), and 12
               native British psilocybin mushroom species (total cap+stem
               length in cm). Absolute size does not decisively separate the
@@ -904,7 +918,7 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 9. Bounding-box width/height aspect measured identically
+              Figure 20. Bounding-box width/height aspect measured identically
               on 41 axe silhouettes, 42 carving silhouettes, and 22 mushroom
               silhouettes. Axes cluster tightly around 0.60. Carvings and
               mushrooms are <strong>statistically indistinguishable</strong>{" "}
@@ -944,7 +958,7 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 9b. Ri Cruin carvings (orange stars) plotted alongside
+              Figure 21. Ri Cruin carvings (orange stars) plotted alongside
               41 axes, 22 mushrooms, and 42 Stonehenge carvings in Aspect
               Ratio × Roundness space. All 6 Ri Cruin carvings sit in the
               mushroom / Stonehenge-carving region; none is in the axe
@@ -1008,7 +1022,7 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 10. Motif families in the ADS/Beckensall corpus of
+              Figure 22. Motif families in the ADS/Beckensall corpus of
               British rock art. Of 20,452 motif occurrences across 2,500+
               panels: 89% cups, 5% lines/grooves, 2% rings and arcs, 0.2%
               spirals. <strong>Zero motifs are mushroom- or
@@ -1136,7 +1150,7 @@ export default function Home() {
               style={{ maxWidth: 500, margin: "0 auto", display: "block" }}
             />
             <figcaption className="d-figcaption text-center">
-              Figure 10b. Photogrammetric rendering of the central stone at
+              Figure 23. Photogrammetric rendering of the central stone at
               Boscawen-Un, Cornwall, by Tom Goskar (2015). The two adjacent
               sole-outlines and small toes at their upper ends were
               identified as stone axes for the first ~30 years after being
@@ -1188,7 +1202,7 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 7. Stone 53 carvings shown in their actual spatial layout
+              Figure 24. Stone 53 carvings shown in their actual spatial layout
               on the NW face of the trilithon. Red = discovered pre-2003 by
               visual inspection; blue = discovered in the 2003 1&#8239;mm laser
               scan; green = discovered in the 2012 0.5&#8239;mm laser scan.
@@ -1224,7 +1238,7 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 8. Current distribution of the four commonest
+              Figure 25. Current distribution of the four commonest
               psilocybin-containing mushroom species native to England, with
               silhouettes above and the Stonehenge location marked (X) on each
               map. Most are widely distributed across the Stonehenge landscape.
@@ -1257,8 +1271,8 @@ export default function Home() {
                 </tr>
               </thead>
               <tbody className="[&>tr]:border-b [&>tr]:border-stone-200">
-                <tr><td className="py-2 pr-4">3.1</td><td className="py-2 pr-4">Recurve rate</td><td className="py-2 pr-4">Carvings 37%, axes 24%</td><td className="py-2 pr-4">p = 3×10⁻²</td></tr>
-                <tr><td className="py-2 pr-4">3.2</td><td className="py-2 pr-4">Aspect ratio (ellipse fit)</td><td className="py-2 pr-4">Carvings 1.56, axes 2.67</td><td className="py-2 pr-4">Cohen&rsquo;s d = −1.53</td></tr>
+                <tr><td className="py-2 pr-4">3.1</td><td className="py-2 pr-4">Recurve rate</td><td className="py-2 pr-4">Carvings 37%, axes 7%</td><td className="py-2 pr-4">p = 1.3×10⁻⁷</td></tr>
+                <tr><td className="py-2 pr-4">3.2</td><td className="py-2 pr-4">Aspect ratio (ellipse fit)</td><td className="py-2 pr-4">Carvings 1.53, axes 2.67</td><td className="py-2 pr-4">Cohen&rsquo;s d = −1.53</td></tr>
                 <tr><td className="py-2 pr-4">3.3</td><td className="py-2 pr-4">Multivariate Mahalanobis (vs axes)</td><td className="py-2 pr-4">85% carvings outside 95% axe cluster</td><td className="py-2 pr-4">p = 10⁻¹⁹</td></tr>
                 <tr><td className="py-2 pr-4">3.4</td><td className="py-2 pr-4">3-way (paper&rsquo;s full 515-shape corpus)</td><td className="py-2 pr-4">113/119 (95%) closer to mushroom centroid; LDA + RF 74-77% mushroom @ CV 96%</td><td className="py-2 pr-4">p → 0</td></tr>
                 <tr><td className="py-2 pr-4">3.5</td><td className="py-2 pr-4">ShapeComp perceptual embedding</td><td className="py-2 pr-4">93% CV axe-vs-carving; carvings 4× farther from nearest axe than axes are from each other</td><td className="py-2 pr-4">independent</td></tr>
@@ -1284,7 +1298,7 @@ export default function Home() {
           <h3 className="text-lg font-semibold mt-8 mb-2">4.4 Why the misidentification held for 70 years</h3>
           <p>
             The recurved Class 5 axeheads (Needham 1983) have a superficial
-            cap-plus-stem morphology (Fig. 3): the wide flared cutting edge
+            cap-plus-stem morphology (Fig. 2): the wide flared cutting edge
             reads as &ldquo;cap,&rdquo; the tapering butt as &ldquo;stem.&rdquo;
             An observer with an axehead prior looking at a weathered
             silhouette on sarsen would see an axehead. Atkinson (1953) saw
@@ -1345,7 +1359,7 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 12. 7-way nearest-centroid assignment of 222 Stonehenge
+              Figure 26. 7-way nearest-centroid assignment of 222 Stonehenge
               carvings to axes, mushrooms, and five prototype alternative
               classes.
             </figcaption>
@@ -1453,8 +1467,8 @@ export default function Home() {
             Circularity, Aspect Ratio, Roundness, and Solidity are highly
             correlated in the axe corpus (AR&ndash;Roundness r = &minus;0.96;
             Circularity&ndash;Solidity r = 0.94). The multivariate analysis
-            has ~2 effective dimensions, not 4. Twelve tests using
-            near-collinear features are not twelve independent tests. The
+            has ~2 effective dimensions, not 4. A battery of tests using
+            near-collinear features is not a battery of independent tests. The
             EFD and Hu-moment analyses (§3.6) use higher-dimensional
             feature spaces but see the pipeline-validation caveats in
             §3.6.
@@ -1855,12 +1869,101 @@ export default function Home() {
           </p>
         </section>
 
+        <section aria-labelledby="references" className="mb-16">
+          <h2 id="references" className="text-2xl font-bold mb-4">7. References</h2>
+          <ul className="list-none space-y-3 text-sm" style={{ color: "#3f3f3f" }}>
+            <li>
+              Abbott, M. &amp; Anderson-Whymark, H. (2012). <em>Stonehenge
+              Laser Scan: Archaeological Analysis.</em> English Heritage
+              Research Report 32-2012. Archived at ADS,{" "}
+              <a href="https://doi.org/10.5284/1033102"
+                 className="underline" style={{ color: "#b91c1c" }}
+                 target="_blank" rel="noopener noreferrer">doi:10.5284/1033102</a>.
+            </li>
+            <li>
+              Atkinson, R. J. C. (1956). <em>Stonehenge.</em> London: Hamish
+              Hamilton.
+            </li>
+            <li>
+              Beckensall, S. (n.d.). <em>England&rsquo;s Rock Art</em>
+              {" "}(ADS / Beckensall archive of British rock-art motifs).
+            </li>
+            <li>
+              Bevan, A. (unpublished). Corpus of British Early Bronze Age
+              axehead measurements (derived from Needham 1983 and Burgess),
+              University College London.
+            </li>
+            <li>
+              Cleal, R. M. J., Walker, K. E. &amp; Montague, R. (1995).
+              <em> Stonehenge in its Landscape: Twentieth-Century
+              Excavations.</em> London: English Heritage.
+            </li>
+            <li>
+              Goskar, T. (2015). Photogrammetric survey of the central stone,
+              Boscawen-Un stone circle, Cornwall.
+            </li>
+            <li>
+              Grinsell, L. V. (1959). <em>Dorset Barrows.</em> Dorset Natural
+              History and Archaeological Society.
+            </li>
+            <li>
+              Kuhl, F. P. &amp; Giardina, C. R. (1982). Elliptic Fourier
+              features of a closed contour. <em>Computer Graphics and Image
+              Processing</em> 18(3), 236&ndash;258.
+            </li>
+            <li>
+              Lawson, A. J. (2007). <em>Chalkland: An Archaeology of
+              Stonehenge and its Region.</em> Salisbury: Hobnob Press.
+            </li>
+            <li>
+              Lomas, J. D. (2021). Working draft on the Stonehenge carvings
+              (unpublished; revised 2026).
+            </li>
+            <li>
+              Morgenstern, Y., Hartmann, F., Schmidt, F., et al. (2020).
+              ShapeComp: an image-computable model of human visual shape
+              similarity.
+            </li>
+            <li>
+              Nash, G. &amp; Stanford, A. (2009, 2010). Recording of the
+              Calderstones, Liverpool.
+            </li>
+            <li>
+              Needham, S. (1983). <em>The Early Bronze Age Axeheads of
+              Central and Southern England.</em> (Typology of Classes
+              2&ndash;5.)
+            </li>
+            <li>
+              Needham, S. (1996). Chronology and periodisation in the British
+              Bronze Age. <em>Acta Archaeologica</em> 67, 121&ndash;140.
+            </li>
+            <li>
+              P&eacute;quart, M. &amp; Le Rouzic, Z. (1927).
+              <em> Corpus des signes grav&eacute;s des monuments
+              m&eacute;galithiques du Morbihan.</em> Paris.
+            </li>
+            <li>
+              Piggott, S. (1939). The Badbury Barrow, Dorset, and its carved
+              stone. <em>Antiquaries Journal</em> 19, 291&ndash;299.
+            </li>
+            <li>
+              Samorini, G. (1992). The oldest representations of hallucinogenic
+              mushrooms in the world. <em>Integration</em> 2/3, 69&ndash;78.
+            </li>
+          </ul>
+          <p className="text-xs mt-4" style={{ color: "#78716c" }}>
+            Working-draft reference list; some entries for unpublished corpora
+            and reports are cited at the level of detail available. Full
+            bibliographic records will accompany the preregistered version.
+          </p>
+        </section>
+
         <section aria-labelledby="acknowledgements" className="mb-16 text-sm text-stone-600">
           <h2 id="acknowledgements" className="text-lg font-bold mb-2 text-stone-800">Acknowledgements</h2>
           <p>
             Bronze axehead corpus courtesy of Andrew Bevan (UCL) and Xe He. Carving
             shape features derived from the English Heritage 2012 laser-scan report
-            (Abbott &amp; Whymark-Anderson). Reference typology from Needham (1983,
+            (Abbott &amp; Anderson-Whymark). Reference typology from Needham (1983,
             2017). Present analysis and preprint prepared as part of a working-paper
             re-examination of a draft first written by the author in 2021.
           </p>

@@ -44,8 +44,8 @@ stonehenge/
 
 | § | Analysis | Verdict |
 |---|---|---|
-| 3.1 | Recurve rate | Carvings 37%, axes 24%, p = 3×10⁻² |
-| 3.2 | Aspect ratio (ellipse) | Carvings 1.56, axes 2.67, d = −1.53 |
+| 3.1 | Recurve rate | Carvings 37%, axes 7%, p = 1.3×10⁻⁷ |
+| 3.2 | Aspect ratio (ellipse) | Carvings 1.53, axes 2.67, d = −1.53 |
 | 3.3 | Multivariate Mahalanobis vs axes | 85% carvings outside 95% axe cluster |
 | 3.4 | 3-way LDA/RF classifier (n=515) | 74–77% carvings predicted mushroom, 96% CV accuracy |
 | 3.4 | 3-way Mahalanobis (n=515) | **113/119 (95%) closer to mushroom centroid** |
@@ -57,7 +57,7 @@ stonehenge/
 ## Reference datasets
 
 - **Bevan corpus** (A. Bevan, UCL): 292 curated axes, 7308-axe metadata sheet, 515-shape "All data" with matched ImageJ features for axes, carvings, and mushrooms.
-- **English Heritage 2012 laser scan** (Abbott & Whymark-Anderson): 118 Stonehenge carvings at 0.5 mm resolution; 41 Stone 53 + 31 Stone 4 TIFFs available locally.
+- **English Heritage 2012 laser scan** (Abbott & Anderson-Whymark): 118 Stonehenge carvings at 0.5 mm resolution; 41 Stone 53 + 31 Stone 4 TIFFs available locally.
 - **Needham (1983)** typology: 41 canonical axe silhouettes across Classes 2–5.
 - **British mushroom silhouettes**: 22 curated in the shape analysis; 15 candidate species catalogued with cap/stem sizes and psilocybin activity.
 - **iNaturalist**: research-grade *A. muscaria* photos (auto-segmented).
