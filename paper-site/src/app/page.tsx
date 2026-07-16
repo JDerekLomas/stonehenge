@@ -489,6 +489,26 @@ export default function Home() {
             <span className="font-semibold">113 of 119 (95.0%) carvings are
             closer to the mushroom centroid than to the axe centroid.</span>
           </p>
+          <p>
+            After extending the analysis to the 62 additional carvings we
+            independently extracted (56 from Stone 4, 6 from Ri Cruin) and
+            calibrating our extraction to the Lomas 2021 ImageJ scale via
+            fits on 41 paired samples, the pattern holds across every
+            source. On calibrated features:
+          </p>
+          <ul className="list-disc list-inside space-y-1 pl-2 my-3">
+            <li>Bevan All-data carvings (n=119): 95% closer to mushroom centroid.</li>
+            <li>Stone 53 (Lomas 2021 ImageJ, n=41): 88% closer to mushroom centroid.</li>
+            <li>Stone 4 (our extraction, n=56, calibrated): 100% closer to mushroom centroid.</li>
+            <li>Ri Cruin (comparison site, n=6, calibrated): 100% closer to mushroom centroid.</li>
+          </ul>
+          <p>
+            All four sources agree that carvings sit closer to the mushroom
+            centroid than to the axe centroid in the three-feature shape
+            space, at 88&ndash;100% per source. LDA and Random Forest
+            classifiers on the same features give 71&ndash;100% and
+            76&ndash;100% mushroom respectively across sources.
+          </p>
           <figure className="d-figure">
             <Image
               src="/figures/definitive_violin.png"
