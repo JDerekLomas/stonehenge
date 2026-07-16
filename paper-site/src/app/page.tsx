@@ -63,6 +63,58 @@ export default function Home() {
             embedding. The carvings do not match the axes. They match
             mushroom silhouettes.
           </p>
+
+          <h3 className="text-lg font-semibold mt-8 mb-2">1.1 Background: Stonehenge, the carvings, the axeheads</h3>
+          <p>
+            <em>Stonehenge</em> is a stone monument on Salisbury Plain in
+            southern England, built in phases between roughly 3000 and 1500
+            BC. Its most conspicuous elements are the outer <em>Sarsen
+            Circle</em> &mdash; ~30 upright sandstone blocks weighing up to
+            25 tons each, connected across the top by horizontal lintels
+            &mdash; and the inner <em>Trilithons</em>: five even larger
+            three-stone arches, each of two uprights supporting a single
+            lintel. Individual stones are conventionally numbered following
+            Petrie&rsquo;s 1880 scheme; Stone 53 is one upright of the
+            central Great Trilithon, Stones 3 and 4 are outer Sarsen Circle
+            uprights, Stone 5 lies between them.
+          </p>
+          <p>
+            The <em>carvings</em> discussed here are small, pecked-outline
+            shapes low on the ground-facing surfaces of four stones. They
+            are shallow &mdash; typically only a few millimetres deep
+            &mdash; and heavily weathered; most were invisible from a
+            standing distance and were only found systematically in the
+            2012 high-resolution laser scan of every stone face. The
+            individual carvings range from about 5 cm to over 30 cm across.
+            They post-date the construction of Stonehenge itself by more
+            than a millennium: on stylistic grounds they are dated to
+            roughly 1750&ndash;1500 BC, near the end of the monument&rsquo;s
+            active-use phase.
+          </p>
+          <p>
+            The <em>bronze axeheads</em> to which they have been compared
+            are metal tools of the British Early Bronze Age. A flat or
+            flanged axehead is a wedge-shaped bronze casting, typically
+            10&ndash;22 cm long, with a wide flared cutting edge and a
+            narrower butt end; the whole head was mounted onto a wooden
+            haft (handle). Stuart Needham&rsquo;s 1983 typology sorts them
+            into Classes 2 (earliest flat axes) through 5 (latest
+            flanged forms). The identification of the Stonehenge carvings
+            as depictions of Class 5 axeheads with distinctive
+            &ldquo;crescentic&rdquo; blades has been the standard reading
+            since 1953.
+          </p>
+          <p>
+            <em>Shape analysis</em> in this paper means: turn each carving
+            (or each real axehead, or each mushroom) into a black-on-white
+            binary silhouette, and compute a small set of numeric
+            descriptors of that silhouette &mdash; how round it is, how
+            elongated, how convex, and so on. Silhouettes with similar
+            descriptors are similar in outline. Silhouettes with different
+            descriptors are not. The question the paper asks is whether
+            the Stonehenge carvings have descriptor values more like those
+            of real bronze axes or more like those of mushrooms.
+          </p>
         </section>
 
         <section className="mb-16">
@@ -149,24 +201,58 @@ export default function Home() {
           <h2 id="methods" className="text-2xl font-bold mb-4">2. Data and methods</h2>
           <h3 className="text-lg font-semibold mt-6 mb-2">2.1 Reference corpora</h3>
           <p>
-            <span className="font-semibold">Axes.</span> 124 British Early Bronze Age
-            axeheads with ImageJ-extracted shape features, from Bevan (unpublished),
-            derived from Needham (1983). Complete typology metadata (Class 2 &ndash; Class
-            5) for 275 additional axes, with lat/lon findspots, is also used.
+            The analysis uses three groups of data:
+            <em> carvings</em> (the shapes on the Stonehenge stones,
+            which we are trying to identify), <em>axes</em> (the reference
+            set of real British Early Bronze Age axeheads that these
+            carvings have been claimed to depict), and{" "}
+            <em>mushrooms</em> (the reference set for the alternative
+            interpretation we test). Each group is drawn from more than
+            one source depending on what the analysis needs:
+          </p>
+          <div className="overflow-x-auto my-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="border-b-2 border-stone-400 text-left">
+                  <th className="py-2 pr-4">Group</th>
+                  <th className="py-2 pr-4">Source</th>
+                  <th className="py-2 pr-4">n</th>
+                  <th className="py-2 pr-4">Contains</th>
+                  <th className="py-2 pr-4">Used in</th>
+                </tr>
+              </thead>
+              <tbody className="[&>tr]:border-b [&>tr]:border-stone-200">
+                <tr><td className="py-2 pr-4">Axes</td><td className="py-2 pr-4">Bevan &ldquo;All data&rdquo;</td><td className="py-2 pr-4">356</td><td className="py-2 pr-4">ImageJ features (Circ, AR, Roundness, Solidity)</td><td className="py-2 pr-4">Main classifier §3.1&ndash;3.4, 3.9</td></tr>
+                <tr><td className="py-2 pr-4">Axes</td><td className="py-2 pr-4">Needham 1983 + Burgess silhouettes</td><td className="py-2 pr-4">41</td><td className="py-2 pr-4">Raw silhouette images</td><td className="py-2 pr-4">Fourier / skeleton / Hu extended features §3.6</td></tr>
+                <tr><td className="py-2 pr-4">Axes</td><td className="py-2 pr-4">Bevan &ldquo;Corpus&rdquo; (typology-labeled)</td><td className="py-2 pr-4">292</td><td className="py-2 pr-4">Needham class labels (Class 2&ndash;5), Recurve flags</td><td className="py-2 pr-4">Recurve §3.1, per-class §3.6.5</td></tr>
+                <tr><td className="py-2 pr-4">Axes</td><td className="py-2 pr-4">Bevan &ldquo;ea&rdquo; metadata sheet</td><td className="py-2 pr-4">7,308</td><td className="py-2 pr-4">Findspot lat/lon, physical measurements (mm)</td><td className="py-2 pr-4">Geographic map §3.11, physical size §3.9</td></tr>
+                <tr><td className="py-2 pr-4">Carvings</td><td className="py-2 pr-4">Stone 53 (Lomas 2021 ImageJ)</td><td className="py-2 pr-4">41</td><td className="py-2 pr-4">Per-carving features and raw TIFFs</td><td className="py-2 pr-4">All analyses</td></tr>
+                <tr><td className="py-2 pr-4">Carvings</td><td className="py-2 pr-4">Stone 4 (extracted this study)</td><td className="py-2 pr-4">56</td><td className="py-2 pr-4">Silhouettes extracted from EH 2012 layout figure</td><td className="py-2 pr-4">§3.6.6 replication, §3.6 extended features</td></tr>
+                <tr><td className="py-2 pr-4">Carvings</td><td className="py-2 pr-4">Bevan &ldquo;All data&rdquo; (all four stones)</td><td className="py-2 pr-4">119</td><td className="py-2 pr-4">ImageJ features on all Stonehenge stones</td><td className="py-2 pr-4">Main classifier §3.4</td></tr>
+                <tr><td className="py-2 pr-4">Carvings</td><td className="py-2 pr-4">Ri Cruin (comparison site)</td><td className="py-2 pr-4">6</td><td className="py-2 pr-4">Reference axehead-carving site silhouettes</td><td className="py-2 pr-4">Positive control §3.9.5</td></tr>
+                <tr><td className="py-2 pr-4">Mushrooms</td><td className="py-2 pr-4">Bevan &ldquo;All data&rdquo;</td><td className="py-2 pr-4">40</td><td className="py-2 pr-4">ImageJ features</td><td className="py-2 pr-4">Main classifier §3.4</td></tr>
+                <tr><td className="py-2 pr-4">Mushrooms</td><td className="py-2 pr-4">Pre-segmented silhouettes</td><td className="py-2 pr-4">22</td><td className="py-2 pr-4">Raw silhouettes (A. muscaria and others)</td><td className="py-2 pr-4">Extended features §3.6</td></tr>
+                <tr><td className="py-2 pr-4">Mushrooms</td><td className="py-2 pr-4">British psilocybin reference table</td><td className="py-2 pr-4">15</td><td className="py-2 pr-4">Species names, cap and stem sizes (cm), habitat, ring</td><td className="py-2 pr-4">Species reference §4.2</td></tr>
+                <tr><td className="py-2 pr-4">Rock art null</td><td className="py-2 pr-4">ADS / Beckensall corpus</td><td className="py-2 pr-4">20,452</td><td className="py-2 pr-4">All motifs on 2,500+ British rock-art panels, 118 types</td><td className="py-2 pr-4">Null comparison §3.10</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            <strong>The Bevan corpus</strong> (compiled by Andrew Bevan at
+            UCL, unpublished; drawn from Needham 1983 and Burgess) is our
+            main reference. It contains ImageJ measurements on 356 axes,
+            119 Stonehenge carvings, and 40 mushrooms, all extracted with
+            the same pipeline (canonical 400-pixel-tall silhouettes on a
+            fixed canvas). This uniformity is why analyses §3.1&ndash;3.4
+            can compare them cleanly.
           </p>
           <p>
-            <span className="font-semibold">Carvings.</span> 41 Stone 53 carvings from the
-            English Heritage 2012 laser-scan (Abbott and Whymark-Anderson 2012), with the
-            same ImageJ features previously extracted.
-          </p>
-          <p>
-            <span className="font-semibold">Mushrooms.</span> 22 pre-segmented
-            mushroom silhouettes assembled by the paper&rsquo;s author,
-            including two <em>Amanita muscaria</em> reference forms, one{" "}
-            <em>Psilocybe subviscida</em>, and 19 additional silhouettes of
-            typical mushroom morphology drawn from natural-history photographs.
-            All are canonical side-view silhouettes with the full cap-plus-stem
-            (and, where present, volva).
+            <strong>The 41 canonical Needham + Burgess axe silhouettes</strong>
+            {" "}are the reference forms conventionally cited as the visual
+            match for the Stonehenge carvings. Needham&rsquo;s 1983
+            typology defines anatomical features &mdash; flange height,
+            body width, cutting-edge splay, stop-bevel, marginal waisting
+            (Fig. 3) &mdash; that distinguish his four classes.
           </p>
           <figure className="d-figure">
             <Image
@@ -177,19 +263,13 @@ export default function Home() {
               className="w-full h-auto"
             />
             <figcaption className="d-figcaption text-center">
-              Figure 2. The 22 mushroom reference silhouettes used in the
-              analysis. Note the canonical cap-and-stem form.
+              Figure 2. The 22 pre-segmented mushroom reference silhouettes.
+              Each shows the canonical cap-plus-stem form, side view. Includes
+              two <em>Amanita muscaria</em> exemplars, one <em>Psilocybe
+              subviscida</em>, and 19 further silhouettes from natural-history
+              photographs.
             </figcaption>
           </figure>
-          <p>
-            <span className="font-semibold">Axes.</span> 41 canonical bronze
-            axe reference silhouettes drawn from Needham (1983) and Burgess.
-            These are the reference forms conventionally cited as the visual
-            match for the Stonehenge carvings. Needham&rsquo;s original
-            typology defines anatomical features &mdash; flange height, body
-            width, cutting-edge splay, stop-bevel, marginal waisting &mdash;
-            that distinguish Classes 2 through 5 (Fig. 3).
-          </p>
           <figure className="d-figure">
             <Image
               src="/paper_figures/needham_reference.png"
