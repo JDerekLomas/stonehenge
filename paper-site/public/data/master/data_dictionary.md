@@ -128,3 +128,25 @@ species. Source: sheet `Mushrooms` of `Mushroom Outlines Carvings.xlsx`.
 | **master_carvings**: `hc_recurve` | 41 / 222 | Only Stone 53 has hand-coded flags |
 | **master_carvings**: `height_cm` | 41 / 222 | Only Lomas 2021 has cm-scale |
 | **master_carvings**: `lda_p_mushroom` | ~222 | All rows with shape features backfilled |
+
+
+---
+
+## Pipeline calibration (added in v2)
+
+Our extraction pipeline produces feature values that agree with Lomas
+2021 ImageJ at r > 0.99 for Circularity, Aspect Ratio, and Solidity
+but with a systematic offset for Roundness (r = 0.91, mean −0.19).
+The offset reflects a fitted-ellipse convention difference between
+scikit-image `regionprops` and ImageJ.
+
+`pipeline_calibration.json` contains per-feature linear calibrations
+(`lomas_hat = slope · ours + intercept`) fit on 41 paired Stone 53
+samples where both pipelines processed the same TIFF. `master_carvings.csv`
+now contains four additional columns per row:
+
+| Column | Description |
+|---|---|
+| `circularity_calibrated`, `aspect_ratio_calibrated`, `roundness_calibrated`, `solidity_calibrated` | The row's shape features transformed to the Lomas 2021 ImageJ scale via the fitted calibration. For Bevan and Lomas rows, `_calibrated` values equal the originals (no transform). For our-extraction rows (Stone 4, Ri Cruin) they are calibrated. |
+| `features_were_calibrated` | Bool: whether a nontrivial calibration was applied to this row. |
+| `lda_p_mushroom_calibrated`, `rf_p_mushroom_calibrated`, `nearest_centroid_calibrated` | Classifier re-run on the calibrated features. These are the cross-source-comparable predictions. |

@@ -1452,12 +1452,40 @@ export default function Home() {
             (95.7% CV accuracy). Applied to a carving row, the prediction
             depends on the row&rsquo;s shape features &mdash; which were
             measured with different pipelines depending on the source
-            (Lomas 2021 ImageJ, our extraction, or Bevan). Where the
-            pipelines differ systematically (Roundness in particular,
-            see validation §3.6), LDA predictions in particular may
-            shift by 10&ndash;30 percentage points across sources for
-            the same shape. Mahalanobis is more robust; RF is
-            intermediate.
+            (Lomas 2021 ImageJ, our extraction, or Bevan). Because our
+            extraction pipeline differs from Lomas 2021 ImageJ on
+            Roundness (systematic offset of &minus;0.19, r = 0.91), we
+            fit a per-feature linear calibration on the 41 paired
+            Stone 53 samples and provide both raw and calibrated
+            predictions:
+          </p>
+          <ul className="list-disc list-inside space-y-1 pl-2 text-sm" style={{ color: "#57534e" }}>
+            <li>
+              <code>lda_p_mushroom</code>, <code>rf_p_mushroom</code>,{" "}
+              <code>nearest_centroid</code> &mdash; predictions on raw
+              features (pipeline-native).
+            </li>
+            <li>
+              <code>lda_p_mushroom_calibrated</code>,{" "}
+              <code>rf_p_mushroom_calibrated</code>,{" "}
+              <code>nearest_centroid_calibrated</code> &mdash; predictions
+              on calibrated features (transformed to the Lomas 2021 ImageJ
+              scale so cross-source rows are directly comparable).
+            </li>
+            <li>
+              <code>features_were_calibrated</code> &mdash; bool flag on
+              whether a nontrivial calibration was applied to this row
+              (true for our-extraction rows, false for Bevan and Lomas).
+            </li>
+          </ul>
+          <p className="text-sm" style={{ color: "#57534e" }}>
+            After calibration, LDA agreement across all sources is
+            71&ndash;100% mushroom; Mahalanobis nearest-centroid is
+            88&ndash;100% mushroom on every source. The calibration
+            parameters are in{" "}
+            <a href="/data/master/pipeline_calibration.json" className="text-red-800 underline">
+              pipeline_calibration.json
+            </a>.
           </p>
 
           <h3 className="text-lg font-semibold mt-6 mb-3">Numeric outputs</h3>

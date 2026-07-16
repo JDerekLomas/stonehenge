@@ -1,0 +1,31 @@
+{
+  "description": "Per-feature linear calibration from our extraction pipeline to the Lomas 2021 ImageJ scale, fit on 41 paired Stone 53 samples.",
+  "usage": "Apply lomas_hat = slope * ours + intercept to bring our extraction into scale-compatibility with Lomas 2021 ImageJ.",
+  "features": {
+    "circ": {
+      "slope": 1.0532715733427913,
+      "intercept": 0.013132699677947557,
+      "r": 0.9959407729728934,
+      "p": 2.1029476653067116e-42
+    },
+    "ar": {
+      "slope": 0.96866878017845,
+      "intercept": 0.03322471984116593,
+      "r": 0.9996893748440222,
+      "p": 3.725084649575554e-64
+    },
+    "round": {
+      "slope": 1.0628603291675198,
+      "intercept": 0.16448482913837564,
+      "r": 0.9070047599508669,
+      "p": 3.130419081383175e-16
+    },
+    "sol": {
+      "slope": 0.8968357330415622,
+      "intercept": 0.06995314529372376,
+      "r": 0.9969926274957266,
+      "p": 6.12153140603263e-45
+    }
+  },
+  "n_paired_samples": 41
+}
